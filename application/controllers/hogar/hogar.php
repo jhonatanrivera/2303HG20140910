@@ -84,6 +84,8 @@ class Hogar extends CI_Controller {
 				$data['hg1_localizacion'] 	= $this->hogar_model->selectRows('hg1_localizacion',null,$dataWhere);
 				$data['hg2_seccion1_1'] 	= $this->hogar_model->selectRows('hg2_seccion1_1',null,$dataWhere);
 				$data['hg2_seccion1_2'] 	= $this->hogar_model->selectRows('hg2_seccion1_2',null,$dataWhere);
+				$data['hg3_seccion2a'] 	= $this->hogar_model->selectRows('hg3_seccion2a',null,$dataWhere);
+				$data['hg3_seccion2b'] 	= $this->hogar_model->selectRows('hg3_seccion2b',null,$dataWhere);
 			}else $data['NUM_VIV_nuevo'] = $nro_vivienda;
 			$dataWhere = array('NUM_VIV'=>$nro_vivienda);
 			$this->title = "Hogar | ".$nro_vivienda;
@@ -153,7 +155,7 @@ class Hogar extends CI_Controller {
 					if ($cant == $reg) {
 						echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));
 					}
-			}if ($NUM_VIV == 3) {
+			}else if ($NUM_VIV == 3) {
 				$tableLocal = 'hg2_seccion1_2';
 				$fieldNames = $this->hogar_model->getFieldsName($tableLocal);
 				foreach ($fieldNames as $value) {
@@ -174,6 +176,50 @@ class Hogar extends CI_Controller {
 					if ($afectados == 1) {echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));}
 					else {echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de insertar' ));}
 				}				
+			}else if ($NUM_VIV == 4) {
+				$tableLocal = 'hg3_seccion2a';
+				$fieldNames = $this->hogar_model->getFieldsName($tableLocal);
+				foreach ($fieldNames as $value) {
+					if(!in_array($value, array('USER_ID','FECHA_CREACION','USER_ID_MOD','FECHA_MODIFICACION')))
+					$dataModel[$value] = ($this->input->post($value) != "") ? ($this->input->post($value)) : NULL;
+				}
+				$dataWhere = array('NUM_VIV'=>$dataModel['NUM_VIV']);
+				$existeRow = $this->consulta($tableLocal,$dataWhere);
+				if ($existeRow) {
+					$dataModel = array_diff_assoc($dataModel,$dataWhere);
+					$dataModel['USER_ID_MOD'] = $this->tank_auth->get_user_id();
+					$dataModel['FECHA_MODIFICACION'] = date('Y-m-d H:i:s');
+					$afectados = $this->hogar_model->updateRow($tableLocal,$dataModel,$dataWhere);
+					if ($afectados == 1) { echo json_encode(array('response'=>'update','msg' =>'Éxito: Se actualizó satisfactoriamente' )) ;}
+				}else{
+					$dataModel['USER_ID'] = $this->tank_auth->get_user_id();
+					$afectados = $this->hogar_model->insertRow($tableLocal,$dataModel);
+					if ($afectados == 1) {echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));}
+					else {echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de insertar' ));}
+				}
+
+			}else if ($NUM_VIV == 5) {
+				$tableLocal = 'hg3_seccion2b';
+				$fieldNames = $this->hogar_model->getFieldsName($tableLocal);
+				foreach ($fieldNames as $value) {
+					if(!in_array($value, array('USER_ID','FECHA_CREACION','USER_ID_MOD','FECHA_MODIFICACION')))
+					$dataModel[$value] = ($this->input->post($value) != "") ? ($this->input->post($value)) : NULL;
+				}
+				$dataWhere = array('NUM_VIV'=>$dataModel['NUM_VIV']);
+				$existeRow = $this->consulta($tableLocal,$dataWhere);
+				if ($existeRow) {
+					$dataModel = array_diff_assoc($dataModel,$dataWhere);
+					$dataModel['USER_ID_MOD'] = $this->tank_auth->get_user_id();
+					$dataModel['FECHA_MODIFICACION'] = date('Y-m-d H:i:s');
+					$afectados = $this->hogar_model->updateRow($tableLocal,$dataModel,$dataWhere);
+					if ($afectados == 1) { echo json_encode(array('response'=>'update','msg' =>'Éxito: Se actualizó satisfactoriamente' )) ;}
+				}else{
+					$dataModel['USER_ID'] = $this->tank_auth->get_user_id();
+					$afectados = $this->hogar_model->insertRow($tableLocal,$dataModel);
+					if ($afectados == 1) {echo json_encode(array('response'=>'insert','msg' =>'Éxito: Se insertó satisfactoriamente' ));}
+					else {echo json_encode(array('response'=>'error','msg' =>'Error: Al mommento de insertar' ));}
+				}
+
 			}
 		}else
 			show_error("No tiene acceso" , 403 ); 

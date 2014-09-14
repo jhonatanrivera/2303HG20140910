@@ -201,3 +201,93 @@ function guardar_Tab(form) {
 		});
 
 	})
+
+
+
+
+
+/************************************************************************************************
+/************************************************************************************************
+*
+*  GUARDADO TAB4
+*
+/************************************************************************************************
+*************************************************************************************************/
+$("#frmTab4").validate({
+    success: function  (label,element) {
+    	$(element).prev('div.message').remove();
+    	$(element).removeClass('hgError');
+    },
+    errorElement: "div",
+    wrapper: "div",  // a wrapper around the error message
+   errorPlacement: function(error, element) {
+        offset = element.offset();
+        $(element).addClass('hgError');
+        error.append('<div class="arrow-down"></div>')
+        error.insertBefore(element);
+        error.addClass('message');  // add a class to the wrapper
+        error.css('position', 'absolute');
+        error.css('left', offset.left );
+        error.css('top', offset.top - element.outerHeight());
+    },	
+	submitHandler:function(){
+			ajax_btn("btnTab4",1);
+			var frmTab = ["#frmTab4",4];
+	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
+	    	$.ajax({
+	    		url: CI.site_url+'guardar/'+frmTab[1],
+	    		type:'POST',
+	    		dataType:'JSON',
+	    		data:formData,
+	    		success:function (argument) {
+	    			ajax_btn("btnTab4");
+	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
+	    		}
+	    	})  
+
+	},
+})
+
+
+
+/************************************************************************************************
+/************************************************************************************************
+*
+*  GUARDADO TAB5
+*
+/************************************************************************************************
+*************************************************************************************************/
+$("#frmTab5").validate({
+    success: function  (label,element) {
+    	$(element).prev('div.message').remove();
+    	$(element).removeClass('hgError');
+    },
+    errorElement: "div",
+    wrapper: "div",  // a wrapper around the error message
+   errorPlacement: function(error, element) {
+        offset = element.offset();
+        $(element).addClass('hgError');
+        error.append('<div class="arrow-down"></div>')
+        error.insertBefore(element);
+        error.addClass('message');  // add a class to the wrapper
+        error.css('position', 'absolute');
+        error.css('left', offset.left );
+        error.css('top', offset.top - element.outerHeight());
+    },	
+	submitHandler:function(){
+			ajax_btn("btnTab5",1);
+			var frmTab = ["#frmTab5",5];
+	    	var formData = $(frmTab[0]).serializeArray(); formData.push({name:'NUM_VIV', value:$('#NUM_VIV').val()});
+	    	$.ajax({
+	    		url: CI.site_url+'guardar/'+frmTab[1],
+	    		type:'POST',
+	    		dataType:'JSON',
+	    		data:formData,
+	    		success:function (argument) {
+	    			ajax_btn("btnTab5");
+	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
+	    		}
+	    	})  
+
+	},
+})

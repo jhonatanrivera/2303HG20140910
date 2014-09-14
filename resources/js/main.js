@@ -2227,8 +2227,14 @@ jQuery.validator.addClassRules("rDig1-16", {
 jQuery.validator.addClassRules("rDig1-19", {
   required: true, maxlength: 4, enteros: true, range: [1,19],
 });
+jQuery.validator.addClassRules("rDia", {
+  required: true, exactlength: 4, enteros: true, ranges: [ [1,31], [9999] ],
+});
+jQuery.validator.addClassRules("rMes", {
+  required: true, exactlength: 4, enteros: true, ranges: [ [1,12], [9999] ],
+});
 jQuery.validator.addClassRules("rAno", {
-  required: true, exactlength: 4, enteros: true, ranges: [ [1990,2014], [9999] ],
+  required: true, exactlength: 4, enteros: true, ranges: [ [2013,2014], [9999] ],
 });
 jQuery.validator.addClassRules("rAnos", {
   required: true, maxlength: 2, enteros: true, range: [0,99],
@@ -2335,6 +2341,22 @@ $.extend(jQuery.validator.messages, {
 *
 /************************************************************************************************
 *************************************************************************************************/
+
+	function setFlujo (obj,valor,bloqueos) {
+		var objVal = $(obj).val();
+		var sel;
+		if (objVal == valor) {
+			for (var i = 1; i <= bloqueos; i++) {
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
+			};
+		}else{
+			for (var i = 1; i <= bloqueos; i++) {
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.removeAttr('disabled');
+			};			
+		};
+	}
+
+
 	function especificar(obj,valor,saltos){
 		var espec = $(':input:eq(' + ($(':input').index(obj) + 1) + ')');
 		var espec2 = $(':input:eq(' + ($(':input').index(obj) + 2) + ')');

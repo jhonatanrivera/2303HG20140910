@@ -6,15 +6,16 @@
 $S1_F_48 = array(
 						'id' => 'S1_F_48',
 						'name' => 'S1_F_48',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,2,25)',
 					);
 
 $S1_F_48_A = array(
 						'id' => 'S1_F_48_A',
 						'name' => 'S1_F_48_A',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-8',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -23,7 +24,7 @@ $S1_F_48_A = array(
 $S1_F_49_N1_D = array(
 						'id' => 'S1_F_49_N1_D',
 						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -31,7 +32,7 @@ $S1_F_49_N1_D = array(
 $S1_F_49_N1_M = array(
 						'id' => 'S1_F_49_N1_M',
 						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -45,163 +46,163 @@ $S1_F_49_N1_A = array(
 					);
 
 $S1_F_49_N2_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N2_D',
+						'name' => 'S1_F_49_N2_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N2_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N2_M',
+						'name' => 'S1_F_49_N2_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N2_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N2_A',
+						'name' => 'S1_F_49_N2_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 
 $S1_F_49_N3_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N3_D',
+						'name' => 'S1_F_49_N3_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N3_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N3_M',
+						'name' => 'S1_F_49_N3_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N3_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N3_A',
+						'name' => 'S1_F_49_N3_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 $S1_F_49_N4_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N4_D',
+						'name' => 'S1_F_49_N4_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N4_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N4_M',
+						'name' => 'S1_F_49_N4_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N4_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N4_A',
+						'name' => 'S1_F_49_N4_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 $S1_F_49_N5_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N5_D',
+						'name' => 'S1_F_49_N5_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N5_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N5_M',
+						'name' => 'S1_F_49_N5_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N5_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N5_A',
+						'name' => 'S1_F_49_N5_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 $S1_F_49_N6_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N6_D',
+						'name' => 'S1_F_49_N6_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N6_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N6_M',
+						'name' => 'S1_F_49_N6_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N6_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N6_A',
+						'name' => 'S1_F_49_N6_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 $S1_F_49_N7_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N7_D',
+						'name' => 'S1_F_49_N7_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N7_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N7_M',
+						'name' => 'S1_F_49_N7_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N7_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N7_A',
+						'name' => 'S1_F_49_N7_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
 $S1_F_49_N8_D = array(
-						'id' => 'S1_F_49_N1_D',
-						'name' => 'S1_F_49_N1_D',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N8_D',
+						'name' => 'S1_F_49_N8_D',
+						'class' => 'form-control rDia rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N8_M = array(
-						'id' => 'S1_F_49_N1_M',
-						'name' => 'S1_F_49_N1_M',
-						'class' => 'form-control',
+						'id' => 'S1_F_49_N8_M',
+						'name' => 'S1_F_49_N8_M',
+						'class' => 'form-control rMes rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 
 $S1_F_49_N8_A = array(
-						'id' => 'S1_F_49_N1_A',
-						'name' => 'S1_F_49_N1_A',
+						'id' => 'S1_F_49_N8_A',
+						'name' => 'S1_F_49_N8_A',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '4',
@@ -210,9 +211,10 @@ $S1_F_49_N8_A = array(
 $S1_F_50 = array(
 						'id' => 'S1_F_50',
 						'name' => 'S1_F_50',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,39)',
 					);
 
 $S1_F_50_Me5 = array(
@@ -538,6 +540,7 @@ $S1_F_OBS = array(
 						'align' => 'center',
 						'maxlength' => '500',
 						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 
 
@@ -759,6 +762,7 @@ $S1_G_60A = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '100',
+						'rows' => '2'
 					);
 
 $S1_G_61_1 = array(
@@ -1111,7 +1115,8 @@ $S1_G_OBS = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 
  /* ***************** PARTE H: PARTICIPACION EN ORGANIZACIONE SLOCALES ********** */
@@ -2466,13 +2471,14 @@ $S1_H_73_OTRORG_Prob = array(
 						'maxlength' => '30',
 					);
 
-$S1_H_S1_F_OBS = array(
-						'id' => 'S1_H_S1_F_OBS',
-						'name' => 'S1_H_S1_F_OBS',
+$S1_H_OBS = array(
+						'id' => 'S1_H_OBS',
+						'name' => 'S1_H_OBS',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 
 /***********************************PARTE I: PROBLEMAS SOCIALES*****************/
@@ -2597,13 +2603,14 @@ $S1_I_77 = array(
 						'maxlength' => '1',
 					);
 
-$S1_I_S1_F_OBS = array(
-						'id' => 'S1_I_S1_F_OBS',
-						'name' => 'S1_I_S1_F_OBS',
+$S1_I_OBS = array(
+						'id' => 'S1_I_OBS',
+						'name' => 'S1_I_OBS',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 
 /*************** PARTE J: PROBLEMAS SOBRE EL ABASTECIMIENTO DE AGUA **************/
@@ -2706,13 +2713,14 @@ $S1_J_83 = array(
 						'maxlength' => '50',
 					);
 
-$S1_J_S1_F_OBS = array(
-						'id' => 'S1_J_S1_F_OBS',
-						'name' => 'S1_J_S1_F_OBS',
+$S1_J_OBS = array(
+						'id' => 'S1_J_OBS',
+						'name' => 'S1_J_OBS',
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 
 
@@ -3727,7 +3735,7 @@ if (isset($hg2_seccion1_2)) {
 		<td><?php echo form_input($S1_H_73_OTRORG_Prob); ?></td>
 	</tr>
 	<tr>
-		<td colspan="15"><?php echo form_textarea($S1_H_S1_F_OBS); ?></td>
+		<td colspan="15"><?php echo form_textarea($S1_H_OBS); ?></td>
 	</tr>
 </table>
 
@@ -3840,7 +3848,7 @@ if (isset($hg2_seccion1_2)) {
 		</td>
 	</tr> 
 	<tr>
-		<td colspan="4"><?php echo form_textarea($S1_I_S1_F_OBS); ?></td>
+		<td colspan="4"><?php echo form_textarea($S1_I_OBS); ?></td>
 	</tr>
 </table>
 
@@ -3984,7 +3992,7 @@ if (isset($hg2_seccion1_2)) {
 		</td>
 	</tr>
 	<tr>
-		<td colspan="3"><?php echo form_textarea($S1_J_S1_F_OBS); ?></td>
+		<td colspan="3"><?php echo form_textarea($S1_J_OBS); ?></td>
 	</tr>
 </table>
 
