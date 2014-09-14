@@ -2347,11 +2347,11 @@ $.extend(jQuery.validator.messages, {
 		var sel;
 		if (objVal == valor) {
 			for (var i = 1; i <= bloqueos; i++) {
-				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.removeAttr('disabled');
 			};
 		}else{
 			for (var i = 1; i <= bloqueos; i++) {
-				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.removeAttr('disabled');
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
 			};			
 		};
 	}
@@ -2488,3 +2488,8 @@ function ajax_btn(b,op){
 		btn.removeAttr('disabled'); btn.css('background-image','none'); btn.val('Guardar');	
 	}
 }
+
+
+
+
+

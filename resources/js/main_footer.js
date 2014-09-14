@@ -40,8 +40,23 @@
 	});
 
 
+$("#S1_F_48").change(function () {
+	var sel = $("#S1_49 input,#S1_F_48_A");
+	if($(this).val() == 2){
+		sel.attr('disabled','disabled'); sel.val('');
+	}else{
+		sel.removeAttr('disabled');
+	}
+});
 
-
+$("#S1_F_50").change(function () {
+	var sel = $("#S1_50 input:not(#S1_F_50),#S1_51 input");
+	if($(this).val() == 2){
+		sel.attr('disabled','disabled'); sel.val('');
+	}else{
+		sel.removeAttr('disabled');
+	}
+});
 
 
 

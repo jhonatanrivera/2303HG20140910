@@ -9,7 +9,7 @@ $S1_F_48 = array(
 						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,2,25)',
+						//'onchange' => 'setFlujo(this,2,25)',
 					);
 
 $S1_F_48_A = array(
@@ -214,7 +214,6 @@ $S1_F_50 = array(
 						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,39)',
 					);
 
 $S1_F_50_Me5 = array(
@@ -549,9 +548,10 @@ $S1_F_OBS = array(
 $S1_G_52 = array(
 						'id' => 'S1_G_52',
 						'name' => 'S1_G_52',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,8,1)'
 					);
 
 
@@ -569,9 +569,10 @@ $S1_G_52_O = array(
 $S1_G_53 = array(
 						'id' => 'S1_G_53',
 						'name' => 'S1_G_53',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,7,1)',
 					);
 
 
@@ -607,9 +608,10 @@ $S1_G_55 = array(
 $S1_G_56 = array(
 						'id' => 'S1_G_56',
 						'name' => 'S1_G_56',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,7,1)',
 					);
 
 
@@ -627,9 +629,10 @@ $S1_G_56_O = array(
 $S1_G_57 = array(
 						'id' => 'S1_G_57',
 						'name' => 'S1_G_57',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,7,1)',
 					);
 
 
@@ -647,9 +650,10 @@ $S1_G_57_O = array(
 $S1_G_58 = array(
 						'id' => 'S1_G_58',
 						'name' => 'S1_G_58',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,8,1)',
 					);
 
 
@@ -667,9 +671,10 @@ $S1_G_58_O = array(
 $S1_G_59 = array(
 						'id' => 'S1_G_59',
 						'name' => 'S1_G_59',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,9,1)',
 					);
 
 
@@ -2787,7 +2792,7 @@ if (isset($hg2_seccion1_2)) {
 				</tr>
 				<tr>
 					<td>
-						<table class="table table-bordered">
+						<table class="table table-bordered" id="S1_49">
 							<tr class="hgTitle hgCenter">
 								<th>N</th>
 								<th>DIA</th>
@@ -2856,7 +2861,7 @@ if (isset($hg2_seccion1_2)) {
 	<tr>
 		<td> <!-- Left -->
 			
-			<table class="table table-bordered">
+			<table class="table table-bordered" id="S1_50">
 				
 				<tr>
 					<th class="hgTitle hgCenter" colspan="5">50</th>
@@ -2900,7 +2905,7 @@ if (isset($hg2_seccion1_2)) {
 		</td>
 		<td> <!-- Rigth -->
 
-			<table class="table table-bordered">
+			<table class="table table-bordered" id="S1_51">
 				
 				<tr>
 					<th class="hgTitle hgCenter" colspan="2"><center>51</center></th>
