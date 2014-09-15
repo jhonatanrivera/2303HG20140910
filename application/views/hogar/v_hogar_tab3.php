@@ -1203,9 +1203,10 @@ $S1_H_73_APAF_Cons = array(
 $S1_H_73_APAF_Diri = array(
 						'id' => 'S1_H_73_APAF_Diri',
 						'name' => 'S1_H_73_APAF_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_APAF_Qui_1 = array(
@@ -1307,9 +1308,10 @@ $S1_H_73_VASLE_Cons = array(
 $S1_H_73_VASLE_Diri = array(
 						'id' => 'S1_H_73_VASLE_Diri',
 						'name' => 'S1_H_73_VASLE_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
-						'maxlength' => '1'
+						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_VASLE_Qui_1 = array(
@@ -1411,9 +1413,10 @@ $S1_H_73_COMPO_Cons = array(
 $S1_H_73_COMPO_Diri = array(
 						'id' => 'S1_H_73_COMPO_Diri',
 						'name' => 'S1_H_73_COMPO_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
-						'maxlength' => '1'
+						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_COMPO_Qui_1 = array(
@@ -1515,9 +1518,10 @@ $S1_H_73_CLUBM_Cons = array(
 $S1_H_73_CLUBM_Diri = array(
 						'id' => 'S1_H_73_CLUBM_Diri',
 						'name' => 'S1_H_73_CLUBM_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
-						'maxlength' => '1'
+						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_CLUBM_Qui_1 = array(
@@ -1619,9 +1623,10 @@ $S1_H_73_COMVE_Cons = array(
 $S1_H_73_COMVE_Diri = array(
 						'id' => 'S1_H_73_COMVE_Diri',
 						'name' => 'S1_H_73_COMVE_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
-						'maxlength' => '1'
+						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_COMVE_Qui_1 = array(
@@ -1673,9 +1678,6 @@ $S1_H_73_ORGVE_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
-
-
 					);
 
 $S1_H_73_ORGVE_CI_1 = array(
@@ -1737,9 +1739,10 @@ $S1_H_73_ORGVE_Cons = array(
 $S1_H_73_ORGVE_Diri = array(
 						'id' => 'S1_H_73_ORGVE_Diri',
 						'name' => 'S1_H_73_ORGVE_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGVE_Qui_1 = array(
@@ -1789,7 +1792,6 @@ $S1_H_73_ORGRE_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
 					);
 
 $S1_H_73_ORGRE_CI_1 = array(
@@ -1851,9 +1853,10 @@ $S1_H_73_ORGRE_Cons = array(
 $S1_H_73_ORGRE_Diri = array(
 						'id' => 'S1_H_73_ORGRE_Diri',
 						'name' => 'S1_H_73_ORGRE_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGRE_Qui_1 = array(
@@ -1903,7 +1906,6 @@ $S1_H_73_ORGDE_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
 					);
 
 $S1_H_73_ORGDE_CI_1 = array(
@@ -1965,9 +1967,10 @@ $S1_H_73_ORGDE_Cons = array(
 $S1_H_73_ORGDE_Diri = array(
 						'id' => 'S1_H_73_ORGDE_Diri',
 						'name' => 'S1_H_73_ORGDE_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGDE_Qui_1 = array(
@@ -2017,7 +2020,6 @@ $S1_H_73_ORGCU_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
 					);
 
 $S1_H_73_ORGCU_CI_1 = array(
@@ -2079,9 +2081,10 @@ $S1_H_73_ORGCU_Cons = array(
 $S1_H_73_ORGCU_Diri = array(
 						'id' => 'S1_H_73_ORGCU_Diri',
 						'name' => 'S1_H_73_ORGCU_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGCU_Qui_1 = array(
@@ -2132,8 +2135,6 @@ $S1_H_73_ORGEC_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
-
 					);
 
 $S1_H_73_ORGEC_CI_1 = array(
@@ -2202,10 +2203,10 @@ $S1_H_73_ORGEC_Cons = array(
 $S1_H_73_ORGEC_Diri = array(
 						'id' => 'S1_H_73_ORGEC_Diri',
 						'name' => 'S1_H_73_ORGEC_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGEC_Qui_1 = array(
@@ -2260,8 +2261,6 @@ $S1_H_73_ORGSO_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
-
 					);
 
 $S1_H_73_ORGSO_CI_1 = array(
@@ -2330,10 +2329,10 @@ $S1_H_73_ORGSO_Cons = array(
 $S1_H_73_ORGSO_Diri = array(
 						'id' => 'S1_H_73_ORGSO_Diri',
 						'name' => 'S1_H_73_ORGSO_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_ORGSO_Qui_1 = array(
@@ -2387,7 +2386,6 @@ $S1_H_73_OTRORG_O = array(
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
-						'disabled' => 'disabled',
 					);
 
 $S1_H_73_OTRORG_CI_1 = array(
@@ -2449,9 +2447,10 @@ $S1_H_73_OTRORG_Cons = array(
 $S1_H_73_OTRORG_Diri = array(
 						'id' => 'S1_H_73_OTRORG_Diri',
 						'name' => 'S1_H_73_OTRORG_Diri',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,4)',
 					);
 
 $S1_H_73_OTRORG_Qui_1 = array(
@@ -2634,7 +2633,7 @@ $S1_I_OBS = array(
 $S1_J_78 = array(
 						'id' => 'S1_J_78',
 						'name' => 'S1_J_78',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2698,9 +2697,10 @@ $S1_J_80_Suge_3 = array(
 $S1_J_81 = array(
 						'id' => 'S1_J_81',
 						'name' => 'S1_J_81',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujoCh',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,2,3)',
 					);
 
 $S1_J_82 = array(
@@ -3867,7 +3867,7 @@ if (isset($hg2_seccion1_2)) {
 	</tr>
 </table>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="Parte_J">
 	<tr>
 		<th colspan="4">PARTE J: PROBLEMAS SOBRE EL ABASTECIMIENTO DE AGUA (marque con un circulo o complete el numero según corresponda para cada pregunta)</th>
 	</tr>

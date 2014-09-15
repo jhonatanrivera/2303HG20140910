@@ -2131,6 +2131,7 @@
 *
 *********************************************************************************************
 *********************************************************************************************/
+/*
 jQuery.validator.addClassRules("rNotReq", {
   required: false,
 });
@@ -2228,10 +2229,10 @@ jQuery.validator.addClassRules("rDig1-19", {
   required: true, maxlength: 4, enteros: true, range: [1,19],
 });
 jQuery.validator.addClassRules("rDia", {
-  required: true, exactlength: 4, enteros: true, ranges: [ [1,31], [9999] ],
+  required: true, exactlength: 2, enteros: true, ranges: [ [1,31], [9999] ],
 });
 jQuery.validator.addClassRules("rMes", {
-  required: true, exactlength: 4, enteros: true, ranges: [ [1,12], [9999] ],
+  required: true, exactlength: 2, enteros: true, ranges: [ [1,12], [9999] ],
 });
 jQuery.validator.addClassRules("rAno", {
   required: true, exactlength: 4, enteros: true, ranges: [ [2013,2014], [9999] ],
@@ -2260,7 +2261,7 @@ jQuery.validator.addClassRules("rEspN", {
 jQuery.validator.addClassRules("rTel", {
   required: true, ranges:[[200000,8999999],[900000000,999999998]], minlength:6, maxlength:9,
 });
-
+*/
 /*
 * Metodos de validacion
 */

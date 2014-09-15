@@ -58,6 +58,16 @@ $("#S1_F_50").change(function () {
 	}
 });
 
+$("#S1_J_78").change(function  (argument) {
+	var sel = $("#Parte_J input:not(#S1_J_78)");
+	if($(this).val() == 2){
+		sel.attr('disabled','disabled'); sel.val('');
+	}else{
+		sel.removeAttr('disabled');
+	}
+})
+
+
 
 
 
@@ -200,22 +210,19 @@ $("#frmTab3").validate({
 })
 
 
-function guardar_Tab(form) {
- 	// body...
- } 
 
 
-	$(function  (argument) {
-		$("input.pass").trigger('change');
+$(function  (argument) {
+	$("input.pass,input.setFlujo,input.setEspecificar").trigger('change');
 
 
-		$(window).load(function(){
+	$(window).load(function(){
 
-		  $('#loading').fadeOut(2000);
+	  $('#loading').fadeOut(2000);
 
-		});
+	});
 
-	})
+})
 
 
 
