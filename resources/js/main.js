@@ -2345,7 +2345,21 @@ $.extend(jQuery.validator.messages, {
 	function setFlujo (obj,valor,bloqueos) {
 		var objVal = $(obj).val();
 		var sel;
-		if (objVal == valor) {
+		if (objVal == valor || $.inArray(parseInt(objVal),valor)>=0) {
+			for (var i = 1; i <= bloqueos; i++) {
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
+			};
+		}else{
+			for (var i = 1; i <= bloqueos; i++) {
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.removeAttr('disabled');
+			};			
+		};
+	}
+
+	function setEspecificar (obj,valor,bloqueos) {
+		var objVal = $(obj).val();
+		var sel;
+		if (objVal == valor || $.inArray(parseInt(objVal),valor)>=0) {
 			for (var i = 1; i <= bloqueos; i++) {
 				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.removeAttr('disabled');
 			};
@@ -2355,7 +2369,6 @@ $.extend(jQuery.validator.messages, {
 			};			
 		};
 	}
-
 
 	function especificar(obj,valor,saltos){
 		var espec = $(':input:eq(' + ($(':input').index(obj) + 1) + ')');

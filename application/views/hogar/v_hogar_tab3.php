@@ -9,7 +9,7 @@ $S1_F_48 = array(
 						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-						//'onchange' => 'setFlujo(this,2,25)',
+						//'onchange' => 'setEspecificar(this,2,25)',
 					);
 
 $S1_F_48_A = array(
@@ -548,10 +548,10 @@ $S1_F_OBS = array(
 $S1_G_52 = array(
 						'id' => 'S1_G_52',
 						'name' => 'S1_G_52',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,8,1)'
+						'onchange' => 'setEspecificar(this,8,1)'
 					);
 
 
@@ -569,10 +569,10 @@ $S1_G_52_O = array(
 $S1_G_53 = array(
 						'id' => 'S1_G_53',
 						'name' => 'S1_G_53',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,7,1)',
+						'onchange' => 'setEspecificar(this,7,1)',
 					);
 
 
@@ -608,10 +608,10 @@ $S1_G_55 = array(
 $S1_G_56 = array(
 						'id' => 'S1_G_56',
 						'name' => 'S1_G_56',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,7,1)',
+						'onchange' => 'setEspecificar(this,7,1)',
 					);
 
 
@@ -629,10 +629,10 @@ $S1_G_56_O = array(
 $S1_G_57 = array(
 						'id' => 'S1_G_57',
 						'name' => 'S1_G_57',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,7,1)',
+						'onchange' => 'setEspecificar(this,7,1)',
 					);
 
 
@@ -650,10 +650,10 @@ $S1_G_57_O = array(
 $S1_G_58 = array(
 						'id' => 'S1_G_58',
 						'name' => 'S1_G_58',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,8,1)',
+						'onchange' => 'setEspecificar(this,8,1)',
 					);
 
 
@@ -671,17 +671,17 @@ $S1_G_58_O = array(
 $S1_G_59 = array(
 						'id' => 'S1_G_59',
 						'name' => 'S1_G_59',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,9,1)',
+						'onchange' => 'setEspecificar(this,9,1)',
 					);
 
 
 $S1_G_59_O = array(
 						'id' => 'S1_G_59_O',
 						'name' => 'S1_G_59_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -746,15 +746,16 @@ $S1_G_60_6 = array(
 $S1_G_60_7 = array(
 						'id' => 'S1_G_60_7',
 						'name' => 'S1_G_60_7',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S1_G_60_7_O = array(
 						'id' => 'S1_G_60_7_O',
 						'name' => 'S1_G_60_7_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
@@ -796,15 +797,16 @@ $S1_G_61_3 = array(
 $S1_G_61_4 = array(
 						'id' => 'S1_G_61_4',
 						'name' => 'S1_G_61_4',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S1_G_61_4_O = array(
 						'id' => 'S1_G_61_4_O',
 						'name' => 'S1_G_61_4_O',
-						'class' => 'form-control wd-inner-70',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
@@ -814,15 +816,16 @@ $S1_G_61_4_O = array(
 $S1_G_62 = array(
 						'id' => 'S1_G_62',
 						'name' => 'S1_G_62',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,8,1)',
 					);
 
 $S1_G_62_O = array(
 						'id' => 'S1_G_62_O',
 						'name' => 'S1_G_62_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -888,15 +891,16 @@ $S1_G_63_7 = array(
 $S1_G_63_8 = array(
 						'id' => 'S1_G_63_8',
 						'name' => 'S1_G_63_8',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S1_G_63_8_O = array(
 						'id' => 'S1_G_63_8_O',
 						'name' => 'S1_G_63_8_O',
-						'class' => 'form-control wd-inner-70',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'placeholder' => 'Especificar',
 						'maxlength' => '50',
@@ -906,15 +910,16 @@ $S1_G_63_8_O = array(
 $S1_G_64 = array(
 						'id' => 'S1_G_64',
 						'name' => 'S1_G_64',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,6,1)',
 					);
 
 $S1_G_64_O = array(
 						'id' => 'S1_G_64_O',
 						'name' => 'S1_G_64_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -924,15 +929,16 @@ $S1_G_64_O = array(
 $S1_G_65 = array(
 						'id' => 'S1_G_65',
 						'name' => 'S1_G_65',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,6,1)',
 					);
 
 $S1_G_65_O = array(
 						'id' => 'S1_G_65_O',
 						'name' => 'S1_G_65_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -942,15 +948,16 @@ $S1_G_65_O = array(
 $S1_G_66 = array(
 						'id' => 'S1_G_66',
 						'name' => 'S1_G_66',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
-						'maxlength' => '1',
+						'maxlength' => '2',
+						'onchange' => 'setEspecificar(this,[4,13],1)',
 					);
 
 $S1_G_66_O = array(
 						'id' => 'S1_G_66_O',
 						'name' => 'S1_G_66_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -960,15 +967,16 @@ $S1_G_66_O = array(
 $S1_G_67 = array(
 						'id' => 'S1_G_67',
 						'name' => 'S1_G_67',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,6,1)',
 					);
 
 $S1_G_67_O = array(
 						'id' => 'S1_G_67_O',
 						'name' => 'S1_G_67_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
@@ -978,15 +986,16 @@ $S1_G_67_O = array(
 $S1_G_68 = array(
 						'id' => 'S1_G_68',
 						'name' => 'S1_G_68',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S1_G_68A = array(
 						'id' => 'S1_G_68A',
 						'name' => 'S1_G_68A',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '1',
 						'disabled' => 'disabled',
@@ -995,15 +1004,16 @@ $S1_G_68A = array(
 $S1_G_69 = array(
 						'id' => 'S1_G_69',
 						'name' => 'S1_G_69',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '2',
+						'onchange' => 'setFlujo(this,[1,2,10],2),setEspecificar(this,9,1)',
 					);
 
 $S1_G_69_O = array(
 						'id' => 'S1_G_69_O',
 						'name' => 'S1_G_69_O',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
 						'maxlength' => '50',
