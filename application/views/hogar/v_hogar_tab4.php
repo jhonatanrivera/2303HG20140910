@@ -31,7 +31,7 @@ $S2_A_84 = array(
 $S2_A_84_O = array(
 						'id' => 'S2_A_84_O',
 						'name' => 'S2_A_84_O',
-						'class' => 'form-control pass',
+						'class' => 'form-control spec',
 						'placeholder' => 'Especifique',
 						'align' => 'center',
 						'disabled' => 'disabled',
@@ -70,15 +70,17 @@ $S2_A_87_Parc_1_Unid = array(
 $S2_A_87_Parc_1_Reg = array(
 						'id' => 'S2_A_87_Parc_1_Reg',
 						'name' => 'S2_A_87_Parc_1_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 					
 $S2_A_87_Parc_1_Reg_O = array(
 						'id' => 'S2_A_87_Parc_1_Reg_O',
 						'name' => 'S2_A_87_Parc_1_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -110,14 +112,15 @@ $S2_A_87_Parc_2_Unid = array(
 $S2_A_87_Parc_2_Reg = array(
 						'id' => 'S2_A_87_Parc_2_Reg',
 						'name' => 'S2_A_87_Parc_2_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 $S2_A_87_Parc_2_Reg_O = array(
 						'id' => 'S2_A_87_Parc_2_Reg_O',
 						'name' => 'S2_A_87_Parc_2_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -149,15 +152,17 @@ $S2_A_87_Parc_3_Unid = array(
 $S2_A_87_Parc_3_Reg = array(
 						'id' => 'S2_A_87_Parc_3_Reg',
 						'name' => 'S2_A_87_Parc_3_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
+
 					);
 					
 $S2_A_87_Parc_3_Reg_O = array(
 						'id' => 'S2_A_87_Parc_3_Reg_O',
 						'name' => 'S2_A_87_Parc_3_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -189,14 +194,15 @@ $S2_A_87_Parc_4_Unid = array(
 $S2_A_87_Parc_4_Reg = array(
 						'id' => 'S2_A_87_Parc_4_Reg',
 						'name' => 'S2_A_87_Parc_4_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 $S2_A_87_Parc_4_Reg_O = array(
 						'id' => 'S2_A_87_Parc_4_Reg_O',
 						'name' => 'S2_A_87_Parc_4_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -228,15 +234,16 @@ $S2_A_87_Parc_5_Unid = array(
 $S2_A_87_Parc_5_Reg = array(
 						'id' => 'S2_A_87_Parc_5_Reg',
 						'name' => 'S2_A_87_Parc_5_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 					
 $S2_A_87_Parc_5_Reg_O = array(
 						'id' => 'S2_A_87_Parc_5_Reg_O',
 						'name' => 'S2_A_87_Parc_5_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -268,14 +275,15 @@ $S2_A_87_Parc_6_Unid = array(
 $S2_A_87_Parc_6_Reg = array(
 						'id' => 'S2_A_87_Parc_6_Reg',
 						'name' => 'S2_A_87_Parc_6_Reg',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 $S2_A_87_Parc_6_Reg_O = array(
 						'id' => 'S2_A_87_Parc_6_Reg_O',
 						'name' => 'S2_A_87_Parc_6_Reg_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -292,7 +300,7 @@ $S2_A_87_Parc_6_Adqui = array(
 $S2_A_OBS_1 = array(
 						'id' => 'S2_A_OBS_1',
 						'name' => 'S2_A_OBS_1',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '500',
 						'placeholder' => 'OBSERVACIONES:'
@@ -2620,16 +2628,17 @@ $S2_A_88_PreCom_Uni_Parc6_4 = array(
 $S2_A_89 = array(
 						'id' => 'S2_A_89',
 						'name' => 'S2_A_89',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 
 					);
 
 $S2_A_89_O = array(
 						'id' => 'S2_A_89_O',
 						'name' => 'S2_A_89_O',
-						'class' => 'form-control pass',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especificar',
@@ -2647,15 +2656,16 @@ $S2_A_90 = array(
 $S2_A_91 = array(
 						'id' => 'S2_A_91',
 						'name' => 'S2_A_91',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_91A = array(
 						'id' => 'S2_A_91A',
 						'name' => 'S2_A_91A',
-						'class' => 'form-control pass',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '1',
 
@@ -2695,15 +2705,16 @@ $S2_A_92_4 = array(
 $S2_A_92_5 = array(
 						'id' => 'S2_A_92_5',
 						'name' => 'S2_A_92_5',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_92_5_O = array(
 						'id' => 'S2_A_92_5_O',
 						'name' => 'S2_A_92_5_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -2713,15 +2724,16 @@ $S2_A_92_5_O = array(
 $S2_A_93 = array(
 						'id' => 'S2_A_93',
 						'name' => 'S2_A_93',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_93_O = array(
 						'id' => 'S2_A_93_O',
 						'name' => 'S2_A_93_O',
-						'class' => 'form-control pass',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -2731,9 +2743,10 @@ $S2_A_93_O = array(
 $S2_A_94 = array(
 						'id' => 'S2_A_94',
 						'name' => 'S2_A_94',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,2,9)',
 					);
 
 $S2_A_95_1 = array(
@@ -2763,15 +2776,16 @@ $S2_A_95_3 = array(
 $S2_A_95_4 = array(
 						'id' => 'S2_A_95_4',
 						'name' => 'S2_A_95_4',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_95_4_O = array(
 						'id' => 'S2_A_95_4_O',
 						'name' => 'S2_A_95_4_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -2844,15 +2858,16 @@ $S2_A_96_4 = array(
 $S2_A_96_5 = array(
 						'id' => 'S2_A_96_5',
 						'name' => 'S2_A_96_5',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_96_5_O = array(
 						'id' => 'S2_A_96_5_O',
 						'name' => 'S2_A_96_5_O',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -2911,15 +2926,16 @@ $S2_A_97_Transp_1 = array(
 $S2_A_97_Otro_1 = array(
 						'id' => 'S2_A_97_Otro_1',
 						'name' => 'S2_A_97_Otro_1',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_1 = array(
 						'id' => 'S2_A_97_Otro_Esp_1',
 						'name' => 'S2_A_97_Otro_Esp_1',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -2976,15 +2992,16 @@ $S2_A_97_Transp_2 = array(
 $S2_A_97_Otro_2 = array(
 						'id' => 'S2_A_97_Otro_2',
 						'name' => 'S2_A_97_Otro_2',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_2 = array(
 						'id' => 'S2_A_97_Otro_Esp_2',
 						'name' => 'S2_A_97_Otro_Esp_2',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3042,15 +3059,16 @@ $S2_A_97_Transp_3 = array(
 $S2_A_97_Otro_3 = array(
 						'id' => 'S2_A_97_Otro_3',
 						'name' => 'S2_A_97_Otro_3',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_3 = array(
 						'id' => 'S2_A_97_Otro_Esp_3',
 						'name' => 'S2_A_97_Otro_Esp_3',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3108,15 +3126,16 @@ $S2_A_97_Transp_4 = array(
 $S2_A_97_Otro_4 = array(
 						'id' => 'S2_A_97_Otro_4',
 						'name' => 'S2_A_97_Otro_4',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_4 = array(
 						'id' => 'S2_A_97_Otro_Esp_4',
 						'name' => 'S2_A_97_Otro_Esp_4',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3173,15 +3192,16 @@ $S2_A_97_Transp_5 = array(
 $S2_A_97_Otro_5 = array(
 						'id' => 'S2_A_97_Otro_5',
 						'name' => 'S2_A_97_Otro_5',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_5 = array(
 						'id' => 'S2_A_97_Otro_Esp_5',
 						'name' => 'S2_A_97_Otro_Esp_5',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3239,15 +3259,16 @@ $S2_A_97_Transp_6 = array(
 $S2_A_97_Otro_6 = array(
 						'id' => 'S2_A_97_Otro_6',
 						'name' => 'S2_A_97_Otro_6',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_6 = array(
 						'id' => 'S2_A_97_Otro_Esp_6',
 						'name' => 'S2_A_97_Otro_Esp_6',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3304,16 +3325,17 @@ $S2_A_97_Transp_7 = array(
 $S2_A_97_Otro_7 = array(
 						'id' => 'S2_A_97_Otro_7',
 						'name' => 'S2_A_97_Otro_7',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 
 $S2_A_97_Otro_Esp_7 = array(
 						'id' => 'S2_A_97_Otro_Esp_7',
 						'name' => 'S2_A_97_Otro_Esp_7',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3375,16 +3397,17 @@ $S2_A_97_Transp_8 = array(
 $S2_A_97_Otro_8 = array(
 						'id' => 'S2_A_97_Otro_8',
 						'name' => 'S2_A_97_Otro_8',
-						'class' => 'form-control wd-inner-20',
+						'class' => 'form-control wd-inner-20 setFlujo',
 						'align' => 'center',
 						'maxlength' => '50',
+						'onchange' => 'setFlujo(this,1,1)',
 					);
 
 
 $S2_A_97_Otro_Esp_8 = array(
 						'id' => 'S2_A_97_Otro_Esp_8',
 						'name' => 'S2_A_97_Otro_Esp_8',
-						'class' => 'form-control wd-inner-70 pass',
+						'class' => 'form-control wd-inner-70 spec',
 						'align' => 'center',
 						'maxlength' => '8',
 						'placeholder' => 'Especifique',
@@ -3395,7 +3418,7 @@ $S2_A_97_Otro_Esp_8 = array(
 $S2_A_Especificar = array(
 						'id' => 'S2_A_Especificar',
 						'name' => 'S2_A_Especificar',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '100',
 						'placeholder' => 'ESPECIFICAR OTROS GASTOS:'
@@ -3406,7 +3429,7 @@ $S2_A_Especificar = array(
 $S2_A_OBS = array(
 						'id' => 'S2_A_OBS',
 						'name' => 'S2_A_OBS',
-						'class' => 'form-control',
+						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '500',
 						'placeholder' => 'OBSERVACIONES:'
@@ -3443,7 +3466,7 @@ if (isset($hg3_seccion2a)) {
 	</tr>
 </table>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="tb84">
 	<tr>
 		<td> <!-- Left -->
 			<table class="table table-bordered">
@@ -3464,7 +3487,7 @@ if (isset($hg3_seccion2a)) {
 		</td>
 
 		<td> <!-- center -->
-			<table class="table table-bordered">
+			<table class="table table-bordered" id="tab85-86">
 				<tr>
 					<th class="hgCenter hgTitle" colspan="2">85</th>
 				</tr>
@@ -3487,7 +3510,7 @@ if (isset($hg3_seccion2a)) {
 		</td>
 
 		<td> <!-- Rigth  -->
-			<table class="table table-bordered">
+			<table class="table table-bordered" id="tab87">
 				<tr>
 					<th class="hgCenter hgTitle" colspan="6">87</th>
 				</tr>
@@ -3563,7 +3586,7 @@ if (isset($hg3_seccion2a)) {
 
 </table>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="tab88">
 	<tr>
 		<th class="hgCenter hgTitle" colspan="13">88</th>
 	</tr>
@@ -4087,7 +4110,7 @@ if (isset($hg3_seccion2a)) {
 	</tr>
 </table>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="tab89-90">
 	<tr>
 		<td> <!-- Left -->
 			
@@ -4196,7 +4219,7 @@ if (isset($hg3_seccion2a)) {
 						<td><?php echo form_input($S2_A_94); ?></td>
 					</tr>
 					<tr>
-						<th>Si marcó NO, pasar a la pregunta 96.</th>
+						<th colspan="2">Si marcó NO, pasar a la pregunta 96.</th>
 					</tr>
 
 			</table>
@@ -4207,7 +4230,7 @@ if (isset($hg3_seccion2a)) {
 
 	<tr>
 		<td colspan="2">
-			<table class="table table-bordered"> <!-- Left -->
+			<table class="table table-bordered" > <!-- Left -->
 				<tr>
 					<th class="hgCenter hgTitle" colspan="2">95</th>
 					<th class="hgCenter hgTitle">95-A</th>
@@ -4275,7 +4298,7 @@ if (isset($hg3_seccion2a)) {
 
 </table>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="97">
 	<tr>
 		<th class="hgCenter hgTitle" colspan="8">97</th>
 	</tr>
@@ -4388,5 +4411,62 @@ if (isset($hg3_seccion2a)) {
 </div>
 
 <?php echo form_close() ?>
+
+<script class="text/javascript">
+
+
+
+
+	
+$('#S2_A_84').change(function  (event) {
+			var objVal = $('#S2_A_84').val(); 				
+				if (objVal == '2') 
+				{
+					$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS').attr('disabled', 'disabled');
+					$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+				}
+				else if ((objVal == '1') || (objVal == '3'))
+					{
+						$('#frmTab4 input:text:not(.spec,#S2_A_84_O),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS').removeAttr('disabled');$('#S2_A_84_O').attr('disabled', 'disabled');
+						$('#frmTab4 input:text:not(#S2_A_84)').trigger('change');
+						$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+					}
+					else if (objVal == '4')
+					{
+						$('#frmTab4 input:text:not(.spec),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#S2_A_84_O').removeAttr('disabled');
+						$('#frmTab4 input:text:not(#S2_A_84)').trigger('change');
+						$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+					}
+					else if (objVal == '5')
+					 {
+
+					 	$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#frmTab5 input:text,#S2_B_108_EspeGast').attr('disabled', 'disabled')
+					 }
+
+						 else
+						{
+							$('#S2_A_84_O').attr('disabled', 'disabled');
+							$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+						}
+				});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
