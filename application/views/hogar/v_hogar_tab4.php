@@ -70,11 +70,11 @@ $S2_A_87_Parc_1_Unid = array(
 $S2_A_87_Parc_1_Reg = array(
 						'id' => 'S2_A_87_Parc_1_Reg',
 						'name' => 'S2_A_87_Parc_1_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'set',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 					
 $S2_A_87_Parc_1_Reg_O = array(
@@ -112,10 +112,10 @@ $S2_A_87_Parc_2_Unid = array(
 $S2_A_87_Parc_2_Reg = array(
 						'id' => 'S2_A_87_Parc_2_Reg',
 						'name' => 'S2_A_87_Parc_2_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_A_87_Parc_2_Reg_O = array(
 						'id' => 'S2_A_87_Parc_2_Reg_O',
@@ -152,10 +152,10 @@ $S2_A_87_Parc_3_Unid = array(
 $S2_A_87_Parc_3_Reg = array(
 						'id' => 'S2_A_87_Parc_3_Reg',
 						'name' => 'S2_A_87_Parc_3_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 
 					);
 					
@@ -194,10 +194,10 @@ $S2_A_87_Parc_4_Unid = array(
 $S2_A_87_Parc_4_Reg = array(
 						'id' => 'S2_A_87_Parc_4_Reg',
 						'name' => 'S2_A_87_Parc_4_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_A_87_Parc_4_Reg_O = array(
 						'id' => 'S2_A_87_Parc_4_Reg_O',
@@ -234,10 +234,10 @@ $S2_A_87_Parc_5_Unid = array(
 $S2_A_87_Parc_5_Reg = array(
 						'id' => 'S2_A_87_Parc_5_Reg',
 						'name' => 'S2_A_87_Parc_5_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 					
 $S2_A_87_Parc_5_Reg_O = array(
@@ -275,10 +275,10 @@ $S2_A_87_Parc_6_Unid = array(
 $S2_A_87_Parc_6_Reg = array(
 						'id' => 'S2_A_87_Parc_6_Reg',
 						'name' => 'S2_A_87_Parc_6_Reg',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_A_87_Parc_6_Reg_O = array(
 						'id' => 'S2_A_87_Parc_6_Reg_O',
@@ -2628,10 +2628,10 @@ $S2_A_88_PreCom_Uni_Parc6_4 = array(
 $S2_A_89 = array(
 						'id' => 'S2_A_89',
 						'name' => 'S2_A_89',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,4,1)',
 
 					);
 
@@ -2656,10 +2656,10 @@ $S2_A_90 = array(
 $S2_A_91 = array(
 						'id' => 'S2_A_91',
 						'name' => 'S2_A_91',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_91A = array(
@@ -2668,6 +2668,7 @@ $S2_A_91A = array(
 						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '1',
+						'disabled' => 'disabled',
 
 					);
 
@@ -2705,10 +2706,10 @@ $S2_A_92_4 = array(
 $S2_A_92_5 = array(
 						'id' => 'S2_A_92_5',
 						'name' => 'S2_A_92_5',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_92_5_O = array(
@@ -2724,10 +2725,10 @@ $S2_A_92_5_O = array(
 $S2_A_93 = array(
 						'id' => 'S2_A_93',
 						'name' => 'S2_A_93',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,5,1)',
 					);
 
 $S2_A_93_O = array(
@@ -2752,34 +2753,37 @@ $S2_A_94 = array(
 $S2_A_95_1 = array(
 						'id' => 'S2_A_95_1',
 						'name' => 'S2_A_95_1',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_95_2 = array(
 						'id' => 'S2_A_95_2',
 						'name' => 'S2_A_95_2',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_95_3 = array(
 						'id' => 'S2_A_95_3',
 						'name' => 'S2_A_95_3',
-						'class' => 'form-control',
+						'class' => 'form-control setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_95_4 = array(
 						'id' => 'S2_A_95_4',
 						'name' => 'S2_A_95_4',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,2)',
 					);
 
 $S2_A_95_4_O = array(
@@ -2798,6 +2802,7 @@ $S2_A_95A_1 = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '100',
+						'disabled' => 'disabled',
 					);
 
 $S2_A_95A_2 = array(
@@ -2806,6 +2811,7 @@ $S2_A_95A_2 = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '100',
+						'disabled' => 'disabled',
 					);
 
 $S2_A_95A_3 = array(
@@ -2814,6 +2820,7 @@ $S2_A_95A_3 = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '100',
+						'disabled' => 'disabled',
 					);
 
 $S2_A_95A_4 = array(
@@ -2822,6 +2829,7 @@ $S2_A_95A_4 = array(
 						'class' => 'form-control',
 						'align' => 'center',
 						'maxlength' => '100',
+						'disabled' => 'disabled',
 					);
 
 $S2_A_96_1 = array(
@@ -2858,10 +2866,10 @@ $S2_A_96_4 = array(
 $S2_A_96_5 = array(
 						'id' => 'S2_A_96_5',
 						'name' => 'S2_A_96_5',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '1',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_96_5_O = array(
@@ -2926,10 +2934,10 @@ $S2_A_97_Transp_1 = array(
 $S2_A_97_Otro_1 = array(
 						'id' => 'S2_A_97_Otro_1',
 						'name' => 'S2_A_97_Otro_1',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_1 = array(
@@ -2992,10 +3000,10 @@ $S2_A_97_Transp_2 = array(
 $S2_A_97_Otro_2 = array(
 						'id' => 'S2_A_97_Otro_2',
 						'name' => 'S2_A_97_Otro_2',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_2 = array(
@@ -3059,10 +3067,10 @@ $S2_A_97_Transp_3 = array(
 $S2_A_97_Otro_3 = array(
 						'id' => 'S2_A_97_Otro_3',
 						'name' => 'S2_A_97_Otro_3',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_3 = array(
@@ -3126,10 +3134,10 @@ $S2_A_97_Transp_4 = array(
 $S2_A_97_Otro_4 = array(
 						'id' => 'S2_A_97_Otro_4',
 						'name' => 'S2_A_97_Otro_4',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_4 = array(
@@ -3192,10 +3200,10 @@ $S2_A_97_Transp_5 = array(
 $S2_A_97_Otro_5 = array(
 						'id' => 'S2_A_97_Otro_5',
 						'name' => 'S2_A_97_Otro_5',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_5 = array(
@@ -3259,10 +3267,10 @@ $S2_A_97_Transp_6 = array(
 $S2_A_97_Otro_6 = array(
 						'id' => 'S2_A_97_Otro_6',
 						'name' => 'S2_A_97_Otro_6',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_A_97_Otro_Esp_6 = array(
@@ -3325,10 +3333,10 @@ $S2_A_97_Transp_7 = array(
 $S2_A_97_Otro_7 = array(
 						'id' => 'S2_A_97_Otro_7',
 						'name' => 'S2_A_97_Otro_7',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 
@@ -3397,10 +3405,10 @@ $S2_A_97_Transp_8 = array(
 $S2_A_97_Otro_8 = array(
 						'id' => 'S2_A_97_Otro_8',
 						'name' => 'S2_A_97_Otro_8',
-						'class' => 'form-control wd-inner-20 setFlujo',
+						'class' => 'form-control wd-inner-20 setEspecificar',
 						'align' => 'center',
 						'maxlength' => '50',
-						'onchange' => 'setFlujo(this,1,1)',
+						'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 
