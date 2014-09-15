@@ -19,7 +19,7 @@
 	<script type="text/javascript">
 		var CI = {
 			'base_url': '<?php echo base_url(); ?>',
-			'site_url': '<?php echo site_url(); ?>',
+			'site_url': '<?php echo site_url(); ?>',/* Godaddy con slash */
 			'year': '<?php echo date("Y"); ?>',
 			'month': '<?php echo date("d"); ?>',
 			'day': '<?php echo date("m"); ?>'
