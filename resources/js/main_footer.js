@@ -107,6 +107,7 @@ $("#frmTab1").validate({
 	    		success:function (argument) {
 	    			ajax_btn("btnTab1");
 	    			ajax_msg('EXITOSO','Se insertó satisfactoriamente',1);
+	    			$("#tabsHogar li").removeClass('hide');
 	    		}
 	    	})  
 
@@ -212,20 +213,69 @@ $("#frmTab3").validate({
 
 
 
-$(function  (argument) {
-	$("input.pass,input.setFlujo,input.setEspecificar").trigger('change');
+	$(window).load(function(){	
+		$.ajax({
+    		url: CI.site_url+'get',
+    		type:'POST',
+    		dataType:'JSON',
+    		data:{NUM_VIV:$("#NUM_VIV").val()},
+    		success:function (r) {
+	    			$.each(r.hg1_localizacion, function (fieldName,fieldValue) {
+						$("#"+fieldName).val(fieldValue); 
+						if($("#"+fieldName).hasClass('setEspecificar')){$("#"+fieldName).trigger('change')};
+					});
 
+	    			$.each(r.hg2_seccion1_2, function (fieldName,fieldValue) {
+						$("#"+fieldName).val(fieldValue); 
+						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
+					});
 
-	$(window).load(function(){
+	    			$.each(r.hg3_seccion2a, function (fieldName,fieldValue) {
+						$("#"+fieldName).val(fieldValue); 
+						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
+					});
 
-	  $('#loading').fadeOut(2000);
+	    			$.each(r.hg3_seccion2b, function (fieldName,fieldValue) {
+						$("#"+fieldName).val(fieldValue); 
+						if(!$("#"+fieldName).prop('disabled') && ($("#"+fieldName).hasClass('setFlujo') || $("#"+fieldName).hasClass('setEspecificar'))){$("#"+fieldName).trigger('change')};
+					});		
+
+	    			$.each(r.hg2_seccion1_1, function (i,row) {
+						var cod = r.hg2_seccion1_1[i].COD_IDENT;
+						addRow(cod);/* add Row a las tablas */    				
+						$.each(row,function (fieldName,fieldValue) { 
+							$("#"+fieldName+"-"+cod).val(fieldValue); 
+							if($("#"+fieldName+"-"+cod).hasClass('passTD')){$("#"+fieldName+"-"+cod).trigger('change')};
+						})
+					});
+    		},
+
+		});
+
 
 	});
 
-})
+
+
+// function addSecs(d, s) {return new Date(d.valueOf()+s*1000);}
+// function doRun() {
+//     document.getElementById('msg').innerHTML = 'Processing JS...';
+//     setTimeout(function(){
+//          start = new Date();
+//          end = addSecs(start,5);
+//          do {start = new Date();} while (end-start > 0);
+//          document.getElementById('msg').innerHTML = 'Finished JS';   
+//     },10);
+// }
 
 
 
+$(document).ajaxStart(function() {
+  $( "#loading" ).show();
+});
+$(document).ajaxComplete(function() {
+  $('#loading').fadeOut(1000);
+});
 
 
 /************************************************************************************************

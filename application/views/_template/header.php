@@ -35,5 +35,5 @@
 
 </head>
 <body>
-	<?php if(isset($hg1_localizacion)) { ?>  <div id="loading"> <?php } ?>
-	</div><div id="divMsg"></div>
+	<?php if(isset($num_viv)) echo '<div id="loading"></div>'; ?>
+	<div id="divMsg"></div>

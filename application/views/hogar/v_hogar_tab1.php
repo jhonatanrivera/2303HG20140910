@@ -86,7 +86,8 @@ $NUM_VIV = array(
 						'name' => 'NUM_VIV',
 						'class' => 'form-control wd-inner-40',
 						'align' => 'center',
-						'value' => '',
+						'value' => $num_viv,
+						'readonly' => 'readonly',
 					);
 $NOM_DD = array(
 						'id' => 'NOM_DD',
@@ -109,7 +110,7 @@ $NOM_DI = array(
 						'name' => 'NOM_DI',
 						'class' => 'form-control',
 						'align' => 'center',
-						'value' => 'CHOSICA',
+						'value' => 'LURIGANCHO - CHOSICA',
 						'readonly' => 'readonly',
 					);
 
@@ -142,9 +143,9 @@ $NUM_FREN = array(
 $TIPVIA = array(
 						'id' => 'TIPVIA',
 						'name' => 'TIPVIA',
-						'class' => 'form-control wd-inner-30 rDig1-7',
+						'class' => 'form-control wd-inner-30 rDig1-7 setEspecificar',
 						'align' => 'center',
-						'onchange'=>"especificar(this,7)",
+						'onchange'=>"setEspecificar(this,7)",
 						'maxlength'=>'1',
 					);
 $TIPVIA_O = array(
@@ -233,19 +234,18 @@ $NUCLEO_sel = '';
 $ZONA_sel = '';
 
 
-if (isset($NUM_VIV_nuevo)) {
-	$NUM_VIV['value'] = $NUM_VIV_nuevo;
-}
+// if (isset($NUM_VIV_nuevo)) {
+// 	$NUM_VIV['value'] = $NUM_VIV_nuevo;
+// }
 
-if (isset($hg1_localizacion)) {
-	foreach ($hg1_localizacion as $key => $value) {
-		${$key}['value'] = $value;
-		if($key == 'NUM_VIV') { ${$key}['readonly'] = 'readonly';	}
-		if($key == 'NOM_CCPP'){ $CCPP_sel = $value; }
-		if($key == 'NOM_NNUU'){ $NUCLEO_sel = $value; }
-		if($key == 'NOM_ZZCC'){ $ZONA_sel = $value; }
-	}
-}
+// if (isset($hg1_localizacion)) {
+// 	foreach ($hg1_localizacion as $key => $value) {
+// 		${$key}['value'] = $value;
+// 		if($key == 'NOM_CCPP'){ $CCPP_sel = $value; }
+// 		if($key == 'NOM_NNUU'){ $NUCLEO_sel = $value; }
+// 		if($key == 'NOM_ZZCC'){ $ZONA_sel = $value; }
+// 	}
+// }
 
 if($this->session->flashdata('NUM_VIV_new')){
 	$NUM_VIV['value'] = $this->session->flashdata('NUM_VIV_new');

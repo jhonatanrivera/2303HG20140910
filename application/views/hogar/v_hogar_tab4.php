@@ -3445,11 +3445,11 @@ $S2_A_OBS = array(
 					);
 
 
-if (isset($hg3_seccion2a)) {
-	foreach ($hg3_seccion2a as $key => $value) {
-		${$key}['value'] = $value;
-	}
-}
+// if (isset($hg3_seccion2a)) {
+// 	foreach ($hg3_seccion2a as $key => $value) {
+// 		${$key}['value'] = $value;
+// 	}
+// }
 
 ?>
 

@@ -78,7 +78,27 @@ class Hogar extends CI_Controller {
 	public function vivienda($nro_vivienda = NULL)
 	{
 		if (!is_null($nro_vivienda)) {
-			$dataWhere = array('NUM_VIV'=>$nro_vivienda);
+			// $dataWhere = array('NUM_VIV'=>$nro_vivienda);
+			// $exits = $this->consulta('hg1_localizacion',$dataWhere);
+			// if($exits){
+			// 	$data['hg1_localizacion'] 	= $this->hogar_model->selectRows('hg1_localizacion',null,$dataWhere);
+			// 	$data['hg2_seccion1_1'] 	= $this->hogar_model->selectRows('hg2_seccion1_1',null,$dataWhere);
+			// 	$data['hg2_seccion1_2'] 	= $this->hogar_model->selectRows('hg2_seccion1_2',null,$dataWhere);
+			// 	$data['hg3_seccion2a'] 	= $this->hogar_model->selectRows('hg3_seccion2a',null,$dataWhere);
+			// 	$data['hg3_seccion2b'] 	= $this->hogar_model->selectRows('hg3_seccion2b',null,$dataWhere);
+			// }else $data['NUM_VIV_nuevo'] = $nro_vivienda;
+			$data['num_viv'] = $nro_vivienda;
+			$this->title = "Hogar | ".$nro_vivienda;
+			
+			$data['main_content'] = 'hogar/v_hogar';
+			$this->load->view('_template/main',$data);				
+		}else redirect('hogar');
+
+	}
+	public function getTables()
+	{
+		if ($this->input->is_ajax_request() ) {
+			$dataWhere = array('NUM_VIV'=>$this->input->post('NUM_VIV'));
 			$exits = $this->consulta('hg1_localizacion',$dataWhere);
 			if($exits){
 				$data['hg1_localizacion'] 	= $this->hogar_model->selectRows('hg1_localizacion',null,$dataWhere);
@@ -86,14 +106,9 @@ class Hogar extends CI_Controller {
 				$data['hg2_seccion1_2'] 	= $this->hogar_model->selectRows('hg2_seccion1_2',null,$dataWhere);
 				$data['hg3_seccion2a'] 	= $this->hogar_model->selectRows('hg3_seccion2a',null,$dataWhere);
 				$data['hg3_seccion2b'] 	= $this->hogar_model->selectRows('hg3_seccion2b',null,$dataWhere);
-			}else $data['NUM_VIV_nuevo'] = $nro_vivienda;
-			$dataWhere = array('NUM_VIV'=>$nro_vivienda);
-			$this->title = "Hogar | ".$nro_vivienda;
-			
-			$data['main_content'] = 'hogar/v_hogar';
-			$this->load->view('_template/main',$data);				
-		}else redirect('hogar');
-
+				echo json_encode($data);
+			}
+		}
 	}
 
 	public function guardar($NUM_VIV=0)

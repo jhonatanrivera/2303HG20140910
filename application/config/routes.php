@@ -44,6 +44,8 @@ $route['hogar'] = 'hogar/hogar';
 $route['hogar/(:num)'] 	= 'hogar/hogar/vivienda/$1';
 $route['guardar/(:num)'] = 'hogar/hogar/guardar/$1';
 $route['consultar-miembros'] = 'hogar/hogar/miembros/';
+$route['get'] = 'hogar/hogar/getTables/';
+
 
 
 $route['login'] = 'auth/login';

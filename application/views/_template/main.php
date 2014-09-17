@@ -1,5 +1,6 @@
 <?php !isset($this->header) ? $this->load->view('_template/header') : FALSE; ?>	
 <?php !isset($this->nav) ? $this->load->view('_template/nav') : FALSE; ?>	
+<div id="divMsg"></div>
 	<div class="container-fluid">
 		<div class="row main">
 			<!-- 

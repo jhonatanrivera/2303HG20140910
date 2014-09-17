@@ -1,10 +1,11 @@
 <!-- Nav tabs -->
-<ul class="nav nav-tabs" role="tablist">
+<?php $hide = isset($NUM_VIV_nuevo) ? 'hide' : ''; ?>
+<ul class="nav nav-tabs" role="tablist" id="tabsHogar">
   <li class="liUbigeo active"><a href="#cedula1_tab1" role="tab" data-toggle="tab">Localizacion</a></li>
-  <li class=""><a href="#cedula1_tab2" role="tab" data-toggle="tab">Seccion I | A-E</a></li>
-  <li class=""><a href="#cedula1_tab3" role="tab" data-toggle="tab">Seccion I | F-J</a></li>
-  <li class=""><a href="#cedula1_tab4" role="tab" data-toggle="tab">Seccion II A</a></li>
-  <li class=""><a href="#cedula1_tab5" role="tab" data-toggle="tab">Seccion II B</a></li>
+  <li class="<?php echo $hide; ?>"><a href="#cedula1_tab2" role="tab" data-toggle="tab">Seccion I | A-E</a></li>
+  <li class="<?php echo $hide; ?>"><a href="#cedula1_tab3" role="tab" data-toggle="tab">Seccion I | F-J</a></li>
+  <li class="<?php echo $hide; ?>"><a href="#cedula1_tab4" role="tab" data-toggle="tab">Seccion II A</a></li>
+  <li class="<?php echo $hide; ?>"><a href="#cedula1_tab5" role="tab" data-toggle="tab">Seccion II B</a></li>
 </ul>
 
 <!-- Tab panes -->

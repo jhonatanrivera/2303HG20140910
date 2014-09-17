@@ -255,25 +255,3 @@ $S1_E_OBS = array(
 
 <?php echo form_close(); ?>
 
-<script type="text/javascript">
-	$(function  () {
-		var hg2_seccion1_1 = <?php echo  isset($hg2_seccion1_1) ? json_encode($hg2_seccion1_1) : "''"; ?>;
-		if (hg2_seccion1_1 !=='') {
-			if ($.isArray(hg2_seccion1_1)) { /* Si mas de una fila */
-				for (var i = 0; i < hg2_seccion1_1.length; i++) {
-					var cod = hg2_seccion1_1[i].COD_IDENT;
-					addRow(cod);/* add Row a las tablas*/
-					$.each(hg2_seccion1_1[i],function (fieldName,fieldValue) { //console.log("#"+fieldName+"-1");
-						$("#"+fieldName+"-"+cod).val(fieldValue); 
-						if($("#"+fieldName+"-"+cod).hasClass('passTD')){$("#"+fieldName+"-"+cod).trigger('change')};
-					})
-				};
-			}else{
-				$.each(hg2_seccion1_1,function (fieldName,fieldValue) { //console.log("#"+fieldName+"-1");
-					$("#"+fieldName+"-1").val(fieldValue);//$("#"+fieldName+"-1").trigger('change');
-				})
-			}
-		};
-		//$('input:not(#S1_A_1)').trigger('change');
-	})
-</script>

@@ -2482,11 +2482,17 @@ function ajax_msg (msgT,msg,error) {
   	divMsg += '<button type="button" class="close" data-dismiss="alert">&times;</button>';
   	divMsg += '<strong>'+msgT+'</strong><br>'+msg;
 	divMsg += '</div>';
+	$("#divMsg").css('z-index','99888');
 	$("#divMsg").html(divMsg);
 	$("#divMsg").show();
    setTimeout(function() {
         $("#divMsg").fadeOut(1500);
-    },3000);
+        setTimeout(function() {
+        	$("#divMsg").css('z-index','-1');
+        },1500);
+		
+    },3000); 
+
 
 
 

@@ -6364,11 +6364,11 @@ $S2_B_108_EspeGast = array(
 					);
 
 
-if (isset($hg3_seccion2b)) {
-	foreach ($hg3_seccion2b as $key => $value) {
-		${$key}['value'] = $value;
-	}
-}
+// if (isset($hg3_seccion2b)) {
+// 	foreach ($hg3_seccion2b as $key => $value) {
+// 		${$key}['value'] = $value;
+// 	}
+// }
 ?>
 
 <?php echo form_open('','id="frmTab5"'); ?>
