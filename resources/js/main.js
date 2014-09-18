@@ -2463,12 +2463,12 @@ function set27 (obj,n) {
 	}else if(tVal == 9){
 		$("#S1_D_27_NOM-"+n).html(cbo3); sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
 	}else if(tVal == 10){
-			$("#S1_D_27_NOM-"+n).html(cbo4); sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
+			$("#S1_D_27_NOM-"+n).html(cbo4); $("#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val(''); $("#S1_D_27_COD_O-"+n+",#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n).removeAttr('disabled');
 	}else if(tVal == 14){
 		$("#S1_D_27_COD_O-"+n).removeAttr('disabled');
 		$("#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n+",#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val('');
 	}else if($.inArray($(obj).val(),['11','12','13'])>=0){
-		sel.attr('disabled','disabled').val('');
+		sel.attr('disabled','disabled').val('');$("#S1_D_27_NOM-"+n).html('<option value=""></option>');
 	}else{
 		//sel.not('.rA').removeAttr('disabled');
 		$("#S1_D_27_NOM-"+n).html('<option value=""></option>');
