@@ -129,7 +129,7 @@ $NOM_ZZCC = array(
 $NOM_MZCE = array(
 						'id' => 'NOM_MZCE',
 						'name' => 'NOM_MZCE',
-						'class' => 'form-control',
+						'class' => 'form-control ',
 						'align' => 'center',
 					);
 $NUM_FREN = array(

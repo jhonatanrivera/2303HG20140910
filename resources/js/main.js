@@ -2131,137 +2131,137 @@
 *
 *********************************************************************************************
 *********************************************************************************************/
-/*
-jQuery.validator.addClassRules("rNotReq", {
-  required: false,
-});
-jQuery.validator.addClassRules("rLen2", {
-  maxlength: 2,
-});
-jQuery.validator.addClassRules("rLen3", {
-  maxlength: 3,
-});
-jQuery.validator.addClassRules("rLen4", {
-  maxlength: 4,
-});
-jQuery.validator.addClassRules("rLen5", {
-  maxlength: 5,
-});
-jQuery.validator.addClassRules("rLen6", {
-  maxlength: 6,
-});
-jQuery.validator.addClassRules("rLen7", {
-  maxlength: 7,
-});
-jQuery.validator.addClassRules("rLen8", {
-  maxlength: 8,
-});
-jQuery.validator.addClassRules("rLenE8", {
-  minlength: 8, maxlength: 8,
-});
-jQuery.validator.addClassRules("rLen11", {
-  maxlength: 11,
-});
-jQuery.validator.addClassRules("rLenE11", {
-  minlength: 11, maxlength: 11,
-});
-jQuery.validator.addClassRules("rNombre", {
-  required: true, maxlength: 80, validName: true,
-});
-jQuery.validator.addClassRules("rN", {
-  required: true, maxlength: 80, enteros: true,
-});
-jQuery.validator.addClassRules("rAN", {
-  required: true, maxlength: 80, alfaNumerico: true,
-});
-jQuery.validator.addClassRules("rA", {
-  required: true, maxlength: 80, lettersonly: true,
-});
-jQuery.validator.addClassRules("rBin", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [0,1], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-2", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,2], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-3", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,3], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-4", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,4], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-5", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,5], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-6", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,6], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-7", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,7], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-8", {
-  required: true, maxlength: 1, enteros: true, ranges: [ [1,8], [9] ],
-});
-jQuery.validator.addClassRules("rDig1-9", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,9], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-10", {
+
+ jQuery.validator.addClassRules("rNotReq", {
+   required: false,
+ });
+ jQuery.validator.addClassRules("rLen2", {
+   maxlength: 2,
+ });
+ jQuery.validator.addClassRules("rLen3", {
+   maxlength: 3,
+ });
+ jQuery.validator.addClassRules("rLen4", {
+   maxlength: 4,
+ });
+ jQuery.validator.addClassRules("rLen5", {
+   maxlength: 5,
+ });
+ jQuery.validator.addClassRules("rLen6", {
+   maxlength: 6,
+ });
+ jQuery.validator.addClassRules("rLen7", {
+   maxlength: 7,
+ });
+ jQuery.validator.addClassRules("rLen8", {
+   maxlength: 8,
+ });
+ jQuery.validator.addClassRules("rLenE8", {
+   minlength: 8, maxlength: 8,
+ });
+ jQuery.validator.addClassRules("rLen11", {
+   maxlength: 11,
+ });
+ jQuery.validator.addClassRules("rLenE11", {
+   minlength: 11, maxlength: 11,
+ });
+ jQuery.validator.addClassRules("rNombre", {
+   required: true, maxlength: 80, validName: true,
+ });
+ jQuery.validator.addClassRules("rN", {
+   required: true, maxlength: 80, enteros: true,
+ });
+ jQuery.validator.addClassRules("rAN", {
+   required: true, maxlength: 80, alfaNumerico: true,
+ });
+ jQuery.validator.addClassRules("rA", {
+   required: true, maxlength: 80, lettersonly: true,
+ });
+ jQuery.validator.addClassRules("rBin", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [0,1], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-2", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,2], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-3", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,3], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-4", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,4], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-5", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,5], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-6", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,6], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-7", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,7], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-8", {
+   required: true, maxlength: 1, enteros: true, ranges: [ [1,8], [9] ],
+ });
+ jQuery.validator.addClassRules("rDig1-9", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,9], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-10", {
   required: true, maxlength: 2, enteros: true, ranges: [ [1,10], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-11", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,11], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-12", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,12], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-13", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,13], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-14", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,14], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-15", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,15], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-16", {
-  required: true, maxlength: 2, enteros: true, ranges: [ [1,16], [99] ],
-});
-jQuery.validator.addClassRules("rDig1-19", {
-  required: true, maxlength: 4, enteros: true, range: [1,19],
-});
-jQuery.validator.addClassRules("rDia", {
-  required: true, exactlength: 2, enteros: true, ranges: [ [1,31], [9999] ],
-});
-jQuery.validator.addClassRules("rMes", {
-  required: true, exactlength: 2, enteros: true, ranges: [ [1,12], [9999] ],
-});
-jQuery.validator.addClassRules("rAno", {
-  required: true, exactlength: 4, enteros: true, ranges: [ [2013,2014], [9999] ],
-});
-jQuery.validator.addClassRules("rAnos", {
-  required: true, maxlength: 2, enteros: true, range: [0,99],
-});
-jQuery.validator.addClassRules("rMeses", {
-  required: true, maxlength: 2, enteros: true, range: [0,11],
-});
-jQuery.validator.addClassRules("rDias", {
-  required: true, maxlength: 2, enteros: true, range: [0,29],
-});
-jQuery.validator.addClassRules("ruleFecha", {
-  maxlength: 10, fechaLocal: true,
-});
-jQuery.validator.addClassRules("ruleHora", {
-  maxlength: 6, horaLocal: true,
-});
-jQuery.validator.addClassRules("rReq", {
-  required: true,
-});
-jQuery.validator.addClassRules("rEspN", {
-  required: true,
-});
-jQuery.validator.addClassRules("rTel", {
-  required: true, ranges:[[200000,8999999],[900000000,999999998]], minlength:6, maxlength:9,
-});
-*/
+ });
+ jQuery.validator.addClassRules("rDig1-11", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,11], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-12", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,12], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-13", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,13], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-14", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,14], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-15", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,15], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-16", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,16], [99] ],
+ });
+ jQuery.validator.addClassRules("rDig1-19", {
+   required: true, maxlength: 4, enteros: true, range: [1,19],
+ });
+ jQuery.validator.addClassRules("rDia", {
+   required: true, exactlength: 2, enteros: true, ranges: [ [1,31], [9999] ],
+ });
+ jQuery.validator.addClassRules("rMes", {
+   required: true, exactlength: 2, enteros: true, ranges: [ [1,12], [9999] ],
+ });
+ jQuery.validator.addClassRules("rAno", {
+   required: true, exactlength: 4, enteros: true, ranges: [ [2013,2014], [9999] ],
+ });
+ jQuery.validator.addClassRules("rAnos", {
+   required: true, maxlength: 2, enteros: true, range: [0,99],
+ });
+ jQuery.validator.addClassRules("rMeses", {
+   required: true, maxlength: 2, enteros: true, range: [0,11],
+ });
+ jQuery.validator.addClassRules("rDias", {
+   required: true, maxlength: 2, enteros: true, range: [0,29],
+ });
+ jQuery.validator.addClassRules("ruleFecha", {
+   maxlength: 10, fechaLocal: true,
+ });
+ jQuery.validator.addClassRules("ruleHora", {
+   maxlength: 6, horaLocal: true,
+ });
+ jQuery.validator.addClassRules("rReq", {
+   required: true,
+ });
+ jQuery.validator.addClassRules("rEspN", {
+   required: true,
+ });
+ jQuery.validator.addClassRules("rTel", {
+   required: true, ranges:[[200000,8999999],[900000000,999999998]], minlength:6, maxlength:9,
+ });
+
 /*
 * Metodos de validacion
 */
