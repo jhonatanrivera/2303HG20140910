@@ -245,9 +245,14 @@ $("#frmTab3").validate({
 						addRow(cod);/* add Row a las tablas */    				
 						$.each(row,function (fieldName,fieldValue) { 
 							$("#"+fieldName+"-"+cod).val(fieldValue); 
-							if($("#"+fieldName+"-"+cod).hasClass('passTD')){$("#"+fieldName+"-"+cod).trigger('change')};
+							if(!$("#"+fieldName+"-"+cod).prop('disabled') && $("#"+fieldName+"-"+cod).hasClass('setFlujo')){$("#"+fieldName+"-"+cod).trigger('change')};
 						})
 					});
+
+				    setTimeout(function(){
+				        setEspecifiqueTD();
+				    },1000);
+
     		},
 
 		});
