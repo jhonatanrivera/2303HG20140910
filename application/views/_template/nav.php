@@ -40,10 +40,10 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuario <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="<?php  echo base_url('renew'); ?>">Cambiar contraseña</a></li>
-            <?php if($this->session->userdata('role_id') == 1){ ?><li><a href="<?php  echo base_url('registro'); ?>">Registrar</a></li><?php } ?>
+            <li><a href="<?php  echo site_url('renew'); ?>">Cambiar contraseña</a></li>
+            <?php if($this->session->userdata('role_id') == 1){ ?><li><a href="<?php  echo site_url('registro'); ?>">Registrar</a></li><?php } ?>
             <li class="divider"></li>
-            <?php if($this->session->userdata('role_id') == 1){ ?><li><a href="<?php  echo base_url('salir'); ?>">Salir</a></li><?php } ?>
+            <li><a href="<?php  echo site_url('salir'); ?>">Salir</a></li>
           </ul>
         </li>
       </ul>
