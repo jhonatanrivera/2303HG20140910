@@ -15,7 +15,7 @@ $S1_F_48 = array(
 $S1_F_48_A = array(
 						'id' => 'S1_F_48_A',
 						'name' => 'S1_F_48_A',
-						'class' => 'form-control rDig1-8',
+						'class' => 'form-control rDig1-8 rN',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -40,7 +40,7 @@ $S1_F_49_N1_M = array(
 $S1_F_49_N1_A = array(
 						'id' => 'S1_F_49_N1_A',
 						'name' => 'S1_F_49_N1_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -64,7 +64,7 @@ $S1_F_49_N2_M = array(
 $S1_F_49_N2_A = array(
 						'id' => 'S1_F_49_N2_A',
 						'name' => 'S1_F_49_N2_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -88,7 +88,7 @@ $S1_F_49_N3_M = array(
 $S1_F_49_N3_A = array(
 						'id' => 'S1_F_49_N3_A',
 						'name' => 'S1_F_49_N3_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -111,7 +111,7 @@ $S1_F_49_N4_M = array(
 $S1_F_49_N4_A = array(
 						'id' => 'S1_F_49_N4_A',
 						'name' => 'S1_F_49_N4_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -134,7 +134,7 @@ $S1_F_49_N5_M = array(
 $S1_F_49_N5_A = array(
 						'id' => 'S1_F_49_N5_A',
 						'name' => 'S1_F_49_N5_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -157,7 +157,7 @@ $S1_F_49_N6_M = array(
 $S1_F_49_N6_A = array(
 						'id' => 'S1_F_49_N6_A',
 						'name' => 'S1_F_49_N6_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -180,7 +180,7 @@ $S1_F_49_N7_M = array(
 $S1_F_49_N7_A = array(
 						'id' => 'S1_F_49_N7_A',
 						'name' => 'S1_F_49_N7_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -203,7 +203,7 @@ $S1_F_49_N8_M = array(
 $S1_F_49_N8_A = array(
 						'id' => 'S1_F_49_N8_A',
 						'name' => 'S1_F_49_N8_A',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -211,7 +211,7 @@ $S1_F_49_N8_A = array(
 $S1_F_50 = array(
 						'id' => 'S1_F_50',
 						'name' => 'S1_F_50',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setFlujo rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -219,28 +219,28 @@ $S1_F_50 = array(
 $S1_F_50_Me5 = array(
 						'id' => 'S1_F_50_Me5',
 						'name' => 'S1_F_50_Me5',
-						'class' => 'form-control',
+						'class' => 'form-control rN',
 						'align' => 'center',
 					);
 
 $S1_F_50_Me1 = array(
 						'id' => 'S1_F_50_Me1',
 						'name' => 'S1_F_50_Me1',
-						'class' => 'form-control',
+						'class' => 'form-control rN',
 						'align' => 'center',
 					);
 
 $S1_F_50_MG = array(
 						'id' => 'S1_F_50_MG',
 						'name' => 'S1_F_50_MG',
-						'class' => 'form-control',
+						'class' => 'form-control rN',
 						'align' => 'center',
 					);
 
 $S1_F_50_D_A1 = array(
 						'id' => 'S1_F_50_D_A1',
 						'name' => 'S1_F_50_D_A1',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -248,7 +248,7 @@ $S1_F_50_D_A1 = array(
 $S1_F_50_D_A2 = array(
 						'id' => 'S1_F_50_D_A2',
 						'name' => 'S1_F_50_D_A2',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -256,7 +256,7 @@ $S1_F_50_D_A2 = array(
 $S1_F_50_D_A3 = array(
 						'id' => 'S1_F_50_D_A3',
 						'name' => 'S1_F_50_D_A3',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -264,7 +264,7 @@ $S1_F_50_D_A3 = array(
 $S1_F_50_D_A4 = array(
 						'id' => 'S1_F_50_D_A4',
 						'name' => 'S1_F_50_D_A4',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -272,7 +272,7 @@ $S1_F_50_D_A4 = array(
 $S1_F_51_P1_CF = array(
 						'id' => 'S1_F_51_P1_CF',
 						'name' => 'S1_F_51_P1_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -280,7 +280,7 @@ $S1_F_51_P1_CF = array(
 $S1_F_51_P1_AF = array(
 						'id' => 'S1_F_51_P1_AF',
 						'name' => 'S1_F_51_P1_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -289,7 +289,7 @@ $S1_F_51_P1_AF = array(
 $S1_F_51_P1_EF = array(
 						'id' => 'S1_F_51_P1_EF',
 						'name' => 'S1_F_51_P1_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -297,7 +297,7 @@ $S1_F_51_P1_EF = array(
 $S1_F_51_P1_Gest = array(
 						'id' => 'S1_F_51_P1_Gest',
 						'name' => 'S1_F_51_P1_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -305,7 +305,7 @@ $S1_F_51_P1_Gest = array(
 $S1_F_51_P2_CF = array(
 						'id' => 'S1_F_51_P2_CF',
 						'name' => 'S1_F_51_P2_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -313,7 +313,7 @@ $S1_F_51_P2_CF = array(
 $S1_F_51_P2_AF = array(
 						'id' => 'S1_F_51_P2_AF',
 						'name' => 'S1_F_51_P2_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -322,7 +322,7 @@ $S1_F_51_P2_AF = array(
 $S1_F_51_P2_EF = array(
 						'id' => 'S1_F_51_P2_EF',
 						'name' => 'S1_F_51_P2_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -330,7 +330,7 @@ $S1_F_51_P2_EF = array(
 $S1_F_51_P2_Gest = array(
 						'id' => 'S1_F_51_P2_Gest',
 						'name' => 'S1_F_51_P2_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -338,7 +338,7 @@ $S1_F_51_P2_Gest = array(
 $S1_F_51_P3_CF = array(
 						'id' => 'S1_F_51_P3_CF',
 						'name' => 'S1_F_51_P3_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -346,7 +346,7 @@ $S1_F_51_P3_CF = array(
 $S1_F_51_P3_AF = array(
 						'id' => 'S1_F_51_P3_AF',
 						'name' => 'S1_F_51_P3_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -355,7 +355,7 @@ $S1_F_51_P3_AF = array(
 $S1_F_51_P3_EF = array(
 						'id' => 'S1_F_51_P3_EF',
 						'name' => 'S1_F_51_P3_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -363,7 +363,7 @@ $S1_F_51_P3_EF = array(
 $S1_F_51_P3_Gest = array(
 						'id' => 'S1_F_51_P3_Gest',
 						'name' => 'S1_F_51_P3_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -371,7 +371,7 @@ $S1_F_51_P3_Gest = array(
 $S1_F_51_P4_CF = array(
 						'id' => 'S1_F_51_P4_CF',
 						'name' => 'S1_F_51_P4_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -379,7 +379,7 @@ $S1_F_51_P4_CF = array(
 $S1_F_51_P4_AF = array(
 						'id' => 'S1_F_51_P4_AF',
 						'name' => 'S1_F_51_P4_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -388,7 +388,7 @@ $S1_F_51_P4_AF = array(
 $S1_F_51_P4_EF = array(
 						'id' => 'S1_F_51_P4_EF',
 						'name' => 'S1_F_51_P4_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -396,7 +396,7 @@ $S1_F_51_P4_EF = array(
 $S1_F_51_P4_Gest = array(
 						'id' => 'S1_F_51_P4_Gest',
 						'name' => 'S1_F_51_P4_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -404,7 +404,7 @@ $S1_F_51_P4_Gest = array(
 $S1_F_51_P5_CF = array(
 						'id' => 'S1_F_51_P5_CF',
 						'name' => 'S1_F_51_P5_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -412,7 +412,7 @@ $S1_F_51_P5_CF = array(
 $S1_F_51_P5_AF = array(
 						'id' => 'S1_F_51_P5_AF',
 						'name' => 'S1_F_51_P5_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -421,7 +421,7 @@ $S1_F_51_P5_AF = array(
 $S1_F_51_P5_EF = array(
 						'id' => 'S1_F_51_P5_EF',
 						'name' => 'S1_F_51_P5_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -429,7 +429,7 @@ $S1_F_51_P5_EF = array(
 $S1_F_51_P5_Gest = array(
 						'id' => 'S1_F_51_P5_Gest',
 						'name' => 'S1_F_51_P5_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -437,7 +437,7 @@ $S1_F_51_P5_Gest = array(
 $S1_F_51_P6_CF = array(
 						'id' => 'S1_F_51_P6_CF',
 						'name' => 'S1_F_51_P6_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -445,7 +445,7 @@ $S1_F_51_P6_CF = array(
 $S1_F_51_P6_AF = array(
 						'id' => 'S1_F_51_P6_AF',
 						'name' => 'S1_F_51_P6_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -454,7 +454,7 @@ $S1_F_51_P6_AF = array(
 $S1_F_51_P6_EF = array(
 						'id' => 'S1_F_51_P6_EF',
 						'name' => 'S1_F_51_P6_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -462,7 +462,7 @@ $S1_F_51_P6_EF = array(
 $S1_F_51_P6_Gest = array(
 						'id' => 'S1_F_51_P6_Gest',
 						'name' => 'S1_F_51_P6_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -470,7 +470,7 @@ $S1_F_51_P6_Gest = array(
 $S1_F_51_P7_CF = array(
 						'id' => 'S1_F_51_P7_CF',
 						'name' => 'S1_F_51_P7_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -478,7 +478,7 @@ $S1_F_51_P7_CF = array(
 $S1_F_51_P7_AF = array(
 						'id' => 'S1_F_51_P7_AF',
 						'name' => 'S1_F_51_P7_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -487,7 +487,7 @@ $S1_F_51_P7_AF = array(
 $S1_F_51_P7_EF = array(
 						'id' => 'S1_F_51_P7_EF',
 						'name' => 'S1_F_51_P7_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -495,7 +495,7 @@ $S1_F_51_P7_EF = array(
 $S1_F_51_P7_Gest = array(
 						'id' => 'S1_F_51_P7_Gest',
 						'name' => 'S1_F_51_P7_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -503,7 +503,7 @@ $S1_F_51_P7_Gest = array(
 $S1_F_51_P8_CF = array(
 						'id' => 'S1_F_51_P8_CF',
 						'name' => 'S1_F_51_P8_CF',
-						'class' => 'form-control',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '30',
 					);
@@ -511,7 +511,7 @@ $S1_F_51_P8_CF = array(
 $S1_F_51_P8_AF = array(
 						'id' => 'S1_F_51_P8_AF',
 						'name' => 'S1_F_51_P8_AF',
-						'class' => 'form-control',
+						'class' => 'form-control rAno rNotReq',
 						'align' => 'center',
 						'maxlength' => '4',
 					);
@@ -520,7 +520,7 @@ $S1_F_51_P8_AF = array(
 $S1_F_51_P8_EF = array(
 						'id' => 'S1_F_51_P8_EF',
 						'name' => 'S1_F_51_P8_EF',
-						'class' => 'form-control',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '3',
 					);
@@ -528,7 +528,7 @@ $S1_F_51_P8_EF = array(
 $S1_F_51_P8_Gest = array(
 						'id' => 'S1_F_51_P8_Gest',
 						'name' => 'S1_F_51_P8_Gest',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -548,7 +548,7 @@ $S1_F_OBS = array(
 $S1_G_52 = array(
 						'id' => 'S1_G_52',
 						'name' => 'S1_G_52',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-8',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,8,1)'
@@ -569,7 +569,7 @@ $S1_G_52_O = array(
 $S1_G_53 = array(
 						'id' => 'S1_G_53',
 						'name' => 'S1_G_53',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-7',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,7,1)',
@@ -590,7 +590,7 @@ $S1_G_53_O = array(
 $S1_G_54 = array(
 						'id' => 'S1_G_54',
 						'name' => 'S1_G_54',
-						'class' => 'form-control',
+						'class' => 'form-control rN',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -599,7 +599,7 @@ $S1_G_54 = array(
 $S1_G_55 = array(
 						'id' => 'S1_G_55',
 						'name' => 'S1_G_55',
-						'class' => 'form-control',
+						'class' => 'form-control rN',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
@@ -608,7 +608,7 @@ $S1_G_55 = array(
 $S1_G_56 = array(
 						'id' => 'S1_G_56',
 						'name' => 'S1_G_56',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-7',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,7,1)',
@@ -629,7 +629,7 @@ $S1_G_56_O = array(
 $S1_G_57 = array(
 						'id' => 'S1_G_57',
 						'name' => 'S1_G_57',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-7',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,7,1)',
@@ -650,7 +650,7 @@ $S1_G_57_O = array(
 $S1_G_58 = array(
 						'id' => 'S1_G_58',
 						'name' => 'S1_G_58',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-8',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,8,1)',
@@ -671,7 +671,7 @@ $S1_G_58_O = array(
 $S1_G_59 = array(
 						'id' => 'S1_G_59',
 						'name' => 'S1_G_59',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-9',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,9,1)',
@@ -692,7 +692,7 @@ $S1_G_59_O = array(
 $S1_G_60_1 = array(
 						'id' => 'S1_G_60_1',
 						'name' => 'S1_G_60_1',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -701,7 +701,7 @@ $S1_G_60_1 = array(
 $S1_G_60_2 = array(
 						'id' => 'S1_G_60_2',
 						'name' => 'S1_G_60_2',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -710,7 +710,7 @@ $S1_G_60_2 = array(
 $S1_G_60_3 = array(
 						'id' => 'S1_G_60_3',
 						'name' => 'S1_G_60_3',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -719,7 +719,7 @@ $S1_G_60_3 = array(
 $S1_G_60_4 = array(
 						'id' => 'S1_G_60_4',
 						'name' => 'S1_G_60_4',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -728,7 +728,7 @@ $S1_G_60_4 = array(
 $S1_G_60_5 = array(
 						'id' => 'S1_G_60_5',
 						'name' => 'S1_G_60_5',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -737,7 +737,7 @@ $S1_G_60_5 = array(
 $S1_G_60_6 = array(
 						'id' => 'S1_G_60_6',
 						'name' => 'S1_G_60_6',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -746,7 +746,7 @@ $S1_G_60_6 = array(
 $S1_G_60_7 = array(
 						'id' => 'S1_G_60_7',
 						'name' => 'S1_G_60_7',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -774,7 +774,7 @@ $S1_G_60A = array(
 $S1_G_61_1 = array(
 						'id' => 'S1_G_61_1',
 						'name' => 'S1_G_61_1',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -782,14 +782,14 @@ $S1_G_61_1 = array(
 $S1_G_61_2 = array(
 						'id' => 'S1_G_61_2',
 						'name' => 'S1_G_61_2',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 					);
 
 $S1_G_61_3 = array(
 						'id' => 'S1_G_61_3',
 						'name' => 'S1_G_61_3',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -797,7 +797,7 @@ $S1_G_61_3 = array(
 $S1_G_61_4 = array(
 						'id' => 'S1_G_61_4',
 						'name' => 'S1_G_61_4',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 setEspecificar rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -816,7 +816,7 @@ $S1_G_61_4_O = array(
 $S1_G_62 = array(
 						'id' => 'S1_G_62',
 						'name' => 'S1_G_62',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-8',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,8,1)',
@@ -835,7 +835,7 @@ $S1_G_62_O = array(
 $S1_G_63_1 = array(
 						'id' => 'S1_G_63_1',
 						'name' => 'S1_G_63_1',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -843,7 +843,7 @@ $S1_G_63_1 = array(
 $S1_G_63_2 = array(
 						'id' => 'S1_G_63_2',
 						'name' => 'S1_G_63_2',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -851,7 +851,7 @@ $S1_G_63_2 = array(
 $S1_G_63_3 = array(
 						'id' => 'S1_G_63_3',
 						'name' => 'S1_G_63_3',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -859,7 +859,7 @@ $S1_G_63_3 = array(
 $S1_G_63_4 = array(
 						'id' => 'S1_G_63_4',
 						'name' => 'S1_G_63_4',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -867,7 +867,7 @@ $S1_G_63_4 = array(
 $S1_G_63_5 = array(
 						'id' => 'S1_G_63_5',
 						'name' => 'S1_G_63_5',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -875,7 +875,7 @@ $S1_G_63_5 = array(
 $S1_G_63_6 = array(
 						'id' => 'S1_G_63_6',
 						'name' => 'S1_G_63_6',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -883,7 +883,7 @@ $S1_G_63_6 = array(
 $S1_G_63_7 = array(
 						'id' => 'S1_G_63_7',
 						'name' => 'S1_G_63_7',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -891,7 +891,7 @@ $S1_G_63_7 = array(
 $S1_G_63_8 = array(
 						'id' => 'S1_G_63_8',
 						'name' => 'S1_G_63_8',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 setEspecificar rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -910,7 +910,7 @@ $S1_G_63_8_O = array(
 $S1_G_64 = array(
 						'id' => 'S1_G_64',
 						'name' => 'S1_G_64',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-7',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,6,1)',
@@ -929,7 +929,7 @@ $S1_G_64_O = array(
 $S1_G_65 = array(
 						'id' => 'S1_G_65',
 						'name' => 'S1_G_65',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-6',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,6,1)',
@@ -948,7 +948,7 @@ $S1_G_65_O = array(
 $S1_G_66 = array(
 						'id' => 'S1_G_66',
 						'name' => 'S1_G_66',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-17',
 						'align' => 'center',
 						'maxlength' => '2',
 						'onchange' => 'setEspecificar(this,[4,13],1)',
@@ -967,7 +967,7 @@ $S1_G_66_O = array(
 $S1_G_67 = array(
 						'id' => 'S1_G_67',
 						'name' => 'S1_G_67',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-6',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,6,1)',
@@ -986,7 +986,7 @@ $S1_G_67_O = array(
 $S1_G_68 = array(
 						'id' => 'S1_G_68',
 						'name' => 'S1_G_68',
-						'class' => 'form-control setEspecificar',
+						'class' => 'form-control setEspecificar rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -995,7 +995,7 @@ $S1_G_68 = array(
 $S1_G_68A = array(
 						'id' => 'S1_G_68A',
 						'name' => 'S1_G_68A',
-						'class' => 'form-control spec',
+						'class' => 'form-control spec rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 						'disabled' => 'disabled',
@@ -1004,7 +1004,7 @@ $S1_G_68A = array(
 $S1_G_69 = array(
 						'id' => 'S1_G_69',
 						'name' => 'S1_G_69',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setFlujo rDig1-10',
 						'align' => 'center',
 						'maxlength' => '2',
 						'onchange' => 'setFlujo(this,[1,2,10],2),setEspecificar(this,9,1)',
@@ -1023,7 +1023,7 @@ $S1_G_69_O = array(
 $S1_G_70 = array(
 						'id' => 'S1_G_70',
 						'name' => 'S1_G_70',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1031,7 +1031,7 @@ $S1_G_70 = array(
 $S1_G_71_1 = array(
 						'id' => 'S1_G_71_1',
 						'name' => 'S1_G_71_1',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1039,7 +1039,7 @@ $S1_G_71_1 = array(
 $S1_G_71_2 = array(
 						'id' => 'S1_G_71_2',
 						'name' => 'S1_G_71_2',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1047,7 +1047,7 @@ $S1_G_71_2 = array(
 $S1_G_71_3 = array(
 						'id' => 'S1_G_71_3',
 						'name' => 'S1_G_71_3',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1055,7 +1055,7 @@ $S1_G_71_3 = array(
 $S1_G_71_4 = array(
 						'id' => 'S1_G_71_4',
 						'name' => 'S1_G_71_4',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1063,7 +1063,7 @@ $S1_G_71_4 = array(
 $S1_G_71_5 = array(
 						'id' => 'S1_G_71_5',
 						'name' => 'S1_G_71_5',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1071,7 +1071,7 @@ $S1_G_71_5 = array(
 $S1_G_72_1 = array(
 						'id' => 'S1_G_72_1',
 						'name' => 'S1_G_72_1',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1079,7 +1079,7 @@ $S1_G_72_1 = array(
 $S1_G_72_2 = array(
 						'id' => 'S1_G_72_2',
 						'name' => 'S1_G_72_2',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1087,7 +1087,7 @@ $S1_G_72_2 = array(
 $S1_G_72_3 = array(
 						'id' => 'S1_G_72_3',
 						'name' => 'S1_G_72_3',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1095,7 +1095,7 @@ $S1_G_72_3 = array(
 $S1_G_72_4 = array(
 						'id' => 'S1_G_72_4',
 						'name' => 'S1_G_72_4',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1103,7 +1103,7 @@ $S1_G_72_4 = array(
 $S1_G_72_5 = array(
 						'id' => 'S1_G_72_5',
 						'name' => 'S1_G_72_5',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1111,7 +1111,7 @@ $S1_G_72_5 = array(
 $S1_G_72_6 = array(
 						'id' => 'S1_G_72_6',
 						'name' => 'S1_G_72_6',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1119,7 +1119,7 @@ $S1_G_72_6 = array(
 $S1_G_72_7 = array(
 						'id' => 'S1_G_72_7',
 						'name' => 'S1_G_72_7',
-						'class' => 'form-control',
+						'class' => 'form-control rBin',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -1139,9 +1139,10 @@ $S1_G_OBS = array(
 $S1_H_73_APAF = array(
 						'id' => 'S1_H_73_APAF',
 						'name' => 'S1_H_73_APAF',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_APAF_CI_1 = array(
@@ -1236,17 +1237,18 @@ $S1_H_73_APAF_Qui_3 = array(
 $S1_H_73_APAF_Prob = array(
 						'id' => 'S1_H_73_APAF_Prob',
 						'name' => 'S1_H_73_APAF_Prob',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_VASLE = array(
 						'id' => 'S1_H_73_VASLE',
 						'name' => 'S1_H_73_VASLE',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_VASLE_CI_1 = array(
@@ -1343,15 +1345,16 @@ $S1_H_73_VASLE_Prob = array(
 						'name' => 'S1_H_73_VASLE_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_COMPO = array(
 						'id' => 'S1_H_73_COMPO',
 						'name' => 'S1_H_73_COMPO',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_COMPO_CI_1 = array(
@@ -1448,15 +1451,16 @@ $S1_H_73_COMPO_Prob = array(
 						'name' => 'S1_H_73_COMPO_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_CLUBM = array(
 						'id' => 'S1_H_73_CLUBM',
 						'name' => 'S1_H_73_CLUBM',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_CLUBM_CI_1 = array(
@@ -1553,15 +1557,16 @@ $S1_H_73_CLUBM_Prob = array(
 						'name' => 'S1_H_73_CLUBM_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_COMVE = array(
 						'id' => 'S1_H_73_COMVE',
 						'name' => 'S1_H_73_COMVE',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_COMVE_CI_1 = array(
@@ -1658,17 +1663,16 @@ $S1_H_73_COMVE_Prob = array(
 						'name' => 'S1_H_73_COMVE_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_ORGVE = array(
 						'id' => 'S1_H_73_ORGVE',
 						'name' => 'S1_H_73_ORGVE',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-
-
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGVE_O = array(
@@ -1774,15 +1778,16 @@ $S1_H_73_ORGVE_Prob = array(
 						'name' => 'S1_H_73_ORGVE_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_ORGRE = array(
 						'id' => 'S1_H_73_ORGRE',
 						'name' => 'S1_H_73_ORGRE',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGRE_O = array(
@@ -1888,15 +1893,16 @@ $S1_H_73_ORGRE_Prob = array(
 						'name' => 'S1_H_73_ORGRE_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_ORGDE = array(
 						'id' => 'S1_H_73_ORGDE',
 						'name' => 'S1_H_73_ORGDE',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGDE_O = array(
@@ -2002,15 +2008,16 @@ $S1_H_73_ORGDE_Prob = array(
 						'name' => 'S1_H_73_ORGDE_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_ORGCU = array(
 						'id' => 'S1_H_73_ORGCU',
 						'name' => 'S1_H_73_ORGCU',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGCU_O = array(
@@ -2116,16 +2123,16 @@ $S1_H_73_ORGCU_Prob = array(
 						'name' => 'S1_H_73_ORGCU_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_73_ORGEC = array(
 						'id' => 'S1_H_73_ORGEC',
 						'name' => 'S1_H_73_ORGEC',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGEC_O = array(
@@ -2241,17 +2248,17 @@ $S1_H_73_ORGEC_Prob = array(
 						'name' => 'S1_H_73_ORGEC_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 
 					);
 
 $S1_H_73_ORGSO = array(
 						'id' => 'S1_H_73_ORGSO',
 						'name' => 'S1_H_73_ORGSO',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
-
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_ORGSO_O = array(
@@ -2367,16 +2374,17 @@ $S1_H_73_ORGSO_Prob = array(
 						'name' => 'S1_H_73_ORGSO_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 
 					);
 
 $S1_H_73_OTRORG = array(
 						'id' => 'S1_H_73_OTRORG',
 						'name' => 'S1_H_73_OTRORG',
-						'class' => 'form-control',
+						'class' => 'form-control setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
+						'onchange' => 'set73(this)',
 					);
 
 $S1_H_73_OTRORG_O = array(
@@ -2482,7 +2490,7 @@ $S1_H_73_OTRORG_Prob = array(
 						'name' => 'S1_H_73_OTRORG_Prob',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '30',
+						'maxlength' => '100',
 					);
 
 $S1_H_OBS = array(
@@ -2500,7 +2508,7 @@ $S1_H_OBS = array(
 $S1_I_74_Pan = array(
 						'id' => 'S1_I_74_Pan',
 						'name' => 'S1_I_74_Pan',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2508,7 +2516,7 @@ $S1_I_74_Pan = array(
 $S1_I_74_Rob = array(
 						'id' => 'S1_I_74_Rob',
 						'name' => 'S1_I_74_Rob',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2516,7 +2524,7 @@ $S1_I_74_Rob = array(
 $S1_I_74_Alco = array(
 						'id' => 'S1_I_74_Alco',
 						'name' => 'S1_I_74_Alco',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2524,7 +2532,7 @@ $S1_I_74_Alco = array(
 $S1_I_74_ViolFam = array(
 						'id' => 'S1_I_74_ViolFam',
 						'name' => 'S1_I_74_ViolFam',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2532,7 +2540,7 @@ $S1_I_74_ViolFam = array(
 $S1_I_74_ConsDrog = array(
 						'id' => 'S1_I_74_ConsDrog',
 						'name' => 'S1_I_74_ConsDrog',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2540,7 +2548,7 @@ $S1_I_74_ConsDrog = array(
 $S1_I_74_TrabInf = array(
 						'id' => 'S1_I_74_TrabInf',
 						'name' => 'S1_I_74_TrabInf',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2548,7 +2556,7 @@ $S1_I_74_TrabInf = array(
 $S1_I_74_Prost = array(
 						'id' => 'S1_I_74_Prost',
 						'name' => 'S1_I_74_Prost',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2556,7 +2564,7 @@ $S1_I_74_Prost = array(
 $S1_I_74_CongVeh = array(
 						'id' => 'S1_I_74_CongVeh',
 						'name' => 'S1_I_74_CongVeh',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-2',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2566,7 +2574,7 @@ $S1_I_75_Prob1 = array(
 						'name' => 'S1_I_75_Prob1',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_75_Prob2 = array(
@@ -2574,7 +2582,7 @@ $S1_I_75_Prob2 = array(
 						'name' => 'S1_I_75_Prob2',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_75_Prob3 = array(
@@ -2582,7 +2590,7 @@ $S1_I_75_Prob3 = array(
 						'name' => 'S1_I_75_Prob3',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_76_Oport_1 = array(
@@ -2590,7 +2598,7 @@ $S1_I_76_Oport_1 = array(
 						'name' => 'S1_I_76_Oport_1',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_76_Oport_2 = array(
@@ -2598,7 +2606,7 @@ $S1_I_76_Oport_2 = array(
 						'name' => 'S1_I_76_Oport_2',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_76_Oport_3 = array(
@@ -2606,13 +2614,13 @@ $S1_I_76_Oport_3 = array(
 						'name' => 'S1_I_76_Oport_3',
 						'class' => 'form-control',
 						'align' => 'center',
-						'maxlength' => '50',
+						'maxlength' => '100',
 					);
 
 $S1_I_77 = array(
 						'id' => 'S1_I_77',
 						'name' => 'S1_I_77',
-						'class' => 'form-control',
+						'class' => 'form-control rDig1-4',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2633,7 +2641,7 @@ $S1_I_OBS = array(
 $S1_J_78 = array(
 						'id' => 'S1_J_78',
 						'name' => 'S1_J_78',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setFlujo rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -2697,7 +2705,7 @@ $S1_J_80_Suge_3 = array(
 $S1_J_81 = array(
 						'id' => 'S1_J_81',
 						'name' => 'S1_J_81',
-						'class' => 'form-control setFlujo',
+						'class' => 'form-control setFlujo rDig1-2 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setFlujo(this,2,3)',

@@ -145,7 +145,7 @@ $TIPVIA = array(
 						'name' => 'TIPVIA',
 						'class' => 'form-control wd-inner-30 rDig1-7 setEspecificar',
 						'align' => 'center',
-						'onchange'=>"setEspecificar(this,7)",
+						'onchange'=>"setEspecificar(this,7,1)",
 						'maxlength'=>'1',
 					);
 $TIPVIA_O = array(
@@ -194,7 +194,7 @@ $NOM_PER = array(
 $TELEF = array(
 						'id' => 'TELEF',
 						'name' => 'TELEF',
-						'class' => 'form-control rTel',
+						'class' => 'form-control rTel rNotReq',
 						'align' => 'center',
 						'maxlength'=>'9',
 					);
@@ -293,15 +293,15 @@ if($this->session->flashdata('NUM_VIV_new')){
 				</tr>
 				<tr>
 					<td><label for="NOM_CCPP">Centro Poblado</label></td>
-					<td><?php echo form_dropdown('NOM_CCPP',$CCPP,$CCPP_sel,'class="form-control"'); ?> </td>
+					<td><?php echo form_dropdown('NOM_CCPP',$CCPP,$CCPP_sel,'class="form-control" id="NOM_CCPP"'); ?> </td>
 				</tr>
 				<tr>
 					<td><label for="NOM_NNUU">Nucleo</label></td>
-					<td><?php echo form_dropdown('NOM_NNUU',$NUCLEO,$NUCLEO_sel,'class="form-control"'); ?></td>
+					<td><?php echo form_dropdown('NOM_NNUU',$NUCLEO,$NUCLEO_sel,'class="form-control" id="NOM_NNUU"'); ?></td>
 				</tr>
 				<tr>
 					<td><label for="NOM_ZZCC">Zona Censal</label></td>
-					<td><?php echo form_dropdown('NOM_ZZCC',$ZONA,$ZONA_sel,'class="form-control"'); ?></td>
+					<td><?php echo form_dropdown('NOM_ZZCC',$ZONA,$ZONA_sel,'class="form-control" id="NOM_ZZCC"'); ?></td>
 				</tr>
 				<tr>
 					<td><label for="NOM_MZCE">Mz. Censal</label></td>

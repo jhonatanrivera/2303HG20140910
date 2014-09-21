@@ -1,6 +1,10 @@
 <?php
-
-
+$unidades['ha'] = 'HECTÁREA';
+$unidades['m2'] = 'METROS CUADRADOS';
+$unidades['kg'] = 'KILOGRAMO';
+$unidades['cabeza'] = 'CABEZA';
+$unidades['L'] = 'LITRO';
+$unidades['doc.'] = 'DOCENA';
 /*****************SECCIÓN 2: INFORMACIÓN AGROPECUARIA*********************/
 
 /******************PARTE A: AGRICULTURA *******************************/
@@ -8,7 +12,7 @@
 $S2_A_NomProd = array(
 						'id' => 'S2_A_NomProd',
 						'name' => 'S2_A_NomProd',
-						'class' => 'form-control rA',
+						'class' => 'form-control rA rNotReq',
 						'align' => 'center',
 						'maxlength' => '60',
 					);
@@ -16,14 +20,14 @@ $S2_A_NomProd = array(
 $S2_A_CodInfor = array(
 						'id' => 'S2_A_CodInfor',
 						'name' => 'S2_A_CodInfor',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '2',
 					);
 $S2_A_84 = array(
 						'id' => 'S2_A_84',
 						'name' => 'S2_A_84',
-						'class' => 'form-control rDig1-5',
+						'class' => 'form-control rDig1-5 setFlujo',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -55,7 +59,7 @@ $S2_A_86 = array(
 $S2_A_87_Parc_1_Cant = array(
 						'id' => 'S2_A_87_Parc_1_Cant',
 						'name' => 'S2_A_87_Parc_1_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -63,7 +67,7 @@ $S2_A_87_Parc_1_Cant = array(
 $S2_A_87_Parc_1_Unid = array(
 						'id' => 'S2_A_87_Parc_1_Unid',
 						'name' => 'S2_A_87_Parc_1_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -89,7 +93,7 @@ $S2_A_87_Parc_1_Reg_O = array(
 $S2_A_87_Parc_1_Adqui = array(
 						'id' => 'S2_A_87_Parc_1_Adqui',
 						'name' => 'S2_A_87_Parc_1_Adqui',
-						'class' => 'form-control rDig1-3',
+						'class' => 'form-control rDig1-3 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -97,14 +101,14 @@ $S2_A_87_Parc_1_Adqui = array(
 $S2_A_87_Parc_2_Cant = array(
 						'id' => 'S2_A_87_Parc_2_Cant',
 						'name' => 'S2_A_87_Parc_2_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
 $S2_A_87_Parc_2_Unid = array(
 						'id' => 'S2_A_87_Parc_2_Unid',
 						'name' => 'S2_A_87_Parc_2_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -120,7 +124,7 @@ $S2_A_87_Parc_2_Reg = array(
 $S2_A_87_Parc_2_Reg_O = array(
 						'id' => 'S2_A_87_Parc_2_Reg_O',
 						'name' => 'S2_A_87_Parc_2_Reg_O',
-						'class' => 'form-control wd-inner-70 rAN spec',
+						'class' => 'form-control wd-inner-70 rAN rNotReq spec',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -130,14 +134,14 @@ $S2_A_87_Parc_2_Reg_O = array(
 $S2_A_87_Parc_2_Adqui = array(
 						'id' => 'S2_A_87_Parc_2_Adqui',
 						'name' => 'S2_A_87_Parc_2_Adqui',
-						'class' => 'form-control rDig1-3',
+						'class' => 'form-control rDig1-3 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
 $S2_A_87_Parc_3_Cant = array(
 						'id' => 'S2_A_87_Parc_3_Cant',
 						'name' => 'S2_A_87_Parc_3_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -145,14 +149,14 @@ $S2_A_87_Parc_3_Cant = array(
 $S2_A_87_Parc_3_Unid = array(
 						'id' => 'S2_A_87_Parc_3_Unid',
 						'name' => 'S2_A_87_Parc_3_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
 $S2_A_87_Parc_3_Reg = array(
 						'id' => 'S2_A_87_Parc_3_Reg',
 						'name' => 'S2_A_87_Parc_3_Reg',
-						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5',
+						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -171,7 +175,7 @@ $S2_A_87_Parc_3_Reg_O = array(
 $S2_A_87_Parc_3_Adqui = array(
 						'id' => 'S2_A_87_Parc_3_Adqui',
 						'name' => 'S2_A_87_Parc_3_Adqui',
-						'class' => 'form-control rDig1-3',
+						'class' => 'form-control rDig1-3 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
@@ -179,14 +183,14 @@ $S2_A_87_Parc_3_Adqui = array(
 $S2_A_87_Parc_4_Cant = array(
 						'id' => 'S2_A_87_Parc_4_Cant',
 						'name' => 'S2_A_87_Parc_4_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
 $S2_A_87_Parc_4_Unid = array(
 						'id' => 'S2_A_87_Parc_4_Unid',
 						'name' => 'S2_A_87_Parc_4_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -194,7 +198,7 @@ $S2_A_87_Parc_4_Unid = array(
 $S2_A_87_Parc_4_Reg = array(
 						'id' => 'S2_A_87_Parc_4_Reg',
 						'name' => 'S2_A_87_Parc_4_Reg',
-						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5',
+						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -202,7 +206,7 @@ $S2_A_87_Parc_4_Reg = array(
 $S2_A_87_Parc_4_Reg_O = array(
 						'id' => 'S2_A_87_Parc_4_Reg_O',
 						'name' => 'S2_A_87_Parc_4_Reg_O',
-						'class' => 'form-control wd-inner-70 spec rAN',
+						'class' => 'form-control wd-inner-70 spec rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -212,14 +216,14 @@ $S2_A_87_Parc_4_Reg_O = array(
 $S2_A_87_Parc_4_Adqui = array(
 						'id' => 'S2_A_87_Parc_4_Adqui',
 						'name' => 'S2_A_87_Parc_4_Adqui',
-						'class' => 'form-control rDig1-3',
+						'class' => 'form-control rDig1-3 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
 $S2_A_87_Parc_5_Cant = array(
 						'id' => 'S2_A_87_Parc_5_Cant',
 						'name' => 'S2_A_87_Parc_5_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -227,14 +231,14 @@ $S2_A_87_Parc_5_Cant = array(
 $S2_A_87_Parc_5_Unid = array(
 						'id' => 'S2_A_87_Parc_5_Unid',
 						'name' => 'S2_A_87_Parc_5_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
 $S2_A_87_Parc_5_Reg = array(
 						'id' => 'S2_A_87_Parc_5_Reg',
 						'name' => 'S2_A_87_Parc_5_Reg',
-						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5',
+						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -243,7 +247,7 @@ $S2_A_87_Parc_5_Reg = array(
 $S2_A_87_Parc_5_Reg_O = array(
 						'id' => 'S2_A_87_Parc_5_Reg_O',
 						'name' => 'S2_A_87_Parc_5_Reg_O',
-						'class' => 'form-control wd-inner-70 spec rAN',
+						'class' => 'form-control wd-inner-70 spec rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -260,14 +264,14 @@ $S2_A_87_Parc_5_Adqui = array(
 $S2_A_87_Parc_6_Cant = array(
 						'id' => 'S2_A_87_Parc_6_Cant',
 						'name' => 'S2_A_87_Parc_6_Cant',
-						'class' => 'form-control rN',
+						'class' => 'form-control rN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
 $S2_A_87_Parc_6_Unid = array(
 						'id' => 'S2_A_87_Parc_6_Unid',
 						'name' => 'S2_A_87_Parc_6_Unid',
-						'class' => 'form-control rAN',
+						'class' => 'form-control rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '6',
 					);
@@ -275,7 +279,7 @@ $S2_A_87_Parc_6_Unid = array(
 $S2_A_87_Parc_6_Reg = array(
 						'id' => 'S2_A_87_Parc_6_Reg',
 						'name' => 'S2_A_87_Parc_6_Reg',
-						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5',
+						'class' => 'form-control wd-inner-20 setEspecificar rDig1-5 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 						'onchange' => 'setEspecificar(this,1,1)',
@@ -283,7 +287,7 @@ $S2_A_87_Parc_6_Reg = array(
 $S2_A_87_Parc_6_Reg_O = array(
 						'id' => 'S2_A_87_Parc_6_Reg_O',
 						'name' => 'S2_A_87_Parc_6_Reg_O',
-						'class' => 'form-control wd-inner-70 spec rAN',
+						'class' => 'form-control wd-inner-70 spec rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '50',
 						'placeholder' => 'Especifique',
@@ -293,17 +297,18 @@ $S2_A_87_Parc_6_Reg_O = array(
 $S2_A_87_Parc_6_Adqui = array(
 						'id' => 'S2_A_87_Parc_6_Adqui',
 						'name' => 'S2_A_87_Parc_6_Adqui',
-						'class' => 'form-control rDig1-3',
+						'class' => 'form-control rDig1-3 rNotReq',
 						'align' => 'center',
 						'maxlength' => '1',
 					);
 $S2_A_OBS_1 = array(
 						'id' => 'S2_A_OBS_1',
 						'name' => 'S2_A_OBS_1',
-						'class' => 'form-control spec rAN',
+						'class' => 'form-control spec rAN rNotReq',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows' => '2',
 					);
 					
 $S2_A_88_TipCulti_Parc1_1 = array(
@@ -3429,8 +3434,7 @@ $S2_A_Especificar = array(
 						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '100',
-						'placeholder' => 'ESPECIFICAR OTROS GASTOS:'
-
+						'placeholder' => 'ESPECIFICAR OTROS GASTOS:',
 					);
 
 
@@ -3440,7 +3444,8 @@ $S2_A_OBS = array(
 						'class' => 'form-control spec',
 						'align' => 'center',
 						'maxlength' => '500',
-						'placeholder' => 'OBSERVACIONES:'
+						'placeholder' => 'OBSERVACIONES:',
+						'rows'=> '2',
 
 					);
 
@@ -3538,7 +3543,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>1</td>
 					<td><?php echo form_input($S2_A_87_Parc_1_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_1_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_1_Unid',$unidades,null,'id="S2_A_87_Parc_1_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_1_Reg); ?> <?php echo form_input($S2_A_87_Parc_1_Reg_O); ?> </td>
 					<!--<td><?php //echo form_input($S2_A_87_Parc_1_Reg_O); ?> </td> -->
 					<td><?php echo form_input($S2_A_87_Parc_1_Adqui); ?> </td>
@@ -3546,7 +3551,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>2</td>
 					<td><?php echo form_input($S2_A_87_Parc_2_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_2_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_2_Unid',$unidades,null,'id="S2_A_87_Parc_2_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_2_Reg); ?> <?php echo form_input($S2_A_87_Parc_2_Reg_O); ?></td>
 					<!--<td><?php // echo form_input($S2_A_87_Parc_2_Reg_O); ?> </td>-->
 					<td><?php echo form_input($S2_A_87_Parc_2_Adqui); ?> </td>
@@ -3554,7 +3559,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>3</td>
 					<td><?php echo form_input($S2_A_87_Parc_3_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_3_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_3_Unid',$unidades,null,'id="S2_A_87_Parc_3_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_3_Reg); ?> <?php echo form_input($S2_A_87_Parc_3_Reg_O); ?></td>
 					<!--<td><?php // echo form_input($S2_A_87_Parc_3_Reg_O); ?> </td>-->
 					<td><?php echo form_input($S2_A_87_Parc_3_Adqui); ?> </td>
@@ -3562,7 +3567,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>4</td>
 					<td><?php echo form_input($S2_A_87_Parc_4_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_4_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_4_Unid',$unidades,null,'id="S2_A_87_Parc_4_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_4_Reg); ?> <?php echo form_input($S2_A_87_Parc_4_Reg_O); ?></td>
 					<!--<td><?php // echo form_input($S2_A_87_Parc_4_Reg_O); ?> </td>-->
 					<td><?php echo form_input($S2_A_87_Parc_4_Adqui); ?> </td>
@@ -3570,7 +3575,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>5</td>
 					<td><?php echo form_input($S2_A_87_Parc_5_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_5_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_5_Unid',$unidades,null,'id="S2_A_87_Parc_5_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_5_Reg); ?> <?php echo form_input($S2_A_87_Parc_5_Reg_O); ?></td>
 					<!--<td><?php // echo form_input($S2_A_87_Parc_5_Reg_O); ?> </td>-->
 					<td><?php echo form_input($S2_A_87_Parc_5_Adqui); ?> </td>
@@ -3578,7 +3583,7 @@ $S2_A_OBS = array(
 				<tr>
 					<td>6</td>
 					<td><?php echo form_input($S2_A_87_Parc_6_Cant); ?> </td>
-					<td><?php echo form_input($S2_A_87_Parc_6_Unid); ?> </td>
+					<td><?php echo form_dropdown('S2_A_87_Parc_6_Unid',$unidades,null,'id="S2_A_87_Parc_6_Unid" class="form-control"'); ?> </td>
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_6_Reg); ?> <?php echo form_input($S2_A_87_Parc_6_Reg_O); ?></td>
 					<!--<td><?php // echo form_input($S2_A_87_Parc_6_Reg_O); ?> </td>-->
 					<td colspan="2"><?php echo form_input($S2_A_87_Parc_6_Adqui); ?> </td>
@@ -3630,61 +3635,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc1_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc1_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc1_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc1_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc1_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc1_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc1_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc1_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc1_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc1_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc1_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc1_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc1_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc1_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc1_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc1_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc1_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc1_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc1_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc1_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc1_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc1_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc1_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc1_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc1_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc1_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc1_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc1_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc1_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc1_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc1_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc1_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc1_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc1_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc1_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc1_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc1_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc1_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc1_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc1_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc1_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc1_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc1_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc1_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc1_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc1_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc1_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc1_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc1_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc1_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc1_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc1_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc1_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc1_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc1_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc1_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc1_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc1_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc1_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc1_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc1_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc1_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc1_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc1_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc1_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc1_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc1_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc1_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc1_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc1_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc1_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc1_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc1_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc1_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc1_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc1_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc1_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc1_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc1_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc1_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc1_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc1_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc1_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc1_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc1_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc1_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc1_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc1_4" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<th class="hgTitle" colspan="13">PARCELA 02</th>
@@ -3716,61 +3721,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc2_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc2_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc2_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc2_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc2_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc2_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc2_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc2_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc2_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc2_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc2_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc2_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc2_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc2_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc2_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc2_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc2_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc2_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc2_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc2_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc2_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc2_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc2_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc2_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc2_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc2_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc2_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc2_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc2_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc2_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc2_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc2_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc2_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc2_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc2_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc2_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc2_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc2_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc2_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc2_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc2_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc2_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc2_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc2_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc2_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc2_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc2_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc2_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc2_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc2_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc2_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc2_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc2_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc2_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc2_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc2_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc2_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc2_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc2_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc2_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc2_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc2_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc2_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc2_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc2_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc2_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc2_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc2_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc2_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc2_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc2_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc2_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc2_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc2_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc2_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc2_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc2_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc2_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc2_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc2_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc2_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc2_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc2_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc2_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc2_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc2_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc2_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc2_4" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<th class="hgTitle" colspan="13">PARCELA 03</th>
@@ -3802,61 +3807,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc3_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc3_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc3_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc3_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc3_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc3_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc3_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc3_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc3_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc3_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc3_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc3_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc3_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc3_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc3_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc3_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc3_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc3_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc3_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc3_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc3_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc3_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc3_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc3_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc3_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc3_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc3_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc3_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc3_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc3_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc3_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc3_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc3_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc3_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc3_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc3_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc3_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc3_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc3_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc3_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc3_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc3_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc3_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc3_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc3_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc3_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc3_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc3_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc3_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc3_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc3_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc3_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc3_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc3_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc3_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc3_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc3_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc3_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc3_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc3_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc3_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc3_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc3_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc3_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc3_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc3_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc3_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc3_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc3_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc3_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc3_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc3_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc3_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc3_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc3_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc3_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc3_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc3_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc3_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc3_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc3_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc3_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc3_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc3_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc3_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc3_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc3_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc3_4" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<th class="hgTitle" colspan="13">PARCELA 04</th>
@@ -3888,61 +3893,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc4_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc4_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc4_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc4_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc4_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc4_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc4_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc4_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc4_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc4_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc4_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc4_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc4_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc4_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc4_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc4_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc4_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc4_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc4_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc4_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc4_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc4_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc4_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc4_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc4_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc4_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc4_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc4_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc4_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc4_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc4_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc4_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc4_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc4_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc4_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc4_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc4_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc4_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc4_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc4_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc4_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc4_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc4_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc4_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc4_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc4_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc4_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc4_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc4_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc4_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc4_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc4_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc4_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc4_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc4_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc4_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc4_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc4_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc4_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc4_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc4_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc4_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc4_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc4_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc4_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc4_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc4_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc4_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc4_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc4_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc4_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc4_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc4_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc4_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc4_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc4_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc4_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc4_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc4_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc4_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc4_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc4_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc4_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc4_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc4_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc4_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc4_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc4_4" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<th class="hgTitle" colspan="13">PARCELA 05</th>
@@ -3974,61 +3979,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc5_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc5_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc5_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc5_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc5_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc5_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc5_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc5_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc5_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc5_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc5_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc5_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc5_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc5_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc5_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc5_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc5_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc5_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc5_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc5_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc5_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc5_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc5_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc5_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc5_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc5_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc5_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc5_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc5_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc5_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc5_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc5_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc5_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc5_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc5_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc5_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc5_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc5_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc5_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc5_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc5_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc5_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc5_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc5_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc5_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc5_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc5_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc5_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc5_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc5_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc5_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc5_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc5_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc5_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc5_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc5_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc5_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc5_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc5_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc5_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc5_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc5_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc5_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc5_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc5_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc5_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc5_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc5_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc5_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc5_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc5_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc5_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc5_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc5_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc5_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc5_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc5_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc5_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc5_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc5_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc5_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc5_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc5_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc5_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc5_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc5_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc5_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc5_4" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<th class="hgTitle" colspan="13">PARCELA 06</th>
@@ -4060,61 +4065,61 @@ $S2_A_OBS = array(
 		<td>a</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc6_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc6_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc6_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc6_1',$unidades,null,'id="S2_A_88_SS_Unid_Parc6_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc6_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc6_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc6_1',$unidades,null,'id="S2_A_88_SC_Unid_Parc6_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc6_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc6_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc6_1',$unidades,null,'id="S2_A_88_Prod_Unid_Parc6_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc6_1); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc6_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc6_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc6_1',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc6_1" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc6_1); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc6_1); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc6_1',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc6_1" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>c</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc6_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc6_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc6_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc6_2',$unidades,null,'id="S2_A_88_SS_Unid_Parc6_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc6_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc6_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc6_2',$unidades,null,'id="S2_A_88_SC_Unid_Parc6_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc6_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc6_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc6_2',$unidades,null,'id="S2_A_88_Prod_Unid_Parc6_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc6_2); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc6_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc6_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc6_2',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc6_2" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc6_2); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc6_2); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc6_2',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc6_2" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>b</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc6_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc6_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc6_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc6_3',$unidades,null,'id="S2_A_88_SS_Unid_Parc6_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Cant_Parc6_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc6_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc6_3',$unidades,null,'id="S2_A_88_SC_Unid_Parc6_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc6_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc6_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc6_3',$unidades,null,'id="S2_A_88_Prod_Unid_Parc6_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc6_3); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc6_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc6_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc6_3',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc6_3" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc6_3); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc6_3); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc6_3',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc6_3" class="form-control"'); ?> </td>
 	</tr>
 	<tr>
 		<td>d</td>
 		<td><?php echo form_input($S2_A_88_TipCulti_Parc6_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_SS_Cant_Parc6_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SS_Unid_Parc6_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SS_Unid_Parc6_4',$unidades,null,'id="S2_A_88_SS_Unid_Parc6_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_SC_Ca_Parc6_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_SC_Unid_Parc6_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_SC_Unid_Parc6_4',$unidades,null,'id="S2_A_88_SC_Unid_Parc6_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Prod_Ca_Parc6_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_Prod_Unid_Parc6_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_Prod_Unid_Parc6_4',$unidades,null,'id="S2_A_88_Prod_Unid_Parc6_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_Desti_Parc6_4); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreChac_Parc6_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCha_Uni_Parc6_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCha_Uni_Parc6_4',$unidades,null,'id="S2_A_88_PreCha_Uni_Parc6_4" class="form-control"'); ?> </td>
 		<td><?php echo form_input($S2_A_88_PreComp_Parc6_4); ?> </td>
-		<td><?php echo form_input($S2_A_88_PreCom_Uni_Parc6_4); ?> </td>
+		<td><?php echo form_dropdown('S2_A_88_PreCom_Uni_Parc6_4',$unidades,null,'id="S2_A_88_PreCom_Uni_Parc6_4" class="form-control"'); ?> </td>
 	</tr>
 </table>
 
@@ -4430,31 +4435,31 @@ $('#S2_A_84').change(function  (event) {
 			var objVal = $('#S2_A_84').val(); 				
 				if (objVal == '2') 
 				{
-					$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS').attr('disabled', 'disabled');
-					$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+					$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#frmTab4 select').attr('disabled', 'disabled');
+					$('#frmTab5 input:text,#S2_B_108_EspeGast,#frmTab5 select').removeAttr('disabled', 'disabled');
 				}
 				else if ((objVal == '1') || (objVal == '3'))
 					{
-						$('#frmTab4 input:text:not(.spec,#S2_A_84_O),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS').removeAttr('disabled');$('#S2_A_84_O').attr('disabled', 'disabled');
+						$('#frmTab4 input:text:not(.spec,#S2_A_84_O),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#frmTab4 select').removeAttr('disabled');$('#S2_A_84_O').attr('disabled', 'disabled');
 						$('#frmTab4 input:text:not(#S2_A_84)').trigger('change');
-						$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+						$('#frmTab5 input:text,#S2_B_108_EspeGast,#frmTab5 select').removeAttr('disabled', 'disabled');
 					}
 					else if (objVal == '4')
 					{
-						$('#frmTab4 input:text:not(.spec),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#S2_A_84_O').removeAttr('disabled');
+						$('#frmTab4 input:text:not(.spec),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#S2_A_84_O,#frmTab4 select').removeAttr('disabled');
 						$('#frmTab4 input:text:not(#S2_A_84)').trigger('change');
-						$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+						$('#frmTab5 input:text,#S2_B_108_EspeGast,#frmTab5 select').removeAttr('disabled', 'disabled');
 					}
 					else if (objVal == '5')
 					 {
 
-					 	$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#frmTab5 input:text,#S2_B_108_EspeGast').attr('disabled', 'disabled')
+					 	$('#frmTab4 input:text:not(#S2_A_NomProd, #S2_A_CodInfor, #S2_A_84),#S2_A_OBS_1,#S2_A_Especificar,#S2_A_OBS,#frmTab5 input:text,#S2_B_108_EspeGast,#frmTab4 select,#frmTab5 select').attr('disabled', 'disabled')
 					 }
 
 						 else
 						{
 							$('#S2_A_84_O').attr('disabled', 'disabled');
-							$('#frmTab5 input:text,#S2_B_108_EspeGast').removeAttr('disabled', 'disabled');
+							$('#frmTab5 input:text,#S2_B_108_EspeGast,#frmTab5 select').removeAttr('disabled', 'disabled');
 						}
 				});
 

@@ -2094,6 +2094,116 @@
 	];
 
 
+	var AutoNomEst = ['C.S Villa Leticia de Cajamarquilla',
+	'P.S Casa Huerta La Campiña',
+	'P.S Villa Mercedes',
+	'C.S CLAS Nieveria del Paraíso',
+	'P.S Viña San Francisco',
+	'C.S Cooperativa Universal',
+	'P.S Santa Anita',
+	'C.S Fortaleza',
+	'P.S CLAS de Ate',
+	'C.S Alfa y Omega',
+	'C.S Huachipa',
+	'P.S San Antonio',
+	'C.S Playa Rímac',
+	'C.S Chacra Colorada',
+	'C.S Chanca-Andahuaylas',
+	'C.S Micaela Bastidas',
+	'C.S CLAS Carapongo',
+	'C.S Santa Clara',
+	'C.S Nocheto',
+	'C.S Atalaya',
+	'C.S Manylsa',
+	'Hospital de Vitarte ',
+	'Hospital Hermilio Valdizan ',
+	'Instituto Nacional Materno Perinatal- Maternidad de Lima ',
+	'Instituto Nacional de Salud del Niño ',
+	'Policlínico Chosica ',
+	'Hospital Hipólito Unanue ',
+	'Hospital Dos de Mayo ',
+	'Hospital II Vitarte  ',
+	'Hospital Nacional Arzobispo Loayza ',
+	'Hospital I Jorge Voto Bernales Corpancho ',
+	'Instituto Nacional de Enfermedad Neoplásicas',
+	'Hospital I Aurelio Diaz Ufano y Peral ',
+	'Hospital III de Emergencias Grau',
+	'Hospital Nacional IV Guillermo Almenara Irigoyen',
+	'Hospital Central de la Policía Nacional del Perú',
+	'Centro de Atencion Primaria III El Agustino',
+	'Hospital de Huaycan',
+	'Policlínico de apoyo',
+	'Hospital de San Juan de Lurigancho',
+	'Hospital Santo Toribio de Mogrovejo',
+	'Hospital III Suarez Angamos',
+	'Ipress Gamarra',
+	'Centro Médico Casapalca',
+	'Hospital II Ramón Castilla',
+	'Hospital de Villa  el Salvador',
+	'Centri Medico Naval',
+	'Hospital de la Solidaridad ',
+	'Clínica San Benito',
+	'Policlínico Medical',
+	'Policlínico San Gregorio',
+	'Policlínico Aleman',
+	'Clínica San Antonio',
+	'Clínica Internacional',
+	'Clínica Derrer',
+	'Clínica Vitarte Salud',
+	'Clínica Quito',
+	'Clínica Mi Salud',
+	'Centro Medico Mi Vecino',
+	'Hogar Clínica San Juan de Dios',
+	'Policlínico San Andres',
+	'Clínica Sanidad',
+	'Policlínico Sagrado Corazón de Jesus ',
+	'Policlínico Servisalud Parand',
+	'Clínica Hogar de La Madre',
+	'Clínica María del Socorro',
+	'Clínica Italiana',
+	'Policlínico Infantil Nuestra Señora del Sagrado Corazón',
+	'Clínica Particular Hinostroza',
+	'Policlínico Nueva Esperanza',
+	'Clínica Montefiori',
+	'Policlínico Santa María',
+	'Policlínico Internacional',
+	'Clínica Mora',
+	'Clínica Centenario Peruano Japones',
+	'Policlínico Quime',
+	'Policlínico Amauta',
+	'Policlínico San Gabriel',
+	'Policlínico La Esperanza',
+	'Policlínico Ramón Castilla',
+	'Clínica San Pablo',
+	'Clínica Ricardo Palma',
+	'Clínica Santa Lucia',
+	'Clínica del Pacífico',
+	'Policlínico La Luz',
+	'Botica Paraíso',
+	'Botica Los Chanos',
+	'Botica Medic',
+	'Farmacia Mi Farma ',
+	'Botica Nieveria',
+	'Botica Villa Leticia',
+	'Botica Mi Salud',
+	'Botica Miguelito',
+	'Botica 24 Horas',
+	'Farmasalud',
+	'Inkafarma',
+	'Botica Seres',
+	'Botica Mary',
+	'Farmacia Mundo Farma',
+	'Botica Ayllu',
+	'Botica Manolito',
+	'Botica Magnolias',
+	'Botica La Luz',
+	'Botica Las Torres',
+	'Botica Mar Farma',
+	'Botica Angel',
+	'Botica Elena',
+	'Farmacia Carlos ',
+	'Botica Pedrito',
+	'Farmacia Angelito'];
 
 
 
@@ -2225,6 +2335,9 @@
  jQuery.validator.addClassRules("rDig1-16", {
    required: true, maxlength: 2, enteros: true, ranges: [ [1,16], [99] ],
  });
+ jQuery.validator.addClassRules("rDig1-17", {
+   required: true, maxlength: 2, enteros: true, ranges: [ [1,16], [99] ],
+ });
  jQuery.validator.addClassRules("rDig1-19", {
    required: true, maxlength: 4, enteros: true, range: [1,19],
  });
@@ -2235,7 +2348,7 @@
    required: true, exactlength: 2, enteros: true, ranges: [ [1,12], [9999] ],
  });
  jQuery.validator.addClassRules("rAno", {
-   required: true, exactlength: 4, enteros: true, ranges: [ [2013,2014], [9999] ],
+   required: true, exactlength: 4, enteros: true, ranges: [ [1900,2014], [9999] ],
  });
  jQuery.validator.addClassRules("rAnos", {
    required: true, maxlength: 2, enteros: true, range: [0,99],
@@ -2277,7 +2390,7 @@ jQuery.validator.addMethod("lettersonly", function(value, element) {
 }, jQuery.validator.format("Ingrese {0} caracteres."));
 
 jQuery.validator.addMethod("alfaNumerico", function(value, element) {
-    return this.optional(element) || /^[a-z0-9\s]+$/i.test(value);
+    return this.optional(element) || /^[ñÑa-z0-9\s]+$/i.test(value);
 }, "Solo letras o numeros");
 jQuery.validator.addMethod("enteros", function(value, element) {
     return this.optional(element) || /^[0-9]+$/i.test(value);
@@ -2346,7 +2459,7 @@ $.extend(jQuery.validator.messages, {
 	function setFlujo (obj,valor,bloqueos) {
 		var objVal = $(obj).val();
 		var sel;
-		if (objVal == valor || $.inArray(parseInt(objVal),valor)>=0) {
+		if (objVal == valor || $.inArray(parseInt(objVal),valor)>=0) {/* BLOQUEA*/
 			for (var i = 1; i <= bloqueos; i++) {
 				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
 			};
@@ -2366,7 +2479,7 @@ $.extend(jQuery.validator.messages, {
 			};
 		}else{
 			for (var i = 1; i <= bloqueos; i++) {
-				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');
+				sel = $(':input:eq(' + ($(':input').index(obj) + i) + ')'); sel.attr('disabled','disabled'); sel.val('');sel.prev('div.message').remove();sel.removeClass('hgError');
 			};			
 		};
 	}
@@ -2386,18 +2499,18 @@ $.extend(jQuery.validator.messages, {
 
 	function addRow(k){
 		if (k>1) {
-			var rowTable1 = '<tr><td><input type="text" class="form-control rDig1-19" id="COD_IDENT-'+k+'" name="COD_IDENT['+k+']" readonly="readonly" required value="'+k+'"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_NOM-'+k+'" name="S1_A_1_NOM['+k+']"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_AP-'+k+'" name="S1_A_1_AP['+k+']"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_AM-'+k+'" name="S1_A_1_AM['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-11 passTD" id="S1_A_2-'+k+'" name="S1_A_2['+k+']" maxlength="2" onchange="especificar(this,11)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_A_2_O-'+k+'" name="S1_A_2_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2" id="S1_A_3-'+k+'" name="S1_A_3['+k+']" maxlength="1"/></td><td><input type="text" class="form-control rAnos" id="S1_A_4_A-'+k+'" name="S1_A_4_A['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rMeses" id="S1_A_4_M-'+k+'" name="S1_A_4_M['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rDias" id="S1_A_4_D-'+k+'" name="S1_A_4_D['+k+']" maxlength="2"/></td></tr>';
-			var rowTable2 = '<tr><td class="hgCenter"><label for="S1_A_5-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-6" id="S1_A_5-'+k+'" name="S1_A_5['+k+']" maxlength="1"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-4 passTD" id="S1_A_6-'+k+'" name="S1_A_6['+k+']" maxlength="1" onchange="especificar(this,4)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_A_6_O-'+k+'" name="S1_A_6_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-6 passTD" id="S1_A_7-'+k+'" name="S1_A_7['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_A_7_O-'+k+'" name="S1_A_7_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2 passTD" id="S1_A_8-'+k+'" name="S1_A_8['+k+']" maxlength="1" onchange="setFlujo(this,2,2)"/></td><td><input type="text" class="form-control rDig1-10" id="S1_A_9_N-'+k+'" name="S1_A_9_N['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rDig1-8" id="S1_A_9_AG-'+k+'" name="S1_A_9_AG['+k+']" maxlength="1"/></td></tr>';
-			var rowTable3 = '<tr><td class="hgCenter"><label for="S1_B_10-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_10-'+k+'" name="S1_B_10['+k+']" maxlength="1" onchange="setFlujo(this,2,2)"/></td><td><input type="text" class="form-control rAN" id="S1_B_11-'+k+'" name="S1_B_11['+k+']"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_12-'+k+'" name="S1_B_12['+k+']" maxlength="1" onchange="setFlujo(this,1,2)"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-12 passTD" id="S1_B_13-'+k+'" name="S1_B_13['+k+']" maxlength="2" onchange="especificar(this,12)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_B_13_O-'+k+'" name="S1_B_13_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_14-'+k+'" name="S1_B_14['+k+']" maxlength="1" onchange="setFlujo(this,2,4)"/></td><td><input type="text" class="form-control rDig1-6" id="S1_B_15_N-'+k+'" name="S1_B_15_N['+k+']" maxlength="1"/></td><td><input type="text" class="form-control rDig1-8" id="S1_B_15_AG-'+k+'" name="S1_B_15_AG['+k+']" maxlength="1"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-5 passTD" id="S1_B_16-'+k+'" name="S1_B_16['+k+']" maxlength="1" onchange="especificar(this,5)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_B_16_O-'+k+'" name="S1_B_16_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
+			var rowTable1 = '<tr><td><input type="text" class="form-control rDig1-19" id="COD_IDENT-'+k+'" name="COD_IDENT['+k+']" readonly="readonly" required value="'+k+'"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_NOM-'+k+'" name="S1_A_1_NOM['+k+']"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_AP-'+k+'" name="S1_A_1_AP['+k+']"/></td><td><input type="text" class="form-control rNombre" id="S1_A_1_AM-'+k+'" name="S1_A_1_AM['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-11 passTD" id="S1_A_2-'+k+'" name="S1_A_2['+k+']" maxlength="2" onchange="especificar(this,11)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_A_2_O-'+k+'" name="S1_A_2_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2" id="S1_A_3-'+k+'" name="S1_A_3['+k+']" maxlength="1"/></td><td><input type="text" class="form-control rAnos setFlujo" id="S1_A_4_A-'+k+'" name="S1_A_4_A['+k+']" maxlength="2" onchange="set4A(this,'+k+')"/></td><td><input type="text" class="form-control rMeses" id="S1_A_4_M-'+k+'" name="S1_A_4_M['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rDias" id="S1_A_4_D-'+k+'" name="S1_A_4_D['+k+']" maxlength="2"/></td></tr>';
+			var rowTable2 = '<tr id="tr5-'+k+'"><td class="hgCenter"><label for="S1_A_5-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-6" id="S1_A_5-'+k+'" name="S1_A_5['+k+']" maxlength="1"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-4 passTD" id="S1_A_6-'+k+'" name="S1_A_6['+k+']" maxlength="1" onchange="especificar(this,4)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_A_6_O-'+k+'" name="S1_A_6_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-6 passTD" id="S1_A_7-'+k+'" name="S1_A_7['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_A_7_O-'+k+'" name="S1_A_7_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2" id="S1_A_8-'+k+'" name="S1_A_8['+k+']" maxlength="1" /></td><td><input type="text" class="form-control rDig1-10 setFlujo" id="S1_A_9_N-'+k+'" name="S1_A_9_N['+k+']" maxlength="2" onchange="setFlujo(this,1,1)"/></td><td><input type="text" class="form-control rDig1-8 rNotReq" id="S1_A_9_AG-'+k+'" name="S1_A_9_AG['+k+']" maxlength="1"/></td></tr>';
+			var rowTable3 = '<tr id="tr10-'+k+'"><td class="hgCenter"><label for="S1_B_10-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_10-'+k+'" name="S1_B_10['+k+']" maxlength="1" onchange="setFlujo(this,2,2)"/></td><td><input type="text" class="form-control" id="S1_B_11-'+k+'" name="S1_B_11['+k+']"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_12-'+k+'" name="S1_B_12['+k+']" maxlength="1" onchange="setFlujo(this,1,2)"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-12 passTD" id="S1_B_13-'+k+'" name="S1_B_13['+k+']" maxlength="2" onchange="especificar(this,12)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_B_13_O-'+k+'" name="S1_B_13_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_B_14-'+k+'" name="S1_B_14['+k+']" maxlength="1" onchange="setFlujo(this,2,4)"/></td><td><input type="text" class="form-control rDig1-6" id="S1_B_15_N-'+k+'" name="S1_B_15_N['+k+']" maxlength="1"/></td><td><input type="text" class="form-control rDig1-8" id="S1_B_15_AG-'+k+'" name="S1_B_15_AG['+k+']" maxlength="1"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-5 passTD" id="S1_B_16-'+k+'" name="S1_B_16['+k+']" maxlength="1" onchange="especificar(this,5)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_B_16_O-'+k+'" name="S1_B_16_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
 			var rowTable4 = '<tr><td class="hgCenter"><label for="S1_C_17_1_DEP-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rReq AutoD" id="S1_C_17_1_DEP-'+k+'" name="S1_C_17_1_DEP['+k+']"/></td><td><input type="text" class="form-control rReq AutoP" id="S1_C_17_2_PROV-'+k+'" name="S1_C_17_2_PROV['+k+']"/></td><td><input type="text" class="form-control rReq AutoDt" id="S1_C_17_3_DIST-'+k+'" name="S1_C_17_3_DIST['+k+']"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_C_18-'+k+'" name="S1_C_18['+k+']" maxlength="1" onchange="setFlujo(this,2,1)"/></td><td><input type="text" class="form-control rAno" id="S1_C_19-'+k+'" name="S1_C_19['+k+']" maxlength="4"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-6 passTD" id="S1_C_20-'+k+'" name="S1_C_20['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_C_20_O-'+k+'" name="S1_C_20_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
-			var rowTable5 = '<tr><td class="hgCenter"><label for="S1_C_21_DEP-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rReq AutoD" id="S1_C_21_1_DEP-'+k+'" name="S1_C_21_1_DEP['+k+']"/></td><td><input type="text" class="form-control rReq AutoP" id="S1_C_21_2_PROV-'+k+'" name="S1_C_21_2_PROV['+k+']"/></td><td><input type="text" class="form-control rReq AutoDt" id="S1_C_21_3_DIST-'+k+'" name="S1_C_21_3_DIST['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_C_21_4_OTRO-'+k+'" name="S1_C_21_4_OTRO['+k+']"/></td></tr>';
-			var rowTable6 = '<tr><td class="hgCenter"><label for="S1_C_22-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_C_22-'+k+'" name="S1_C_22['+k+']" maxlength="1" onchange="setFlujo(this,2,7)"/></td><td><input type="text" class="form-control rDig1-11" id="S1_C_23-'+k+'" name="S1_C_23['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rReq AutoD" id="S1_C_24_1_DEP-'+k+'" name="S1_C_24_1_DEP['+k+']"/></td><td><input type="text" class="form-control rReq AutoP" id="S1_C_24_2_PROV-'+k+'" name="S1_C_24_2_PROV['+k+']"/></td><td><input type="text" class="form-control rReq AutoDt" id="S1_C_24_3_DIST-'+k+'" name="S1_C_24_3_DIST['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_C_24_4_OTRO-'+k+'" name="S1_C_24_4_OTRO['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-5 passTD" id="S1_C_25-'+k+'" name="S1_C_25['+k+']" maxlength="1" onchange="especificar(this,5)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_C_25_O-'+k+'" name="S1_C_25_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
-			var rowTable7 = '<tr id="tr26-'+k+'"><td class="hgCenter"><label for="S1_D_26_COD1-'+k+'">'+k+'</label></td><td class="tdNo"><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD1-'+k+'" name="S1_D_26_COD1['+k+']" placeholder="p1" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC1-'+k+'" name="S1_D_26_DESC1['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD2-'+k+'" name="S1_D_26_COD2['+k+']" placeholder="p2" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC2-'+k+'" name="S1_D_26_DESC2['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD3-'+k+'" name="S1_D_26_COD3['+k+']" placeholder="p3" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC3-'+k+'" name="S1_D_26_DESC3['+k+']" placeholder="Describir" disabled="disabled"/><br><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD4-'+k+'" name="S1_D_26_COD4['+k+']" placeholder="p4" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC4-'+k+'" name="S1_D_26_DESC4['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD5-'+k+'" name="S1_D_26_COD5['+k+']" placeholder="p5" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC5-'+k+'" name="S1_D_26_DESC5['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD6-'+k+'" name="S1_D_26_COD6['+k+']" placeholder="p6" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC6-'+k+'" name="S1_D_26_DESC6['+k+']" placeholder="Describir" disabled="disabled"/><br><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD7-'+k+'" name="S1_D_26_COD7['+k+']" placeholder="p7" maxlength="1" onchange="especificar(this,1,2)"/><input type="text" class="form-control wd-inner-30 rA" id="S1_D_26_COD7_O-'+k+'" name="S1_D_26_COD7_O['+k+']" placeholder="Especifique" disabled="disabled"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC7-'+k+'" name="S1_D_26_DESC7['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin setFlujo" id="S1_D_26_COD8-'+k+'" name="S1_D_26_COD8['+k+']" placeholder="p8" maxlength="1" onchange="set26(this,'+k+')"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-14 C27 setFlujo" id="S1_D_27_COD-'+k+'" name="S1_D_27_COD['+k+']" maxlength="2"  onchange="set27(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA" id="S1_D_27_COD_O-'+k+'" name="S1_D_27_COD_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rAN" id="S1_D_27_UBIC-'+k+'" name="S1_D_27_UBIC['+k+']"/></td><td><select type="text" class="form-control rReq" id="S1_D_27_NOM-'+k+'" name="S1_D_27_NOM['+k+']"/></select></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_D_28-'+k+'" name="S1_D_28['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_D_28_O-'+k+'" name="S1_D_28_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
-			var rowTable8 = '<tr id="tr29-'+k+'"><td class="hgCenter"><label for="S1_D_29_1-'+k+'">'+k+'</label></td><td class="td29"><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_1-'+k+'" name="S1_D_29_1['+k+']" placeholder="p1" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_2-'+k+'" name="S1_D_29_2['+k+']" placeholder="p2" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_3-'+k+'" name="S1_D_29_3['+k+']" placeholder="p3" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_4-'+k+'" name="S1_D_29_4['+k+']" placeholder="p4" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_5-'+k+'" name="S1_D_29_5['+k+']" placeholder="p5" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_6-'+k+'" name="S1_D_29_6['+k+']" placeholder="p6" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_7-'+k+'" name="S1_D_29_7['+k+']" placeholder="p7" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_8-'+k+'" name="S1_D_29_8['+k+']" placeholder="p8" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_9-'+k+'" name="S1_D_29_9['+k+']" placeholder="p9" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_10-'+k+'" name="S1_D_29_10['+k+']" placeholder="p10" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin passTD" id="S1_D_29_11-'+k+'" name="S1_D_29_11['+k+']" placeholder="p11" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-80 rA" id="S1_D_29_11_O-'+k+'" name="S1_D_29_11_O['+k+']" disabled="disabled" placeholder="Especifique"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-14 passTD" id="S1_D_30_COD-'+k+'" name="S1_D_30_COD['+k+']" maxlength="2" onchange="especificar(this,14)"/><input type="text" class="form-control wd-inner-70 rA" id="S1_D_30_COD_O-'+k+'" name="S1_D_30_COD_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rA" id="S1_D_30_UBIC-'+k+'" name="S1_D_30_UBIC['+k+']"/></td><td><input type="text" class="form-control" id="S1_D_30_NOM-'+k+'" name="S1_D_30_NOM['+k+']"/></td><td class="tdNo"><input type="text" class="form-control wd-inner-20 rBin passTD" id="S1_D_31_1-'+k+'" name="S1_D_31_1['+k+']" placeholder="p1" maxlength="1" onchange="setFlujo(this,9,10)"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_2-'+k+'" name="S1_D_31_2['+k+']" placeholder="p2" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_3-'+k+'" name="S1_D_31_3['+k+']" placeholder="p3" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_4-'+k+'" name="S1_D_31_4['+k+']" placeholder="p4" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_5-'+k+'" name="S1_D_31_5['+k+']" placeholder="p5" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_6-'+k+'" name="S1_D_31_6['+k+']" placeholder="p6" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_7-'+k+'" name="S1_D_31_7['+k+']" placeholder="p7" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin passTD" id="S1_D_31_8-'+k+'" name="S1_D_31_8['+k+']" placeholder="p8" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-40 rA" id="S1_D_31_8_O-'+k+'" name="S1_D_31_8_O['+k+']" disabled="disabled" placeholder="Especifique"/><input type="text" class="form-control wd-inner-20 rBin setFlujo" id="S1_D_31_9-'+k+'" name="S1_D_31_9['+k+']" placeholder="p9" maxlength="1" onchange="set31(this,'+k+')"/></td><td><input type="text" class="form-control rDig1-2" id="S1_D_31A-'+k+'" name="S1_D_31A['+k+']" maxlength="1"/></td></tr>';
+			var rowTable5 = '<tr><td class="hgCenter"><label for="S1_C_21_DEP-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rReq AutoD" id="S1_C_21_1_DEP-'+k+'" name="S1_C_21_1_DEP['+k+']"/></td><td><input type="text" class="form-control rReq AutoP" id="S1_C_21_2_PROV-'+k+'" name="S1_C_21_2_PROV['+k+']"/></td><td><input type="text" class="form-control rReq AutoDt" id="S1_C_21_3_DIST-'+k+'" name="S1_C_21_3_DIST['+k+']"/></td><td><input type="text" class="form-control rA rNotReq" id="S1_C_21_4_OTRO-'+k+'" name="S1_C_21_4_OTRO['+k+']"/></td></tr>';
+			var rowTable6 = '<tr id="tr22-'+k+'"><td class="hgCenter"><label for="S1_C_22-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_C_22-'+k+'" name="S1_C_22['+k+']" maxlength="1" onchange="set22(this,'+k+')"/></td><td><input type="text" class="form-control rDig1-11" id="S1_C_23-'+k+'" name="S1_C_23['+k+']" maxlength="2"/></td><td><input type="text" class="form-control rReq AutoD" id="S1_C_24_1_DEP-'+k+'" name="S1_C_24_1_DEP['+k+']"/></td><td><input type="text" class="form-control rReq AutoP" id="S1_C_24_2_PROV-'+k+'" name="S1_C_24_2_PROV['+k+']"/></td><td><input type="text" class="form-control rReq AutoDt" id="S1_C_24_3_DIST-'+k+'" name="S1_C_24_3_DIST['+k+']"/></td><td><input type="text" class="form-control rA rNotReq" id="S1_C_24_4_OTRO-'+k+'" name="S1_C_24_4_OTRO['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-5 passTD" id="S1_C_25-'+k+'" name="S1_C_25['+k+']" maxlength="1" onchange="especificar(this,5)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_C_25_O-'+k+'" name="S1_C_25_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
+			var rowTable7 = '<tr id="tr26-'+k+'"><td class="hgCenter"><label for="S1_D_26_COD1-'+k+'">'+k+'</label></td><td class="tdNo"><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD1-'+k+'" name="S1_D_26_COD1['+k+']" placeholder="p1" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC1-'+k+'" name="S1_D_26_DESC1['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD2-'+k+'" name="S1_D_26_COD2['+k+']" placeholder="p2" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC2-'+k+'" name="S1_D_26_DESC2['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD3-'+k+'" name="S1_D_26_COD3['+k+']" placeholder="p3" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC3-'+k+'" name="S1_D_26_DESC3['+k+']" placeholder="Describir" disabled="disabled"/><br><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD4-'+k+'" name="S1_D_26_COD4['+k+']" placeholder="p4" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC4-'+k+'" name="S1_D_26_DESC4['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD5-'+k+'" name="S1_D_26_COD5['+k+']" placeholder="p5" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC5-'+k+'" name="S1_D_26_DESC5['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD6-'+k+'" name="S1_D_26_COD6['+k+']" placeholder="p6" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC6-'+k+'" name="S1_D_26_DESC6['+k+']" placeholder="Describir" disabled="disabled"/><br><input type="text" class="form-control wd-inner-10 rBin passTD" id="S1_D_26_COD7-'+k+'" name="S1_D_26_COD7['+k+']" placeholder="p7" maxlength="1" onchange="especificar(this,1,2)"/><input type="text" class="form-control wd-inner-30 rA" id="S1_D_26_COD7_O-'+k+'" name="S1_D_26_COD7_O['+k+']" placeholder="Especifique" disabled="disabled"/><input type="text" class="form-control wd-inner-20 rA" id="S1_D_26_DESC7-'+k+'" name="S1_D_26_DESC7['+k+']" placeholder="Describir" disabled="disabled"/><input type="text" class="form-control wd-inner-10 rBin setFlujo" id="S1_D_26_COD8-'+k+'" name="S1_D_26_COD8['+k+']" placeholder="p8" maxlength="1" onchange="set26(this,'+k+')"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-14 C27 setFlujo" id="S1_D_27_COD-'+k+'" name="S1_D_27_COD['+k+']" maxlength="2"  onchange="set27(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA rNotReq" id="S1_D_27_COD_O-'+k+'" name="S1_D_27_COD_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rAN rNotReq" id="S1_D_27_UBIC-'+k+'" name="S1_D_27_UBIC['+k+']"/></td><td><input type="text" class="form-control AutoNomEst rNotReq" id="S1_D_27_NOM-'+k+'" name="S1_D_27_NOM['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 setFlujo" id="S1_D_28-'+k+'" name="S1_D_28['+k+']" maxlength="1" onchange="set28(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA" id="S1_D_28_O-'+k+'" name="S1_D_28_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
+			var rowTable8 = '<tr id="tr29-'+k+'"><td class="hgCenter"><label for="S1_D_29_1-'+k+'">'+k+'</label></td><td class="td29"><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_1-'+k+'" name="S1_D_29_1['+k+']" placeholder="p1" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_2-'+k+'" name="S1_D_29_2['+k+']" placeholder="p2" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_3-'+k+'" name="S1_D_29_3['+k+']" placeholder="p3" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_4-'+k+'" name="S1_D_29_4['+k+']" placeholder="p4" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_5-'+k+'" name="S1_D_29_5['+k+']" placeholder="p5" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_6-'+k+'" name="S1_D_29_6['+k+']" placeholder="p6" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_7-'+k+'" name="S1_D_29_7['+k+']" placeholder="p7" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_8-'+k+'" name="S1_D_29_8['+k+']" placeholder="p8" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_9-'+k+'" name="S1_D_29_9['+k+']" placeholder="p9" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_29_10-'+k+'" name="S1_D_29_10['+k+']" placeholder="p10" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin passTD" id="S1_D_29_11-'+k+'" name="S1_D_29_11['+k+']" placeholder="p11" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-80 rA" id="S1_D_29_11_O-'+k+'" name="S1_D_29_11_O['+k+']" disabled="disabled" placeholder="Especifique"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-14 passTD" id="S1_D_30_COD-'+k+'" name="S1_D_30_COD['+k+']" maxlength="2" onchange="set30(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA" id="S1_D_30_COD_O-'+k+'" name="S1_D_30_COD_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rA" id="S1_D_30_UBIC-'+k+'" name="S1_D_30_UBIC['+k+']"/></td><td><input type="text" class="form-control AutoNomEst" id="S1_D_30_NOM-'+k+'" name="S1_D_30_NOM['+k+']"/></td><td class="tdNo"><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_1-'+k+'" name="S1_D_31_1['+k+']" placeholder="p1" maxlength="1" /><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_2-'+k+'" name="S1_D_31_2['+k+']" placeholder="p2" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_3-'+k+'" name="S1_D_31_3['+k+']" placeholder="p3" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_4-'+k+'" name="S1_D_31_4['+k+']" placeholder="p4" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_5-'+k+'" name="S1_D_31_5['+k+']" placeholder="p5" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_6-'+k+'" name="S1_D_31_6['+k+']" placeholder="p6" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin" id="S1_D_31_7-'+k+'" name="S1_D_31_7['+k+']" placeholder="p7" maxlength="1"/><input type="text" class="form-control wd-inner-20 rBin passTD" id="S1_D_31_8-'+k+'" name="S1_D_31_8['+k+']" placeholder="p8" maxlength="1" onchange="especificar(this,1)"/><input type="text" class="form-control wd-inner-40 rA" id="S1_D_31_8_O-'+k+'" name="S1_D_31_8_O['+k+']" disabled="disabled" placeholder="Especifique"/><input type="text" class="form-control wd-inner-20 rBin setFlujo" id="S1_D_31_9-'+k+'" name="S1_D_31_9['+k+']" placeholder="p9" maxlength="1" onchange="set31(this,'+k+')"/></td><td><input type="text" class="form-control rDig1-2" id="S1_D_31A-'+k+'" name="S1_D_31A['+k+']" maxlength="1"/></td></tr>';
 			var rowTable9 = '<tr><td class="hgCenter"><label for="S1_D_32-'+k+'">'+k+'</label></td><td><input type="text" class="form-control wd-inner-50 rDig1-5 setFlujo" id="S1_D_32-'+k+'" name="S1_D_32['+k+']" maxlength="1" onchange="setFlujo(this,5,2)"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_D_33-'+k+'" name="S1_D_33['+k+']" maxlength="1" onchange="especificar(this,7)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_D_33_O-'+k+'" name="S1_D_33_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
-			var rowTable10 = '<tr><td class="hgCenter"><label for="S1_E_34-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_E_34-'+k+'" name="S1_E_34['+k+']" maxlength="1" onchange="setFlujo(this,1,3)"/></td><td><input type="text" class="form-control rDig1-5 setFlujo" id="S1_E_35-'+k+'" name="S1_E_35['+k+']" maxlength="1" onchange="set35(this,'+k+')"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 setFlujo" id="S1_E_36-'+k+'" name="S1_E_36['+k+']" maxlength="1" onchange="set36(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_36_O-'+k+'" name="S1_E_36_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rA" id="S1_E_37-'+k+'" name="S1_E_37['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_E_38-'+k+'" name="S1_E_38['+k+']"/></td></tr>';
-			var rowTable11 = '<tr id="tr39-'+k+'"><td class="hgCenter"><label for="S1_E_39-'+k+'">'+k+'</label></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_39-'+k+'" name="S1_E_39['+k+']" maxlength="1" onchange="especificar(this,7)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_39_O-'+k+'" name="S1_E_39_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-6 passTD" id="S1_E_40-'+k+'" name="S1_E_40['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_40_O-'+k+'" name="S1_E_40_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_E_41-'+k+'" name="S1_E_41['+k+']" maxlength="1" onchange="setFlujo(this,2,4)"/></td><td><input type="text" class="form-control rA" id="S1_E_42-'+k+'" name="S1_E_42['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_E_43-'+k+'" name="S1_E_43['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_44-'+k+'" name="S1_E_44['+k+']" maxlength="1" onchange="especificar(this,7)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_44_O-'+k+'" name="S1_E_44_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
-			var rowTable12 = '<tr id="tr45-'+k+'"><td class="hgCenter"><label for="S1_E_45-'+k+'">'+k+'</label></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_45-'+k+'" name="S1_E_45['+k+']" maxlength="1" onchange="especificar(this,[1,6])"/><input type="text" class="form-control wd-inner-70 rN" id="S1_E_45_Esp-'+k+'" name="S1_E_45_Esp['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_46-'+k+'" name="S1_E_46['+k+']" maxlength="1" onchange="especificar(this,[1,6])"/><input type="text" class="form-control wd-inner-70 rN" id="S1_E_46_Esp-'+k+'" name="S1_E_46_Esp['+k+']" placeholder="Especifique" disabled="disabled"/></td><td></td></tr>';
+			var rowTable10 = '<tr id="tr34-'+k+'"><td class="hgCenter"><label for="S1_E_34-'+k+'">'+k+'</label></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_E_34-'+k+'" name="S1_E_34['+k+']" maxlength="1" onchange="setFlujo(this,1,3)"/></td><td><input type="text" class="form-control rDig1-5 setFlujo" id="S1_E_35-'+k+'" name="S1_E_35['+k+']" maxlength="1" onchange="set35(this,'+k+')"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 setFlujo" id="S1_E_36-'+k+'" name="S1_E_36['+k+']" maxlength="1" onchange="set36(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_36_O-'+k+'" name="S1_E_36_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rA rNotReq" id="S1_E_37-'+k+'" name="S1_E_37['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_E_38-'+k+'" name="S1_E_38['+k+']"/></td></tr>';
+			var rowTable11 = '<tr id="tr39-'+k+'"><td class="hgCenter"><label for="S1_E_39-'+k+'">'+k+'</label></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 setFlujo" id="S1_E_39-'+k+'" name="S1_E_39['+k+']" maxlength="1" onchange="set39(this,'+k+')"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_39_O-'+k+'" name="S1_E_39_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-6 passTD" id="S1_E_40-'+k+'" name="S1_E_40['+k+']" maxlength="1" onchange="especificar(this,6)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_40_O-'+k+'" name="S1_E_40_O['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control rDig1-2 setFlujo" id="S1_E_41-'+k+'" name="S1_E_41['+k+']" maxlength="1" onchange="set41(this,'+k+')"/></td><td><input type="text" class="form-control rA" id="S1_E_42-'+k+'" name="S1_E_42['+k+']"/></td><td><input type="text" class="form-control rA" id="S1_E_43-'+k+'" name="S1_E_43['+k+']"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_44-'+k+'" name="S1_E_44['+k+']" maxlength="1" onchange="especificar(this,7)"/><input type="text" class="form-control wd-inner-70 rA spec" id="S1_E_44_O-'+k+'" name="S1_E_44_O['+k+']" placeholder="Especifique" disabled="disabled"/></td></tr>';
+			var rowTable12 = '<tr id="tr45-'+k+'"><td class="hgCenter"><label for="S1_E_45-'+k+'">'+k+'</label></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_45-'+k+'" name="S1_E_45['+k+']" maxlength="1" onchange="especificar(this,[1,6])"/><input type="text" class="form-control wd-inner-70 rN spec" id="S1_E_45_Esp-'+k+'" name="S1_E_45_Esp['+k+']" placeholder="Especifique" disabled="disabled"/></td><td><input type="text" class="form-control wd-inner-30 rDig1-7 passTD" id="S1_E_46-'+k+'" name="S1_E_46['+k+']" maxlength="1" onchange="especificar(this,[1,6])"/><input type="text" class="form-control wd-inner-70 rN spec" id="S1_E_46_Esp-'+k+'" name="S1_E_46_Esp['+k+']" placeholder="Especifique" disabled="disabled"/></td><td></td></tr>';
 
 			$("#table1 tbody").append(rowTable1);
 			$("#table2 tbody").append(rowTable2);
@@ -2415,6 +2528,7 @@ $.extend(jQuery.validator.messages, {
 			$(".AutoD").autocomplete({ source:DEPARTAMENTO });
 			$(".AutoP").autocomplete({ source:PROVINCIA });
 			$(".AutoDt").autocomplete({ source:DISTRITO });
+			$(".AutoNomEst").autocomplete({ source:AutoNomEst });
 		};
 	}
 	function removeRow(k) {
@@ -2444,41 +2558,113 @@ $.extend(jQuery.validator.messages, {
 *
 /************************************************************************************************
 *************************************************************************************************/
-function set26 (obj,n) {
-	var sel = $("#tr26-"+n+" input,#tr29-"+n+" .td29 input,#S1_D_27_NOM-"+n).not(obj); 
-	if($(obj).val() == 1){
+function set4A (obj,n) {
+	var sel = $("#tr10-"+n+" input"); 
+	var sel2 = $("#S1_A_7-"+n+",#S1_A_7_O-"+n+",#S1_A_8-"+n+",#S1_A_9_N-"+n+",#S1_A_9_AG-"+n);
+	var sel3 = $("#S1_A_5-"+n+",#S1_A_6-"+n+",#S1_A_6_O-"+n);
+	var sel4 = $("#tr34-"+n+" input,#tr39-"+n+" input,#tr45-"+n+" input");
+	var objVal = parseInt($(obj).val());
+	if( objVal >=3 ){
+		sel2.not('.spec').removeAttr('disabled');
+		if(objVal>=6){
+			sel4.not('.spec').removeAttr('disabled');
+		}else{
+			sel4.attr('disabled','disabled').val('');sel4.prev('div.message').remove();sel4.removeClass('hgError');
+		}
+		if(objVal>=12){
+			sel3.not('.spec').removeAttr('disabled');
+		}else{
+			sel3.attr('disabled','disabled').val('');sel3.prev('div.message').remove();sel3.removeClass('hgError');
+		}
+		if(objVal<=24){
+			sel.not('.spec').removeAttr('disabled');
+		}else{
+			sel.attr('disabled','disabled').val('');sel.prev('div.message').remove();sel.removeClass('hgError');
+		}
+	}else{
 		sel.attr('disabled','disabled').val('');
+		sel2.attr('disabled','disabled').val('');
+		sel3.attr('disabled','disabled').val('');
+		sel4.attr('disabled','disabled').val('');
+	}
+}
+
+function set22 (obj,n) {
+	var sel = $("#tr22-"+n+" input").not(obj); 
+	if($(obj).val() == 2){
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
+	}else{
+		sel.not('.spec').removeAttr('disabled');
+	}
+}
+function set26 (obj,n) {
+	var sel = $("#S1_D_27_COD-"+n+",#S1_D_27_COD_O-"+n+",#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n+",#S1_D_28-"+n+",#S1_D_28_O-"+n+",#tr29-"+n+" .td29 input,#S1_D_27_NOM-"+n).not(obj); 
+	if($(obj).val() == 1){
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
+	}else{
+		sel.not('.rA,.spec').removeAttr('disabled');
+	}
+}
+function set28 (obj,n) {
+	var sel = $("#tr29-"+n+" .td29 input"); 
+	if($(obj).val() != ''){
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
 	}else{
 		sel.not('.rA').removeAttr('disabled');
 	}
 }
-
 function set27 (obj,n) {
 	var sel = $("#S1_D_27_COD_O-"+n+",#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n+",#S1_D_28-"+n+",#S1_D_28_O-"+n); 
 	var tVal = $(obj).val();
 	if(tVal == 1 || tVal == 2 || tVal == 3){
-		$("#S1_D_27_NOM-"+n).html(cbo1); sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
-	}else if(tVal == 5){
-		$("#S1_D_27_NOM-"+n).html(cbo2); sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
+		sel.not('.rA,.spec').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');$("#S1_D_27_COD_O-"+n).prev('div.message').remove();$("#S1_D_27_COD_O-"+n).removeClass('hgError');
+	}else if(tVal == 5 || tVal == 6){
+		sel.not('.rA,.spec').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled'); $("#S1_D_27_COD_O-"+n).prev('div.message').remove();$("#S1_D_27_COD_O-"+n).removeClass('hgError');
 	}else if(tVal == 9){
-		$("#S1_D_27_NOM-"+n).html(cbo3); sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
+		sel.not('.rA').removeAttr('disabled');$("#S1_D_27_COD_O-"+n).attr('disabled','disabled');
 	}else if(tVal == 10){
-			$("#S1_D_27_NOM-"+n).html(cbo4); $("#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val(''); $("#S1_D_27_COD_O-"+n+",#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n).removeAttr('disabled');
+			$("#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val(''); $("#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n).removeAttr('disabled');
 	}else if(tVal == 14){
-		$("#S1_D_27_COD_O-"+n).removeAttr('disabled');
-		$("#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n+",#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val('');
+		$("#S1_D_27_COD_O-"+n+",#S1_D_27_UBIC-"+n+",#S1_D_27_NOM-"+n).removeAttr('disabled');
+		$("#S1_D_28-"+n+",#S1_D_28_O-"+n).attr('disabled','disabled').val('');
 	}else if($.inArray($(obj).val(),['11','12','13'])>=0){
-		sel.attr('disabled','disabled').val('');$("#S1_D_27_NOM-"+n).html('<option value=""></option>');
+		sel.attr('disabled','disabled').val('');
 	}else{
 		//sel.not('.rA').removeAttr('disabled');
-		$("#S1_D_27_NOM-"+n).html('<option value=""></option>');
+		//$("#S1_D_27_NOM-"+n).html('<option value=""></option>');
 	}
 }
 
+function set30 (obj,n) {
+	var tVal = $(obj).val();
+	if(tVal == 1 || tVal == 2 || tVal == 3){
+		//$("#S1_D_30_NOM-"+n).html(cbo1);
+		$("#S1_D_30_COD_O-"+n).attr('disabled','disabled');$('#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).removeAttr('disabled');
+	}else if(tVal == 5 || tVal == 6){
+		//$("#S1_D_30_NOM-"+n).html(cbo2);
+		$("#S1_D_30_COD_O-"+n).attr('disabled','disabled');$('#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).removeAttr('disabled');
+	}else if(tVal == 9){
+		//$("#S1_D_30_NOM-"+n).html(cbo3);
+		$("#S1_D_30_COD_O-"+n).attr('disabled','disabled');$('#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).removeAttr('disabled');
+	}else if(tVal == 10){
+			//$("#S1_D_30_NOM-"+n).html(cbo4);
+			$("#S1_D_30_COD_O-"+n).attr('disabled','disabled');$('#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).removeAttr('disabled');
+	}else if(tVal == 13){
+			//$("#S1_D_30_NOM-"+n).html(cbo4);
+			$("#S1_D_30_COD_O-"+n+',#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).attr('disabled','disabled');
+	}else if(tVal == 14){
+		$("#S1_D_30_COD_O-"+n).removeAttr('disabled');
+	}else{
+		//$("#S1_D_30_NOM-"+n).html('<option value=""></option>');
+		$("#S1_D_30_COD_O-"+n).attr('disabled','disabled');$('#S1_D_30_UBIC-'+n+',#S1_D_30_NOM-'+n).removeAttr('disabled');
+	}
+}
+
+
 function set31 (obj,n) {
-	var sel = $("#tr29-"+n+" td:nth-child(6) input,#S1_D_31A-"+n).not(obj); 
+	var sel = $("#S1_D_31A-"+n).not(obj); 
 	if($(obj).val() == 1){
-		sel.attr('disabled','disabled').val('');
+		sel.attr('disabled','disabled').val('');sel.prev('div.message').remove();sel.removeClass('hgError');
 	}else{
 		sel.not('.rA').removeAttr('disabled');
 	}
@@ -2500,40 +2686,74 @@ function set36 (obj,n) {
 		sel.not('.spec').removeAttr('disabled');
 	}
 }
-
+function set39 (obj,n) {
+	var sel = $("#S1_E_39_O-"+n); 
+	var sel2 = $("#S1_E_40-"+n+",#S1_E_40_O-"+n); 
+	var objVal = $(obj).val();
+	if($.inArray(objVal,['1','2','5'])>=0){
+		sel2.not('.spec').removeAttr('disabled');
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
+	}else if(objVal == 7){
+		sel.removeAttr('disabled');
+		sel2.attr('disabled','disabled').val(''); sel2.prev('div.message').remove();sel.removeClass('hgError');
+	}else{
+		sel.attr('disabled','disabled').val('');sel.prev('div.message').remove();sel.removeClass('hgError');
+		sel2.attr('disabled','disabled').val('');sel2.prev('div.message').remove();sel2.removeClass('hgError');
+	}
+}
+function set41 (obj,n) {
+	var sel = $("#S1_E_42-"+n+",#S1_E_43-"+n+",#S1_E_44-"+n+",#S1_E_44_O-"+n+",#S1_E_46-"+n);  
+	if($(obj).val() == 2){
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
+	}else{
+		sel.not('.spec').removeAttr('disabled');
+	}
+}
+function set73 (obj) {
+	var s = $(obj).closest('tr'); var sel = s.find('input,select').not(obj) 
+	var objVal =  $(obj).val();
+	if($(obj).val() == 2){
+		sel.attr('disabled','disabled').val(''); sel.prev('div.message').remove();sel.removeClass('hgError');
+	}else{
+		sel.not('.spec').removeAttr('disabled');
+	}
+}
 function setEspecifiqueTD (argument) {
 	var num = $("#S1_A_1").val();
-	$("#frmTab2 table:eq(0) input.passTD").trigger('change');
+	$("#table1 input.passTD:not(:disabled)").trigger('change');
     setTimeout(function(){
-        $("#frmTab2 table:eq(1) input.passTD").trigger('change');
+        $("#table2 input.passTD:not(:disabled)").trigger('change');
     },num*200);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(3) input.passTD").trigger('change');
+        $("#ftable3 input.passTD:not(:disabled)").trigger('change');
     },num*300);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(4) input.passTD").trigger('change');
+        $("#table4 input.passTD:not(:disabled)").trigger('change');
     },num*500);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(5) input.passTD").trigger('change');
+        $("#table5 input.passTD:not(:disabled)").trigger('change');
     },num*800);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(6) input.passTD").trigger('change');
+        $("#table6 input.passTD:not(:disabled)").trigger('change');
     },num*1000);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(7) input.passTD").trigger('change');
+        $("#table7 input.passTD:not(:disabled)").trigger('change');
     },num*1500);	 
     setTimeout(function(){
-        $("#frmTab2 table:eq(8) input.passTD").trigger('change');
+        $("#table8 input.passTD:not(:disabled)").trigger('change');
     },num*1750);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(9) input.passTD").trigger('change');
+        $("#table9 input.passTD:not(:disabled)").trigger('change');
     },num*1900);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(10) input.passTD").trigger('change');
+        $("#table10 input.passTD:not(:disabled)").trigger('change');
     },num*2100);	
     setTimeout(function(){
-        $("#frmTab2 table:eq(11) input.passTD").trigger('change');
+        $("#table11 input.passTD:not(:disabled)").trigger('change');
     },num*2300);
+    setTimeout(function(){
+        $("#table12 input.passTD:not(:disabled)").trigger('change');
+    },num*2400);    
                                
 }
 	/* Pregunta 27: Fill combos segun ingreso */
@@ -2557,6 +2777,7 @@ function setEspecifiqueTD (argument) {
 	$(".AutoD").autocomplete({ source:DEPARTAMENTO });
 	$(".AutoP").autocomplete({ source:PROVINCIA });
 	$(".AutoDt").autocomplete({ source:DISTRITO });
+	$(".AutoNomEst").autocomplete({ source:AutoNomEst });
 
 
 

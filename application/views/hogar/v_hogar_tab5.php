@@ -1,4 +1,10 @@
 <?php
+$unidades['ha'] = 'HECTÁREA';
+$unidades['m2'] = 'METROS CUADRADOS';
+$unidades['kg'] = 'KILOGRAMO';
+$unidades['cabeza'] = 'CABEZA';
+$unidades['L'] = 'LITRO';
+$unidades['doc.'] = 'DOCENA';
 
 $S2_B_98_1 = array(		// TIPOS DE GANADO: VACUNO (static value defined)
 						'id' => 'S2_B_98_1',
@@ -4442,10 +4448,10 @@ $S2_B_107_Trans_1 = array(
 $S2_B_107_Otro_1 = array(
 						'id' => 'S2_B_107_Otro_1',
 						'name' => 'S2_B_107_Otro_1',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_1 = array(
 						'id' => 'S2_B_107_Otro_Esp_1',
@@ -4453,7 +4459,7 @@ $S2_B_107_Otro_Esp_1 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //------------------------------
@@ -4540,10 +4546,10 @@ $S2_B_107_Trans_2 = array(
 $S2_B_107_Otro_2 = array(
 						'id' => 'S2_B_107_Otro_2',
 						'name' => 'S2_B_107_Otro_2',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_107_Otro_Esp_2 = array(
@@ -4552,7 +4558,7 @@ $S2_B_107_Otro_Esp_2 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //----------------------------------------
@@ -4639,10 +4645,10 @@ $S2_B_107_Trans_3 = array(
 $S2_B_107_Otro_3 = array(
 						'id' => 'S2_B_107_Otro_3',
 						'name' => 'S2_B_107_Otro_3',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_3 = array(
 						'id' => 'S2_B_107_Otro_Esp_3',
@@ -4650,7 +4656,7 @@ $S2_B_107_Otro_Esp_3 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 
@@ -4738,10 +4744,10 @@ $S2_B_107_Trans_4 = array(
 $S2_B_107_Otro_4 = array(
 						'id' => 'S2_B_107_Otro_4',
 						'name' => 'S2_B_107_Otro_4',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_4 = array(
 						'id' => 'S2_B_107_Otro_Esp_4',
@@ -4749,7 +4755,7 @@ $S2_B_107_Otro_Esp_4 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //-----------------------------------------
@@ -4836,10 +4842,10 @@ $S2_B_107_Trans_5 = array(
 $S2_B_107_Otro_5 = array(
 						'id' => 'S2_B_107_Otro_5',
 						'name' => 'S2_B_107_Otro_5',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_5 = array(
 						'id' => 'S2_B_107_Otro_Esp_5',
@@ -4847,7 +4853,7 @@ $S2_B_107_Otro_Esp_5 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //----------------------------------------
@@ -4935,10 +4941,10 @@ $S2_B_107_Trans_6 = array(
 $S2_B_107_Otro_6 = array(
 						'id' => 'S2_B_107_Otro_6',
 						'name' => 'S2_B_107_Otro_6',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_6 = array(
 						'id' => 'S2_B_107_Otro_Esp_6',
@@ -4946,7 +4952,7 @@ $S2_B_107_Otro_Esp_6 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //-------------------------------------------
@@ -5033,10 +5039,10 @@ $S2_B_107_Trans_7 = array(
 $S2_B_107_Otro_7 = array(
 						'id' => 'S2_B_107_Otro_7',
 						'name' => 'S2_B_107_Otro_7',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_7 = array(
 						'id' => 'S2_B_107_Otro_Esp_7',
@@ -5044,7 +5050,7 @@ $S2_B_107_Otro_Esp_7 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //---------------------------------------------
@@ -5131,10 +5137,10 @@ $S2_B_107_Trans_8 = array(
 $S2_B_107_Otro_8 = array(
 						'id' => 'S2_B_107_Otro_8',
 						'name' => 'S2_B_107_Otro_8',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_8 = array(
 						'id' => 'S2_B_107_Otro_Esp_8',
@@ -5142,7 +5148,7 @@ $S2_B_107_Otro_Esp_8 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //---------------------------------------------
@@ -5229,10 +5235,10 @@ $S2_B_107_Trans_9 = array(
 $S2_B_107_Otro_9 = array(
 						'id' => 'S2_B_107_Otro_9',
 						'name' => 'S2_B_107_Otro_9',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_9 = array(
 						'id' => 'S2_B_107_Otro_Esp_9',
@@ -5240,7 +5246,7 @@ $S2_B_107_Otro_Esp_9 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //--------------------------------------------------------
@@ -5329,10 +5335,10 @@ $S2_B_107_Trans_10 = array(
 $S2_B_107_Otro_10 = array(
 						'id' => 'S2_B_107_Otro_10',
 						'name' => 'S2_B_107_Otro_10',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 $S2_B_107_Otro_Esp_10 = array(
 						'id' => 'S2_B_107_Otro_Esp_10',
@@ -5340,7 +5346,7 @@ $S2_B_107_Otro_Esp_10 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 
@@ -5429,10 +5435,10 @@ $S2_B_108_Trans_1 = array(
 $S2_B_108_Otro_1 = array(
 						'id' => 'S2_B_108_Otro_1',
 						'name' => 'S2_B_108_Otro_1',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_1 = array(
@@ -5441,7 +5447,7 @@ $S2_B_108_OtroEsp_1 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 // -------------------------------------------------------
@@ -5520,10 +5526,10 @@ $S2_B_108_Trans_2 = array(
 $S2_B_108_Otro_2 = array(
 						'id' => 'S2_B_108_Otro_2',
 						'name' => 'S2_B_108_Otro_2',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_2 = array(
@@ -5532,7 +5538,7 @@ $S2_B_108_OtroEsp_2 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //----------------------------------------------------
@@ -5611,10 +5617,10 @@ $S2_B_108_Trans_3 = array(
 $S2_B_108_Otro_3 = array(
 						'id' => 'S2_B_108_Otro_3',
 						'name' => 'S2_B_108_Otro_3',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_3 = array(
@@ -5623,7 +5629,7 @@ $S2_B_108_OtroEsp_3 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //------------------------------------------------------
@@ -5702,10 +5708,10 @@ $S2_B_108_Trans_4 = array(
 $S2_B_108_Otro_4 = array(
 						'id' => 'S2_B_108_Otro_4',
 						'name' => 'S2_B_108_Otro_4',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_4 = array(
@@ -5714,7 +5720,7 @@ $S2_B_108_OtroEsp_4 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //------------------------------------------------------------
@@ -5793,10 +5799,10 @@ $S2_B_108_Trans_5 = array(
 $S2_B_108_Otro_5 = array(
 						'id' => 'S2_B_108_Otro_5',
 						'name' => 'S2_B_108_Otro_5',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_5 = array(
@@ -5805,7 +5811,7 @@ $S2_B_108_OtroEsp_5 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //-----------------------------------------------------------
@@ -5884,10 +5890,10 @@ $S2_B_108_Trans_6 = array(
 $S2_B_108_Otro_6 = array(
 						'id' => 'S2_B_108_Otro_6',
 						'name' => 'S2_B_108_Otro_6',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_6 = array(
@@ -5896,7 +5902,7 @@ $S2_B_108_OtroEsp_6 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //------------------------------------------------------------
@@ -5975,10 +5981,10 @@ $S2_B_108_Trans_7 = array(
 $S2_B_108_Otro_7 = array(
 						'id' => 'S2_B_108_Otro_7',
 						'name' => 'S2_B_108_Otro_7',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_7 = array(
@@ -5987,7 +5993,7 @@ $S2_B_108_OtroEsp_7 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //-----------------------------------------------------
@@ -6066,10 +6072,10 @@ $S2_B_108_Trans_8 = array(
 $S2_B_108_Otro_8 = array(
 						'id' => 'S2_B_108_Otro_8',
 						'name' => 'S2_B_108_Otro_8',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_8 = array(
@@ -6078,7 +6084,7 @@ $S2_B_108_OtroEsp_8 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //--------------------------------------------------------
@@ -6157,10 +6163,10 @@ $S2_B_108_Trans_9 = array(
 $S2_B_108_Otro_9 = array(
 						'id' => 'S2_B_108_Otro_9',
 						'name' => 'S2_B_108_Otro_9',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_9 = array(
@@ -6169,7 +6175,7 @@ $S2_B_108_OtroEsp_9 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //------------------------------------------------------------
@@ -6248,10 +6254,10 @@ $S2_B_108_Trans_10 = array(
 $S2_B_108_Otro_10 = array(
 						'id' => 'S2_B_108_Otro_10',
 						'name' => 'S2_B_108_Otro_10',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_10 = array(
@@ -6260,7 +6266,7 @@ $S2_B_108_OtroEsp_10 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 //----------------------------------------------------------------
@@ -6339,10 +6345,10 @@ $S2_B_108_Trans_11 = array(
 $S2_B_108_Otro_11 = array(
 						'id' => 'S2_B_108_Otro_11',
 						'name' => 'S2_B_108_Otro_11',
-						'class' => 'form-control wd-inner-20 setEspecificar',
+						'class' => 'form-control wd-inner-20 ',
 						'align' => 'center',
 						'maxlength' => '30',
-						'onchange' => 'setEspecificar(this,1,1)',
+						//'onchange' => 'setEspecificar(this,1,1)',
 					);
 
 $S2_B_108_OtroEsp_11 = array(
@@ -6351,7 +6357,7 @@ $S2_B_108_OtroEsp_11 = array(
 						'class' => 'form-control wd-inner-70',
 						'align' => 'center',
 						'placeholder' => 'Especifique',
-						'disabled' => 'disabled',
+						//'disabled' => 'disabled',
 						'maxlength' => '8',
 					);
 $S2_B_108_EspeGast = array(
@@ -6363,7 +6369,14 @@ $S2_B_108_EspeGast = array(
 						'maxlength' => '200',
 					);
 
-
+$S3_Info = array(
+						'id' => 'S3_Info',
+						'name' => 'S3_Info',
+						'class' => 'form-control',
+						'placeholder' => 'GENERALES',
+						'maxlength' => '500',
+						'rows' => '3',
+					);
 // if (isset($hg3_seccion2b)) {
 // 	foreach ($hg3_seccion2b as $key => $value) {
 // 		${$key}['value'] = $value;
@@ -6373,6 +6386,7 @@ $S2_B_108_EspeGast = array(
 
 <?php echo form_open('','id="frmTab5"'); ?>
 
+<div style="width:1700px;" class="row">
 <table class="table table-bordered">
 	
 	<tr>
@@ -6422,19 +6436,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_1_H); ?></td>
 		<td><?php echo form_input($S2_B_98_1_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PP_Uni',$unidades,null,'id="S2_B_98_1_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PA_Uni',$unidades,null,'id="S2_B_98_1_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PV_Uni',$unidades,null,'id="S2_B_98_1_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreC_Uni',$unidades,null,'id="S2_B_98_1_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreIn_Uni',$unidades,null,'id="S2_B_98_1_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreCo_Uni',$unidades,null,'id="S2_B_98_1_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6444,19 +6458,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_1_H_1); ?></td>
 		<td><?php echo form_input($S2_B_98_1_Raz_1); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PP_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PP_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PP_Uni_1',$unidades,null,'id="S2_B_98_1_PP_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PA_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PA_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PA_Uni_1',$unidades,null,'id="S2_B_98_1_PA_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PV_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PV_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PV_Uni_1',$unidades,null,'id="S2_B_98_1_PV_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_Pes_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreC_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreC_Uni_1',$unidades,null,'id="S2_B_98_1_PreC_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_PreProm_1); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreIn_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreIn_Uni_1',$unidades,null,'id="S2_B_98_1_PreIn_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_PreT_1); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreCo_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreCo_Uni_1',$unidades,null,'id="S2_B_98_1_PreCo_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_PreT_1); ?></td>
 	</tr>
 	<tr>
@@ -6466,19 +6480,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_1_H_2); ?></td>
 		<td><?php echo form_input($S2_B_98_1_Raz_2); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PP_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PP_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PP_Uni_2',$unidades,null,'id="S2_B_98_1_PP_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PA_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PA_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PA_Uni_2',$unidades,null,'id="S2_B_98_1_PA_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PV_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PV_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PV_Uni_2',$unidades,null,'id="S2_B_98_1_PV_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_Pes_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreC_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreC_Uni_2',$unidades,null,'id="S2_B_98_1_PreC_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreC_PreProm_2); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreIn_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreIn_Uni_2',$unidades,null,'id="S2_B_98_1_PreIn_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreIn_PreT_2); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_1_PreCo_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_1_PreCo_Uni_2',$unidades,null,'id="S2_B_98_1_PreCo_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_1_PreCo_PreT_2); ?></td>
 	</tr>
 	<tr>
@@ -6488,19 +6502,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_2_H); ?></td>
 		<td><?php echo form_input($S2_B_98_2_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PP_Uni',$unidades,null,'id="S2_B_98_2_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PA_Uni',$unidades,null,'id="S2_B_98_2_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PV_Uni',$unidades,null,'id="S2_B_98_2_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreC_Uni',$unidades,null,'id="S2_B_98_2_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreIn_Uni',$unidades,null,'id="S2_B_98_2_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreCo_Uni',$unidades,null,'id="S2_B_98_2_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6510,19 +6524,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_2_H_1); ?></td>
 		<td><?php echo form_input($S2_B_98_2_Raz_1); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PP_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PP_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PP_Uni_1',$unidades,null,'id="S2_B_98_2_PP_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PA_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PA_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PA_Uni_1',$unidades,null,'id="S2_B_98_2_PA_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PV_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PV_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PV_Uni_1',$unidades,null,'id="S2_B_98_2_PV_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_Pes_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreC_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreC_Uni_1',$unidades,null,'id="S2_B_98_2_PreC_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_PreProm_1); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreIn_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreIn_Uni_1',$unidades,null,'id="S2_B_98_2_PreIn_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_PreT_1); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreCo_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreCo_Uni_1',$unidades,null,'id="S2_B_98_2_PreCo_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_PreT_1); ?></td>
 	</tr>
 	<tr>
@@ -6532,19 +6546,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_2_H_2); ?></td>
 		<td><?php echo form_input($S2_B_98_2_Raz_2); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PP_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PP_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PP_Uni_2',$unidades,null,'id="S2_B_98_2_PP_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PA_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PA_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PA_Uni_2',$unidades,null,'id="S2_B_98_2_PA_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PV_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PV_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PV_Uni_2',$unidades,null,'id="S2_B_98_2_PV_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_Pes_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreC_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreC_Uni_2',$unidades,null,'id="S2_B_98_2_PreC_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreC_PreProm_2); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreIn_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreIn_Uni_2',$unidades,null,'id="S2_B_98_2_PreIn_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreIn_PreT_2); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_Cant_2); ?></td>
-		<td><?php echo form_input($S2_B_98_2_PreCo_Uni_2); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_2_PreCo_Uni_2',$unidades,null,'id="S2_B_98_2_PreCo_Uni_2" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_2_PreCo_PreT_2); ?></td>
 	</tr>
 	<tr>
@@ -6554,19 +6568,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_3_H); ?></td>
 		<td><?php echo form_input($S2_B_98_3_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PP_Uni',$unidades,null,'id="S2_B_98_3_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PA_Uni',$unidades,null,'id="S2_B_98_3_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PV_Uni',$unidades,null,'id="S2_B_98_3_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreC_Uni',$unidades,null,'id="S2_B_98_3_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreIn_Uni',$unidades,null,'id="S2_B_98_3_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreCo_Uni',$unidades,null,'id="S2_B_98_3_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6576,19 +6590,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_3_H_1); ?></td>
 		<td><?php echo form_input($S2_B_98_3_Raz_1); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PP_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PP_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PP_Uni_1',$unidades,null,'id="S2_B_98_3_PP_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PA_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PA_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PA_Uni_1',$unidades,null,'id="S2_B_98_3_PA_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PV_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PV_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PV_Uni_1',$unidades,null,'id="S2_B_98_3_PV_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreC_Pes_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreC_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreC_Uni_1',$unidades,null,'id="S2_B_98_3_PreC_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreC_PreProm_1); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreIn_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreIn_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreIn_Uni_1',$unidades,null,'id="S2_B_98_3_PreIn_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreIn_PreT_1); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreCo_Cant_1); ?></td>
-		<td><?php echo form_input($S2_B_98_3_PreCo_Uni_1); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_3_PreCo_Uni_1',$unidades,null,'id="S2_B_98_3_PreCo_Uni_1" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_3_PreCo_PreT_1); ?></td>
 	</tr>
 	<tr>
@@ -6598,19 +6612,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_4_H); ?></td>
 		<td><?php echo form_input($S2_B_98_4_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PP_Uni',$unidades,null,'id="S2_B_98_4_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PA_Uni',$unidades,null,'id="S2_B_98_4_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PV_Uni',$unidades,null,'id="S2_B_98_4_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PreC_Uni',$unidades,null,'id="S2_B_98_4_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PreIn_Uni',$unidades,null,'id="S2_B_98_4_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_4_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_4_PreCo_Uni',$unidades,null,'id="S2_B_98_4_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_4_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6620,19 +6634,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_5_H); ?></td>
 		<td><?php echo form_input($S2_B_98_5_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PP_Uni',$unidades,null,'id="S2_B_98_5_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PA_Uni',$unidades,null,'id="S2_B_98_5_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PV_Uni',$unidades,null,'id="S2_B_98_5_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PreC_Uni',$unidades,null,'id="S2_B_98_5_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PreIn_Uni',$unidades,null,'id="S2_B_98_5_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_5_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_5_PreCo_Uni',$unidades,null,'id="S2_B_98_5_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_5_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6642,19 +6656,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_6_H); ?></td>
 		<td><?php echo form_input($S2_B_98_6_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PP_Uni',$unidades,null,'id="S2_B_98_6_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PA_Uni',$unidades,null,'id="S2_B_98_6_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PV_Uni',$unidades,null,'id="S2_B_98_6_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PreC_Uni',$unidades,null,'id="S2_B_98_6_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PreIn_Uni',$unidades,null,'id="S2_B_98_6_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_6_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_6_PreCo_Uni',$unidades,null,'id="S2_B_98_6_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_6_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6664,19 +6678,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_7_H); ?></td>
 		<td><?php echo form_input($S2_B_98_7_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PP_Uni',$unidades,null,'id="S2_B_98_7_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PA_Uni',$unidades,null,'id="S2_B_98_7_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PV_Uni',$unidades,null,'id="S2_B_98_7_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PreC_Uni',$unidades,null,'id="S2_B_98_7_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PreIn_Uni',$unidades,null,'id="S2_B_98_7_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_7_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_7_PreCo_Uni',$unidades,null,'id="S2_B_98_7_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_7_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6686,19 +6700,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_8_H); ?></td>
 		<td><?php echo form_input($S2_B_98_8_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PP_Uni',$unidades,null,'id="S2_B_98_8_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PA_Uni',$unidades,null,'id="S2_B_98_8_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PV_Uni',$unidades,null,'id="S2_B_98_8_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PreC_Uni',$unidades,null,'id="S2_B_98_8_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PreIn_Uni',$unidades,null,'id="S2_B_98_8_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_8_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_8_PreCo_Uni',$unidades,null,'id="S2_B_98_8_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_8_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6708,19 +6722,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_9_H); ?></td>
 		<td><?php echo form_input($S2_B_98_9_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PP_Uni',$unidades,null,'id="S2_B_98_9_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PA_Uni',$unidades,null,'id="S2_B_98_9_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PV_Uni',$unidades,null,'id="S2_B_98_9_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PreC_Uni',$unidades,null,'id="S2_B_98_9_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PreIn_Uni',$unidades,null,'id="S2_B_98_9_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_9_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_9_PreCo_Uni',$unidades,null,'id="S2_B_98_9_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_9_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6730,19 +6744,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_10_H); ?></td>
 		<td><?php echo form_input($S2_B_98_10_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PP_Uni',$unidades,null,'id="S2_B_98_10_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PA_Uni',$unidades,null,'id="S2_B_98_10_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PV_Uni',$unidades,null,'id="S2_B_98_10_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PreC_Uni',$unidades,null,'id="S2_B_98_10_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PreIn_Uni',$unidades,null,'id="S2_B_98_10_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_10_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_10_PreCo_Uni',$unidades,null,'id="S2_B_98_10_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_10_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6753,19 +6767,19 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_11_H); ?></td>
 		<td><?php echo form_input($S2_B_98_11_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PP_Uni',$unidades,null,'id="S2_B_98_11_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PA_Uni',$unidades,null,'id="S2_B_98_11_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PV_Uni',$unidades,null,'id="S2_B_98_11_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PreC_Uni',$unidades,null,'id="S2_B_98_11_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PreIn_Uni',$unidades,null,'id="S2_B_98_11_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_11_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_11_PreCo_Uni',$unidades,null,'id="S2_B_98_11_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_11_PreCo_PreT); ?></td>
 	</tr>
 	<tr>
@@ -6776,24 +6790,24 @@ $S2_B_108_EspeGast = array(
 		<td><?php echo form_input($S2_B_98_12_H); ?></td>
 		<td><?php echo form_input($S2_B_98_12_Raz); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PP_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PP_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PP_Uni',$unidades,null,'id="S2_B_98_12_PP_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PA_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PA_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PA_Uni',$unidades,null,'id="S2_B_98_12_PA_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PV_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PV_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PV_Uni',$unidades,null,'id="S2_B_98_12_PV_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreC_Pes); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PreC_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PreC_Uni',$unidades,null,'id="S2_B_98_12_PreC_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreC_PreProm); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreIn_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PreIn_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PreIn_Uni',$unidades,null,'id="S2_B_98_12_PreIn_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreIn_PreT); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreCo_Cant); ?></td>
-		<td><?php echo form_input($S2_B_98_12_PreCo_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_98_12_PreCo_Uni',$unidades,null,'id="S2_B_98_12_PreCo_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_98_12_PreCo_PreT); ?></td>
 	</tr>
 
 </table>
-
+</div>
 <table class="table table-bordered">
 	
 	<tr>
@@ -6823,7 +6837,7 @@ $S2_B_108_EspeGast = array(
 		<td>1</td>
 		<td colspan="3">Leche</td>
 		<td><?php echo form_input($S2_B_99_1_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_1_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_1_ProdTot_Uni',$unidades,null,'id="S2_B_99_1_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_1_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_1_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_1_PrecVCha); ?></td>
@@ -6837,7 +6851,7 @@ $S2_B_108_EspeGast = array(
 		<td>2</td>
 		<td colspan="3">Lana</td>
 		<td><?php echo form_input($S2_B_99_2_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_2_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_2_ProdTot_Uni',$unidades,null,'id="S2_B_99_2_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_2_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_2_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_2_PrecVCha); ?></td>
@@ -6851,7 +6865,7 @@ $S2_B_108_EspeGast = array(
 		<td>3</td>
 		<td colspan="3">Pieles</td>
 		<td><?php echo form_input($S2_B_99_3_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_3_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_3_ProdTot_Uni',$unidades,null,'id="S2_B_99_3_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_3_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_3_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_3_PrecVCha); ?></td>
@@ -6865,7 +6879,7 @@ $S2_B_108_EspeGast = array(
 		<td>4</td>
 		<td colspan="3">Queso</td>
 		<td><?php echo form_input($S2_B_99_4_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_4_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_4_ProdTot_Uni',$unidades,null,'id="S2_B_99_4_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_4_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_4_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_4_PrecVCha); ?></td>
@@ -6879,7 +6893,7 @@ $S2_B_108_EspeGast = array(
 		<td>5</td>
 		<td colspan="3">Yogurt</td>
 		<td><?php echo form_input($S2_B_99_5_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_5_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_5_ProdTot_Uni',$unidades,null,'id="S2_B_99_5_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_5_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_5_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_5_PrecVCha); ?></td>
@@ -6893,7 +6907,7 @@ $S2_B_108_EspeGast = array(
 		<td>6</td>
 		<td colspan="3">Huevos</td>
 		<td><?php echo form_input($S2_B_99_6_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_6_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_6_ProdTot_Uni',$unidades,null,'id="S2_B_99_6_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_6_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_6_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_6_PrecVCha); ?></td>
@@ -6907,7 +6921,7 @@ $S2_B_108_EspeGast = array(
 		<td>7</td>
 		<td colspan="3">Compost</td>
 		<td><?php echo form_input($S2_B_99_7_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_7_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_7_ProdTot_Uni',$unidades,null,'id="S2_B_99_7_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_7_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_7_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_7_PrecVCha); ?></td>
@@ -6921,7 +6935,7 @@ $S2_B_108_EspeGast = array(
 		<td>8</td>
 		<td colspan="3">Humus</td>
 		<td><?php echo form_input($S2_B_99_8_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_8_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_8_ProdTot_Uni',$unidades,null,'id="S2_B_99_8_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_8_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_8_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_8_PrecVCha); ?></td>
@@ -6936,7 +6950,7 @@ $S2_B_108_EspeGast = array(
 		<td>Otro</td>
 		<td colspan="2"><?php echo form_input($S2_B_99_9); ?> <?php echo form_input($S2_B_99_9_O); ?></td>
 		<td><?php echo form_input($S2_B_99_9_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_9_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_9_ProdTot_Uni',$unidades,null,'id="S2_B_99_9_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_9_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_9_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_9_PrecVCha); ?></td>
@@ -6951,7 +6965,7 @@ $S2_B_108_EspeGast = array(
 		<td>Otro</td>
 		<td colspan="2"><?php echo form_input($S2_B_99_10); ?> <?php echo form_input($S2_B_99_10_O); ?> </td>
 		<td><?php echo form_input($S2_B_99_10_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_10_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_10_ProdTot_Uni',$unidades,null,'id="S2_B_99_10_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_10_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_10_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_10_PrecVCha); ?></td>
@@ -6966,7 +6980,7 @@ $S2_B_108_EspeGast = array(
 		<td>Otro</td>
 		<td colspan="2"><?php echo form_input($S2_B_99_11); ?> <?php echo form_input($S2_B_99_11_O); ?></td>
 		<td><?php echo form_input($S2_B_99_11_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_11_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_11_ProdTot_Uni',$unidades,null,'id="S2_B_99_11_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_11_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_11_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_11_PrecVCha); ?></td>
@@ -6981,7 +6995,7 @@ $S2_B_108_EspeGast = array(
 		<td>Otro</td>
 		<td colspan="2"><?php echo form_input($S2_B_99_12); ?><?php echo form_input($S2_B_99_12_O); ?> </td>
 		<td><?php echo form_input($S2_B_99_12_ProdTot_Cant); ?></td>
-		<td><?php echo form_input($S2_B_99_12_ProdTot_Uni); ?></td>
+		<td><?php echo form_dropdown('S2_B_99_12_ProdTot_Uni',$unidades,null,'id="S2_B_99_12_ProdTot_Uni" class="form-control"'); ?></td>
 		<td><?php echo form_input($S2_B_99_12_Dest_V); ?></td>
 		<td><?php echo form_input($S2_B_99_12_Dest_A); ?></td>
 		<td><?php echo form_input($S2_B_99_12_PrecVCha); ?></td>
@@ -7221,6 +7235,7 @@ $S2_B_108_EspeGast = array(
 	</tr>
 </table>
 
+<div style="width:1700px;" class="row">
 <table class="table table-bordered">
 	<tr>
 		<th class="hgTitle hgCenter" colspan="12">107</th>
@@ -7560,6 +7575,21 @@ $S2_B_108_EspeGast = array(
 	</tr>
 
 </table>
+</div>
+
+<table class="table table-bordered">
+	<tr>
+		<th class="hgCenter hgTitle" colspan="4"><h1>SECCIÓN 3: OBSERVACIONES GENERALES</h1></th>
+	</tr>
+	<tr>
+		<th colspan="4">Indicar información adicional.</th>
+	</tr>
+	<tr>
+		<td><?php echo form_textarea($S3_Info); ?></td>
+	</tr>
+</table>
+
+
 
 	<div class="col-md-offset-11">
 		<?php echo form_submit('btnTab5','Guardar','id="btnTab4" class="btn btn-primary" style="width:100%"'); ?>		
